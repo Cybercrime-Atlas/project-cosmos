@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (in case any tooling lands here)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Logs and backups
+*.log
+*.bak
+*.tmp
+
+# Notebooks
+.ipynb_checkpoints/
