@@ -1,0 +1,42 @@
+name: New term request
+description: Propose a new ontology term
+title: "[New Term]: "
+labels: ["new-term"]
+body:
+  - type: input
+    id: label
+    attributes:
+      label: Proposed label
+    validations:
+      required: true
+
+  - type: input
+    id: kind
+    attributes:
+      label: Entity type
+      description: Class, individual, object property, datatype property, annotation property, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this term needed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition
+    attributes:
+      label: Proposed definition
+      description: Include shortDescription and longDescription if possible
+    validations:
+      required: true
+
+  - type: textarea
+    id: relationships
+    attributes:
+      label: Proposed relationships
+      description: Parent classes, linked properties, related terms
+

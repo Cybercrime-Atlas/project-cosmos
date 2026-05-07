@@ -1,26 +1,33 @@
 ## Summary
 
-<!-- One- or two-line description of what this PR does and why. -->
+Describe the change clearly.
 
-## Type of change
+## Reason for change
 
+Why is this update needed?
+
+## Change type
+
+- [ ] New term
+- [ ] Description improvement
+- [ ] Relationship correction
+- [ ] Identifier review
 - [ ] Documentation update
-- [ ] Ontology change (entity, relationship, or attribute)
-- [ ] Schema change (machine-readable formats)
-- [ ] New worked example
-- [ ] Tooling / automation
-- [ ] Bug fix
-- [ ] Other (please describe)
+- [ ] Workflow/publication update
 
-## Linked issues
+## Ontology impact
 
-<!-- Closes #123, Relates to #456. If this implements a Proposal issue, link it. -->
+- [ ] I changed ontology structure
+- [ ] I changed descriptions only
+- [ ] I changed public IRIs
+- [ ] I changed publication output
+- [ ] I updated related documentation
 
-## Checklist
+## Validation checklist
 
-- [ ] I have read [CONTRIBUTING.md](../CONTRIBUTING.md) and followed the conventions
-- [ ] My changes follow the existing structure of the repository
-- [ ] I have updated documentation where relevant
-- [ ] I have added or updated examples where relevant
-- [ ] I have flagged any breaking changes in the summary above
-- [ ] No sensitive content (active-investigation data, confidential sources, closed-source intelligence) is included
+- [ ] The ontology source file is still valid
+- [ ] I edited the canonical source in `ontology/source/atlas-ontology.owl`
+- [ ] I checked for unintended IRI changes
+- [ ] I updated docs where needed
+- [ ] I did not add secrets or credentials
+

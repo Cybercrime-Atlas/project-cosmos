@@ -1,0 +1,34 @@
+name: Relationship change
+description: Suggest a relationship correction or addition
+title: "[Relationship]: "
+labels: ["relationship-fix"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source term
+    validations:
+      required: true
+
+  - type: input
+    id: property
+    attributes:
+      label: Relationship / property
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: Target term
+    validations:
+      required: true
+
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: Why should this relationship be added, removed, or changed?
+    validations:
+      required: true
+
