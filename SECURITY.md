@@ -4,7 +4,7 @@
 
 If you believe you have found a security issue in Project Cosmos — for example a vulnerability in any code published in this repository, an exposure risk in the way the ontology or schemas are defined, or any concern about how this repository is operated — please report it to us privately by email:
 
-**[info@cybercrime-atlas.org](mailto:info@cybercrime-atlas.org)**
+**[github@cybercrime-atlas.org](mailto:github@cybercrime-atlas.org)**
 
 Please include:
 
