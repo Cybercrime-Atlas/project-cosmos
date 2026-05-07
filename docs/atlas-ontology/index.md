@@ -1,4 +1,4 @@
-# Atlas Ontology Namespace
+# Project Cosmos Namespace
 
 ## Namespace URI
 
@@ -6,17 +6,17 @@
 
 ## Preferred prefix
 
-`atlas`
+`cosmos`
 
 ## Purpose
 
-Atlas Ontology models cybercrime-relevant concepts including role players, threat actions, platforms, commodities, patterns, markets, victims, and impacts.
+Project Cosmos models cybercrime-relevant concepts including role players, threat actions, platforms, commodities, patterns, markets, victims, and impacts.
 
 ## Current version
 
 Replace this with your current release identifier, for example:
 
-`2026-04-16`
+`v1.0.0`
 
 ## Downloads
 
