@@ -7,577 +7,74 @@ layout: default
 
 # Project COSMOS Ontology Reference
 
+<a id="toc"></a>
+
 ## Table of Contents
 
-### Classes
+Select an entity type:
 
-[Accomplice](#Accomplice)
+- [Classes](#classes-toc)
+- [Individuals](#individuals-toc)
+- [Properties](#properties-toc)
 
-[Botnets](#Botnets)
-
-[Common Pattern Phase](#CommonPatternPhase)
-
-[Composite Pattern Phase](#CompositePatternPhase)
-
-[Credential and Identity Artifacts](#Credential_and_Identity_Artifacts)
-
-[Crimeware](#Crimeware)
-
-[Dark Platforms](#Dark_Platforms)
-
-[Deceptive_Platforms](#Deceptive_Platforms)
-
-[Disruption](#Disruption)
-
-[Economic Impact](#Economic_Impact)
-
-[Environmental Impact](#Environmental_Impact)
-
-[Extortion](#Extortion)
-
-[Facilitator](#Facilitator)
-
-[Financial Services](#Financial_Services)
-
-[General Victim](#General_Victim_Groups)
-
-[Geopolitical Impact](#Geopolitical_Impact)
-
-[Grey Platforms](#Grey_Platforms)
-
-[Harm](#Harm)
-
-[Illicit Access Products](#Illicit_Access_Products)
-
-[Informational Impact](#Informational_Impact)
-
-[Infrastructure Services](#Infrastructure_Services)
-
-[Legitimate Platforms](#Legitimate_Platforms)
-
-[Market](#Market)
-
-[Market or Supply Chain](#Market_or_Supply_Chain)
-
-[Operational Impact](#Operational_Impact)
-
-[Pattern](#Pattern)
-
-[Pattern Phase](#Pattern_Phase)
-
-[Payment Instruments](#Payment_Instruments)
-
-[Perpetrator](#Perpetrator)
-
-[Physical Impact](#Physical_Impact)
-
-[Platform](#Platform)
-
-[Products and Services](#Products_and_Services)
-
-[Psychological Impact](#Psychological_Impact)
-
-[Reconnaissance and Open Source Intelligence](#ReconnaissanceAndOpenSourceIntelligence)
-
-[Role Player](#Role_Player)
-
-[Scams and Fraud](#Scams_and_Fraud)
-
-[Specific Pattern Phase](#SpecificPatternPhase)
-
-[Specific Victim](#Specific_Victim_Groups)
-
-[Tactic](#Tactic)
-
-[Technique](#Technique)
-
-[Theft](#Theft)
-
-[Underground Managed Service](#Underground_Managed_Service)
-
-[Underground Service](#Underground_Service)
-
-[Victim](#Victim)
-
-[Vulnerabilities and Exploits](#Vulnerabilities_and_Exploits)
-
-### Individuals
-
-[Account Discovery](#Account_Discovery)
-
-[Active Scanning](#Active_Scanning)
-
-[AI-Assisted Carding](#AI-Assisted_Carding)
-
-[Alternative Value Stores](#Alternative_Value_Stores)
-
-[Ancillary Credential and Identity Services](#Ancillary_Credential_and_Identity_Services)
-
-[Antivirus Tools](#Antivirus_Tools)
-
-[ATM Operators](#ATM_Operators)
-
-[BEC Delivery](#Diamond_BEC_Delivery)
-
-[BEC Exploitation Account Takeover](#Diamond_BEC_Exploitation_AccountTakeover)
-
-[BEC Fraud Transaction](#Diamond_BEC_Fraud_Transaction)
-
-[BEC PostFraud Laundering](#Diamond_BEC_PostFraud_Laundering)
-
-[BEC Recon](#Diamond_BEC_Recon)
-
-[BEC Scammer](#BEC_Scammer)
-
-[BEC Weaponisation](#Diamond_BEC_Weaponisation)
-
-[BEC-as-a-Service](#BEC-as-a-Service)
-
-[Behavioral Changes](#Behavioral_Changes)
-
-[Botnet Operator](#BotnetOperator)
-
-[Botnet Services](#BotnetServices)
-
-[Browser Information Discovery](#BrowserInformationDiscovery)
-
-[Brute Force](#Brute_Force)
-
-[Bulletproof Hosting](#Bulletproof_Hosting)
-
-[Bulletproof Hosting Provider](#BulletproofHostingProvider)
-
-[Business Email Compromise](#Business_Email_Compromise)
-
-[Call Center Operator](#Call_Center_Operator)
-
-[Card Holder](#Card_Holder)
-
-[Card Validation Bot](#Card_Validation_Bot)
-
-[Carder](#Carder)
-
-[Carding](#Carding)
-
-[Carding Card Data Acquisition](#Diamond_Carding_Card_Data_Acquisition)
-
-[Carding Monetization](#Diamond_Carding_Monetization)
-
-[Carding Validation](#Diamond_Carding_Validation)
-
-[Cashouts](#Cashouts)
-
-[Collection](#Collection)
-
-[Command and Control](#Command_and_Control)
-
-[Command and Scripting Interpreter](#Command_and_Scripting_Interpreter)
-
-[Common Infostealer Deployment and Log Harvesting](#DiamondCommonInfostealerDeploymentAndLogHarvesting)
-
-[Common Phishing for Information](#Diamond_Common_Phishing_for_Information)
-
-[Common Remote Account Compromise](#Diamond_Common_Remote_Account_Compromise)
-
-[Common Remote System Compromise](#Diamond_Common_Remote_System_Compromise)
-
-[Common Spear-Phishing with Malicious Attachments](#Diamond_Common_Spear-Phishing_with_Malicious_Attachments)
-
-[Comprehensive Identity Sets](#Comprehensive_Identity_Sets)
-
-[Compromise Accounts](#Compromise_Accounts)
-
-[Connected Third Party](#ConnectedThirdParty)
-
-[Credential Access](#Credential_Access)
-
-[Credential and Identity Marketplace](#Credential_and_Identity_Marketplace)
-
-[Credentials from Password Stores](#CredentialsFromPasswordStores)
-
-[Crimeware Supply Chain](#Crimeware_Supply_Chain)
-
-[Crypters and Packers](#Crypters_and_Packers)
-
-[Crypto currency mixers](#Crypto_currency_mixers)
-
-[Crypto wallet brute force services](#Crypto_wallet_brute_force_services)
-
-[Cryptocurrency](#Cryptocurrency)
-
-[Cryptocurrency Exchanges](#Cryptocurrency_Exchanges)
-
-[Cryptocurrency related customer databases](#Cryptocurrency_related_customer_databases)
-
-[Cyber Extortion](#Cyber_Extortion)
-
-[CyX Encryption](#Diamond_Cy-X_Encryption)
-
-[CyX Exfiltration](#Diamond_Cy-X_Exfiltration)
-
-[CyX Extortion](#Diamond_Cy-X_Extortion)
-
-[CyX Initial Access](#Diamond_Cy-X_InitialAccess)
-
-[CyX LateralMovement](#Diamond_Cy-X_LateralMovement)
-
-[CyX Monetization](#Diamond_Cy-X_Monetization)
-
-[CyX Preparation](#Diamond_Cy-X_Preparation)
-
-[CyX Recon](#Diamond_Cy-X_Recon)
-
-[Dark Market](#Dark_Market)
-
-[Data and Access Marketplace](#Data_and_Access_Marketplace)
-
-[Data Broker Services](#Data_Broker_Services)
-
-[Data Encrypted for Impact](#Data_Encrypted_for_Impact)
-
-[Data from Local System](#DataFromLocalSystem)
-
-[Data Integrity Loss](#Data_Integrity_Loss)
-
-[Dating Website](#Dating_Website)
-
-[Deceptive Content](#Deceptive_Content)
-
-[Deceptive Content Marketplace](#Deceptive_Content_Marketplace)
-
-[Defense Evasion](#Defense_Evasion)
-
-[Develop Capabilities](#Develop_Capabilities)
-
-[Digital Identity Compromise](#Digital_Identity_Compromise)
-
-[Direct](#Direct)
-
-[Direct Financial Loss](#Direct_Financial_Loss)
-
-[Discovery](#Discovery)
-
-[Dual-Use Intelligence on Businesses](#Dual-UseIntelligenceOnBusinesses)
-
-[Dual-Use Intelligence on Individuals](#Dual-UseIntelligenceOnIndividuals)
-
-[Dual-Use Internet Reconnaissance](#Dual-UseInternetReconnaissance)
-
-[eCommerce Sites](#eCommerce_Sites)
-
-[Electronic Wallets and Payment Apps](#Electronic_Wallets_and_Payment_Apps)
-
-[Erosion of Trust](#Erosion_of_Trust)
-
-[Escrow Services](#Escrow_Services)
-
-[Execution](#Execution)
-
-[Exfiltration](#Exfiltration)
-
-[Exfiltration Over C2 Channel](#Exfiltration_Over_C2_Channel)
-
-[Exploit Developers](#Exploit_Developers)
-
-[Exploit Kits](#Exploit_Kits)
-
-[Exploit Public-Facing Application](#Exploit_Public-Facing_Application)
-
-[Exploitation of Remote Services](#Exploitation_of_Remote_Services)
-
-[Exposure-Based Risk Increase](#Exposure-BasedRiskIncrease)
-
-[External Remote Services](#External_Remote_Services)
-
-[Fake Crypto Trading Platform](#Fake_Crypto_Trading_Platform)
-
-[Fake identity](#Fake_identity)
-
-[Fake Profile Creator](#Fake_Profile_Creator)
-
-[Fiat Currencies](#Fiat_Currencies)
-
-[Financial Institutions Serving Victims](#Financial_Institutions_Serving_Victims)
-
-[Financial Theft](#Financial_Theft)
-
-[Forum](#Forum)
-
-[Funds Laundering](#Funds_Laundering)
-
-[Gather Victim Identity Information](#Gather_Victim_Identity_Information)
-
-[Gather Victim Information (Behavioral)](#Gather_Victim_Information_%28Behavioral%29)
-
-[Gather Victim Network Information](#GatherVictimNetworkInformation)
-
-[Gather Victim Org Information](#GatherVictimOrgInformation)
-
-[General Organization](#GeneralOrganization)
-
-[IAB Operation Packaging Valuation and Sale](#DiamondIABOperationPackagingValuationAndSale)
-
-[IAB Operation Stabilization and Expansion](#DiamondIABOperationStabilizationAndExpansion)
-
-[Identity verification kits and templates](#Identity_verification_kits_and_templates)
-
-[Illicit Data and Access Assets](#Illicit_Data_and_Access_Assets)
-
-[Illicit Service Portals](#Illicit_Service_Portals)
-
-[Impact](#Impact)
-
-[Impair Defenses](#Impair_Defenses)
-
-[In-Game Assets](#In-Game_Assets)
-
-[Information Confidentiality Loss](#Information_Confidentiality_Loss)
-
-[Infostealer](#Infostealer)
-
-[Infostealer Logs](#InfostealerLogs)
-
-[Infostealer Operator](#InfostealerOperator)
-
-[Infrastructure Marketplace](#Infrastructure_Marketplace)
-
-[Inhibit System Recovery](#Inhibit_System_Recovery)
-
-[Initial Access](#Initial_Access)
-
-[Initial Access Broker](#Initial_Access_Broker)
-
-[Initial Access Broker Operation](#Initial_Access_Broker_Operation)
-
-[Initial Access Broker Operation Initial Access](#DiamondCompositeIABOperationInitialAccess)
-
-[Initial Access Broker Operation Target Discovery](#DiamondIABOperationTargetDiscovery)
-
-[Initial Access Marketplace](#Initial_Access_Marketplace)
-
-[Insider Corrupt Employee](#Insider_Corrupt_Employee)
-
-[Institutional Employee](#Institutional_Employee)
-
-[Intrusion Operator](#Intrusion_Operator)
-
-[Lateral Movement](#Lateral_Movement)
-
-[Lateral Tool Transfer](#Lateral_Tool_Transfer)
-
-[Legitimate Security Company](#Legitimate_Security_Company)
-
-[Legitimate Service Provider](#Legitimate_Service_Provider)
-
-[Malware Developer](#Malware_Developer)
-
-[Malware-as-a-Service](#Malware-as-a-Service)
-
-[Messaging App](#Messaging_App)
-
-[Mobile botnet rental](#Mobile_botnet_rental)
-
-[Monetization and Laundering Services](#Monetization_and_Laundering_Services)
-
-[Monetization of wallets with limited access](#Monetization_of_the_wallets_with_limited_access)
-
-[Money laundering and cashout services](#Money_laundering_and_cashout_services)
-
-[Money Mule](#Money_Mule)
-
-[Money Transfer Mechanisms](#Money_Transfer_Mechanisms)
-
-[Multi-factor Authentication Fatigue](#Multi-factor_Authentication_Fatigue)
-
-[N-Days](#N-Days)
-
-[Native API](#Native_API)
-
-[Obfuscated Files or Information](#Obfuscated_Files_or_Information)
-
-[Obtain Capabilities](#Obtain_Capabilities)
-
-[Offensive Security Frameworks](#Offensive_Security_Frameworks)
-
-[Open Web](#Open_Web)
-
-[Operational Continuity Disruption](#Business_Continuity)
-
-[Payment Platform Exploiter](#Payment_Platform_Exploiter)
-
-[Persistence](#Persistence)
-
-[Phisher](#Phisher)
-
-[Phishing](#Phishing)
-
-[Phishing for Information](#Phishing_for_Information)
-
-[Phishing Kits](#Phishing_Kits)
-
-[Pirated Vulnerability Scanners](#Pirated_Vulnerability_Scanners)
-
-[Policy and Regulatory Impact](#Policy_and_Regulatory_Impact)
-
-[Post-Incident Recovery Costs](#Post_Incident_Recovery_Costs)
-
-[Private Individual](#Private_Individual)
-
-[Privilege Escalation](#Privilege_Escalation)
-
-[Process Injection](#Process_Injection)
-
-[Proxy Provider](#ProxyProvider)
-
-[Proxy Services](#Proxy_Services)
-
-[Psychological Distress](#Psychological_Distress)
-
-[Ransomware Affiliate](#Ransomware_Affiliate)
-
-[Ransomware Operator](#Ransomware_Operator)
-
-[Ransomware-as-a-Service](#Ransomware-as-a-Service)
-
-[Ransomware-as-a-Service Operation](#Ransomware-as-a-Service_Operation)
-
-[Ransomware-as-a-Service Operator](#Ransomware-as-a-Service_Operator)
-
-[Raw Credential Dumps](#Raw_Credential_Dumps)
-
-[Recon Specialist](#Recon_Specialist)
-
-[Reconnaissance](#Reconnaissance)
-
-[Remote Access Trojans](#Remote_Access_Trojans)
-
-[Remote Services](#Remote_Services)
-
-[Residential Proxies](#Residential_Proxies)
-
-[Resource Development](#Resource_Development)
-
-[Retail Businesses and Merchants](#Retail_Businesses_and_Merchants)
-
-[Romance Baiting](#Romance_Baiting)
-
-[Romance Baiting Grooming](#Diamond_Romance_Baiting_Grooming)
-
-[Romance Baiting Targeting](#Diamond_Romance_Baiting_Targeting)
-
-[Romance Scammer](#Romance_Scammer)
-
-[Romance Victim Exploitation](#Diamond_Romance_Baiting_Monetization)
-
-[Scriptwriter](#Scriptwriter)
-
-[Search Open Websites/Domains](#Search_Open_Websites%2FDomains)
-
-[Search Victim-Owned Websites](#SearchVictim-OwnedWebsites)
-
-[Self-registered accounts in the financial institutions](#Self-registered_accounts_in_the_financial_institutions)
-
-[Server Software Component](#Server_Software_Component)
-
-[Service Stop](#Service_Stop)
-
-[Skimmer](#Skimmer)
-
-[Social Engineering](#Social_Engineering)
-
-[Social Media](#Social_Media)
-
-[Societal Effects](#Societal_Effects)
-
-[Spear Phisher](#Spear_Phisher)
-
-[Stage Capabilities](#Stage_Capabilities)
-
-[Steal Web Session Cookie](#StealWebSessionCookie)
-
-[Stored-Value Cards and Vouchers](#Stored-Value_Cards_and_Vouchers)
-
-[Strategic and Geopolitical Impact](#Strategic_and_Geopolitical_Impact)
-
-[Subscription-based Information Stealer](#Infostealer-as-a-Service)
-
-[System Availability Disruption](#System_Availability_Disruption)
-
-[System Information Discovery](#System_Information_Discovery)
-
-[Technical Infrastructure Degradation](#Technical_Infrastructure_Degradation)
-
-[Unauthorized Network Access](#Unauthorized_Network_Access)
-
-[Use Alternate Authentication Material](#Use_Alternate_Authentication_Material)
-
-[User Execution](#User_Execution)
-
-[Valid Accounts](#Valid_Accounts)
-
-[Virtual Private Networks](#Virtual_Private_Networks)
-
-[VPN Service Provider](#VPNServiceProvider)
-
-[Vulnerabilities and Exploits Marketplace](#Vulnerabilities_and_Exploits_Marketplace)
-
-[Vulnerability Brokers](#Vulnerability_Brokers)
-
-[Vulnerability Intelligence](#Vulnerability_Intelligence)
-
-[Vulnerability Researchers](#Vulnerability_Researchers)
-
-[Windows Management Instrumentation](#Windows_Management_Instrumentation)
-
-[Zero Days](#Zero_Days)
-
-### Properties
-
-[acceptsPaymentInstrument](#acceptsPaymentInstrument)
-
-[directlyCausesHarmToVictim](#directlyCausesHarmToVictim)
-
-[indirectlyCausesHarmToVictim](#indirectlyCausesHarmToVictim)
-
-[involvesPatternPhase](#involvesPatternPhase)
-
-[isBoughtByRole](#isBoughtByRole)
-
-[isSoldByRole](#isSoldByRole)
-
-[linksToMarket](#linksToMarket)
-
-[mitreKillChain](#mitreKillChain)
-
-[patternPhaseCouldInvolveCommodity](#patternPhaseCouldInvolveCommodity)
-
-[patternPhaseCouldInvolveRole](#patternPhaseCouldInvolveRole)
-
-[patternPhaseCouldInvolveThreat](#patternPhaseCouldInvolveThreat)
-
-[patternPhaseInvolvesCommodity](#patternPhaseInvolvesCommodity)
-
-[patternPhaseInvolvesEvent](#patternPhaseInvolvesEvent)
-
-[patternPhaseInvolvesPlatform](#patternPhaseInvolvesPlatform)
-
-[patternPhaseInvolvesRole](#patternPhaseInvolvesRole)
-
-[patternPhaseInvolvesSecondaryVictim](#patternPhaseInvolvesSecondaryVictim)
-
-[patternPhaseInvolvesThreat](#patternPhaseInvolvesThreat)
-
-[patternPhaseInvolvesVictim](#patternPhaseInvolvesVictim)
-
-[patternPhaseProducesCommodity](#patternPhaseProducesCommodity)
-
-[tradedOnPlatform](#tradedOnPlatform)
-
-[tradesCommodity](#tradesCommodity)
 
 <a id="classes"></a>
 
 ## Classes
+
+[Back to main TOC](#toc)
+
+<a id="classes-toc"></a>
+
+### Classes TOC
+
+[Back to main TOC](#toc)
+
+- [Accomplice](#Accomplice)
+- [Botnets](#Botnets)
+- [Common Pattern Phase](#CommonPatternPhase)
+- [Composite Pattern Phase](#CompositePatternPhase)
+- [Credential and Identity Artifacts](#Credential_and_Identity_Artifacts)
+- [Crimeware](#Crimeware)
+- [Dark Platforms](#Dark_Platforms)
+- [Deceptive_Platforms](#Deceptive_Platforms)
+- [Disruption](#Disruption)
+- [Economic Impact](#Economic_Impact)
+- [Environmental Impact](#Environmental_Impact)
+- [Extortion](#Extortion)
+- [Facilitator](#Facilitator)
+- [Financial Services](#Financial_Services)
+- [General Victim](#General_Victim_Groups)
+- [Geopolitical Impact](#Geopolitical_Impact)
+- [Grey Platforms](#Grey_Platforms)
+- [Harm](#Harm)
+- [Illicit Access Products](#Illicit_Access_Products)
+- [Informational Impact](#Informational_Impact)
+- [Infrastructure Services](#Infrastructure_Services)
+- [Legitimate Platforms](#Legitimate_Platforms)
+- [Market](#Market)
+- [Market or Supply Chain](#Market_or_Supply_Chain)
+- [Operational Impact](#Operational_Impact)
+- [Pattern](#Pattern)
+- [Pattern Phase](#Pattern_Phase)
+- [Payment Instruments](#Payment_Instruments)
+- [Perpetrator](#Perpetrator)
+- [Physical Impact](#Physical_Impact)
+- [Platform](#Platform)
+- [Products and Services](#Products_and_Services)
+- [Psychological Impact](#Psychological_Impact)
+- [Reconnaissance and Open Source Intelligence](#ReconnaissanceAndOpenSourceIntelligence)
+- [Role Player](#Role_Player)
+- [Scams and Fraud](#Scams_and_Fraud)
+- [Specific Pattern Phase](#SpecificPatternPhase)
+- [Specific Victim](#Specific_Victim_Groups)
+- [Tactic](#Tactic)
+- [Technique](#Technique)
+- [Theft](#Theft)
+- [Underground Managed Service](#Underground_Managed_Service)
+- [Underground Service](#Underground_Service)
+- [Victim](#Victim)
+- [Vulnerabilities and Exploits](#Vulnerabilities_and_Exploits)
 <a id="Accomplice"></a>
 
 ### [Accomplice](#Accomplice)
@@ -588,6 +85,8 @@ layout: default
 **rdfs:comment:**
 
 Describes roles within the ecosystem that knowingly and deliberately facilitates the criminal or malicious actions of other role players.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Botnets"></a>
 
@@ -600,6 +99,8 @@ Describes roles within the ecosystem that knowingly and deliberately facilitates
 
 A botnet is a network of compromised devices infected with malware, remotely orchestrated by criminals to conduct cyberattacks such as DDoS, phishing, spamming, and distributing malware.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="CommonPatternPhase"></a>
 
 ### [Common Pattern Phase](#CommonPatternPhase)
@@ -609,6 +110,8 @@ A botnet is a network of compromised devices infected with malware, remotely orc
 
 **rdfs:comment:** —
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="CompositePatternPhase"></a>
 
 ### [Composite Pattern Phase](#CompositePatternPhase)
@@ -617,6 +120,8 @@ A botnet is a network of compromised devices infected with malware, remotely orc
 **Label:** Composite Pattern Phase
 
 **rdfs:comment:** —
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Credential_and_Identity_Artifacts"></a>
 
@@ -629,6 +134,8 @@ A botnet is a network of compromised devices infected with malware, remotely orc
 
 A specialized subclass encompassing illicit products derived from stolen authentication and identity data, including raw credential dumps, comprehensive identity sets, and ancillary services that augment the value of such data for cyber-enabled fraud.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Crimeware"></a>
 
 ### [Crimeware](#Crimeware)
@@ -639,6 +146,8 @@ A specialized subclass encompassing illicit products derived from stolen authent
 **rdfs:comment:**
 
 A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide tmalicious tools and software designed to enable or automate various forms of cybercrime..
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Dark_Platforms"></a>
 
@@ -651,6 +160,8 @@ A class encompassing products and services that encompass a range of commodities
 
 A subclass of Platforms that are explicitly designed for or dominated by illicit activities, often operating on the dark web or through anonymizing technologies.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Deceptive_Platforms"></a>
 
 ### [Deceptive_Platforms](#Deceptive_Platforms)
@@ -661,6 +172,8 @@ A subclass of Platforms that are explicitly designed for or dominated by illicit
 **rdfs:comment:**
 
 A subclass of Platforms that includes websites, apps, or other online services deliberately fabricated to appear credible, but which exist primarily to deceive and exploit unsuspecting victims.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Disruption"></a>
 
@@ -673,6 +186,8 @@ A subclass of Platforms that includes websites, apps, or other online services d
 
 Broad term covering activities that interfere with the normal functioning of digital systems or infrastructure.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Economic_Impact"></a>
 
 ### [Economic Impact](#Economic_Impact)
@@ -683,6 +198,8 @@ Broad term covering activities that interfere with the normal functioning of dig
 **rdfs:comment:**
 
 Harms that represent financial consequences (e.g., loss of money, fines, extra costs) experienced by victims.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Environmental_Impact"></a>
 
@@ -695,6 +212,8 @@ Harms that represent financial consequences (e.g., loss of money, fines, extra c
 
 Harms that represent damage to the environment or natural resources (e.g., pollution, facility damage with ecological effects) caused by an event phase.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Extortion"></a>
 
 ### [Extortion](#Extortion)
@@ -705,6 +224,8 @@ Harms that represent damage to the environment or natural resources (e.g., pollu
 **rdfs:comment:**
 
 Broad term covering activities that are fundamentally a form of extortion
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Facilitator"></a>
 
@@ -717,6 +238,8 @@ Broad term covering activities that are fundamentally a form of extortion
 
 A neutral term used in criminology to describe a role that enables or assists in the execution of a crime, unwittingly, unintentionally, or opportunistically.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Financial_Services"></a>
 
 ### [Financial Services](#Financial_Services)
@@ -727,6 +250,8 @@ A neutral term used in criminology to describe a role that enables or assists in
 **rdfs:comment:**
 
 A class containing illicit operations that facilitate the movement, laundering, or monetization of stolen funds and assets.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="General_Victim_Groups"></a>
 
@@ -739,6 +264,8 @@ A class containing illicit operations that facilitate the movement, laundering, 
 
 Instances represent broad categories of victims (e.g., “employees”, “customers”, “financial institutions”) not tied to a single incident.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Geopolitical_Impact"></a>
 
 ### [Geopolitical Impact](#Geopolitical_Impact)
@@ -749,6 +276,8 @@ Instances represent broad categories of victims (e.g., “employees”, “custo
 **rdfs:comment:**
 
 Harms affecting government or international stability (e.g., tensions from a state-sponsored cyber attack) caused by an event phase.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Grey_Platforms"></a>
 
@@ -761,6 +290,8 @@ Harms affecting government or international stability (e.g., tensions from a sta
 
 A subclass of Platforms to describe platforms that operate legally but are often unregulated, have weak compliance measures, or are intentionally permissive
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Harm"></a>
 
 ### [Harm](#Harm)
@@ -772,6 +303,8 @@ A subclass of Platforms to describe platforms that operate legally but are often
 
 Instances represent specific kinds of damage or impact that victims may suffer. For example, an individual might denote a financial loss or system downtime caused by an event phase.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Illicit_Access_Products"></a>
 
 ### [Illicit Access Products](#Illicit_Access_Products)
@@ -780,6 +313,8 @@ Instances represent specific kinds of damage or impact that victims may suffer. 
 **Label:** Illicit Access Products
 
 **rdfs:comment:** —
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Informational_Impact"></a>
 
@@ -792,6 +327,8 @@ Instances represent specific kinds of damage or impact that victims may suffer. 
 
 Harms represent compromises to information assets (e.g., stolen or corrupted data, denied access) suffered by victims.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Infrastructure_Services"></a>
 
 ### [Infrastructure Services](#Infrastructure_Services)
@@ -803,6 +340,8 @@ Harms represent compromises to information assets (e.g., stolen or corrupted dat
 
 A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide the technical backbone for malicious operations
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Legitimate_Platforms"></a>
 
 ### [Legitimate Platforms](#Legitimate_Platforms)
@@ -813,6 +352,8 @@ A class encompassing products and services that encompass a range of commodities
 **rdfs:comment:**
 
 A subclass of Platforms that describes Platforms that operate within legal frameworks, comply with regulations, and are not inherently designed for illicit purposes but may be exploited by cybercriminals.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Market"></a>
 
@@ -829,6 +370,8 @@ Market is a class of entities that represent informal or unstructured trading 'm
 
 Market has sub-classes for specific cases where the Market manifests as a service or managed service in the underground economy.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Market_or_Supply_Chain"></a>
 
 ### [Market or Supply Chain](#Market_or_Supply_Chain)
@@ -840,6 +383,8 @@ Market has sub-classes for specific cases where the Market manifests as a servic
 
 This sub-class of Markets contains entities that are market places or supply chains for products or services in the underground
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Operational_Impact"></a>
 
 ### [Operational Impact](#Operational_Impact)
@@ -850,6 +395,8 @@ This sub-class of Markets contains entities that are market places or supply cha
 **rdfs:comment:**
 
 Harms represent disruptions to normal operations (e.g., service outages, workflow stops) caused by an event phase.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Pattern"></a>
 
@@ -868,6 +415,8 @@ A Pattern is a structured model representing a recurrent, recognizable manifesta
 4. Illicit - forbidden by law, rules or customs, adverse -  negative impact on the victim, exploitative - produces advantage or gain for the perpetrator.
 5. Complex business or operational model -  cannot be simplified to a TTP or Pattern Phase.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Pattern_Phase"></a>
 
 ### [Pattern Phase](#Pattern_Phase)
@@ -885,6 +434,8 @@ Each event in the Pattern Phase is enriched with meta-features such as time, pha
 
 USAGE NOTE: Some Pattern Phases (especially technical) occur commonly across diverse Patterns; they are labelled "Common" and can be re-used.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Payment_Instruments"></a>
 
 ### [Payment Instruments](#Payment_Instruments)
@@ -895,6 +446,8 @@ USAGE NOTE: Some Pattern Phases (especially technical) occur commonly across div
 **rdfs:comment:**
 
 This class contains mediums of exchange—such as cryptocurrencies, fiat currencies, gift cards, prepaid cards, electronic wallets, and other value‐transfer instruments—that actors acquire, trade, and launder within the cybercrime ecosystem.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Perpetrator"></a>
 
@@ -907,6 +460,8 @@ This class contains mediums of exchange—such as cryptocurrencies, fiat currenc
 
 Refers to a function within the ecosystem that contributes directly on a victim or directly or knowingly contributes to the commitment of a crime.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Physical_Impact"></a>
 
 ### [Physical Impact](#Physical_Impact)
@@ -917,6 +472,8 @@ Refers to a function within the ecosystem that contributes directly on a victim 
 **rdfs:comment:**
 
 Harms represent real-world damage or injury (e.g., destroyed hardware, physical harm to people) resulting from an event phase.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Platform"></a>
 
@@ -931,6 +488,8 @@ Contains generally-described technology services, applications or platforms that
 
 Platforms can be linked to Markets and Pattern Phases.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Products_and_Services"></a>
 
 ### [Products and Services](#Products_and_Services)
@@ -941,6 +500,8 @@ Platforms can be linked to Markets and Pattern Phases.
 **rdfs:comment:**
 
 Products and Services encompass tools, capabilities, goods, or services used within Pattern Phases to enable, facilitate, or support cybercrime activity. They are traded on Marketplaces and may be linked to both Pattern Phases and Marketplaces.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Psychological_Impact"></a>
 
@@ -953,6 +514,8 @@ Products and Services encompass tools, capabilities, goods, or services used wit
 
 Represent emotional or mental harm (e.g., anxiety, trauma) experienced by victims due to an event phase.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="ReconnaissanceAndOpenSourceIntelligence"></a>
 
 ### [Reconnaissance and Open Source Intelligence](#ReconnaissanceAndOpenSourceIntelligence)
@@ -963,6 +526,8 @@ Represent emotional or mental harm (e.g., anxiety, trauma) experienced by victim
 **rdfs:comment:**
 
 Dual-use tools, platforms, datasets, and services that collect or organize publicly available technical, organizational, or personal information, enabling legitimate research and security work but also supporting adversary target discovery, profiling, and attack preparation.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Role_Player"></a>
 
@@ -975,6 +540,8 @@ Dual-use tools, platforms, datasets, and services that collect or organize publi
 
 Super class for all roles that are performed within the cybercrime ecosystem, generally described.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Scams_and_Fraud"></a>
 
 ### [Scams and Fraud](#Scams_and_Fraud)
@@ -986,6 +553,8 @@ Super class for all roles that are performed within the cybercrime ecosystem, ge
 
 The intentional act of deception or misrepresentation used to secure an unlawful gain, typically involving financial or material advantage.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="SpecificPatternPhase"></a>
 
 ### [Specific Pattern Phase](#SpecificPatternPhase)
@@ -994,6 +563,8 @@ The intentional act of deception or misrepresentation used to secure an unlawful
 **Label:** Specific Pattern Phase
 
 **rdfs:comment:** —
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Specific_Victim_Groups"></a>
 
@@ -1006,6 +577,8 @@ The intentional act of deception or misrepresentation used to secure an unlawful
 
 Instances represent more concrete categories of victims (e.g., “data owners”, “trading firms”) who could be affected by a phase.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Tactic"></a>
 
 ### [Tactic](#Tactic)
@@ -1016,6 +589,8 @@ Instances represent more concrete categories of victims (e.g., “data owners”
 **rdfs:comment:**
 
 Mitre ATTACK or CAPEC threat action tactic. Linked to a technique to capture what stage in the killchain a technique is involved in.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Technique"></a>
 
@@ -1028,6 +603,8 @@ Mitre ATTACK or CAPEC threat action tactic. Linked to a technique to capture wha
 
 Mitre ATTACK or CAPEC threat action technique. Linked to a Pattern Phase to describe the illicit actions role players would or could perform.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Theft"></a>
 
 ### [Theft](#Theft)
@@ -1038,6 +615,8 @@ Mitre ATTACK or CAPEC threat action technique. Linked to a Pattern Phase to desc
 **rdfs:comment:**
 
 The unlawful taking of another person’s property with the intent to permanently deprive them of its use or possession.
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Underground_Managed_Service"></a>
 
@@ -1050,6 +629,8 @@ The unlawful taking of another person’s property with the intent to permanentl
 
 This sub-class of Markets contains entities that act like businesses to deliver managed or continuous services (probably on a subscription basis) to other Role Players within the underground economy
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Underground_Service"></a>
 
 ### [Underground Service](#Underground_Service)
@@ -1060,6 +641,8 @@ This sub-class of Markets contains entities that act like businesses to deliver 
 **rdfs:comment:**
 
 This sub-class of Market contains entities that act like businesses to deliver specific services to other Role Players within the underground economy
+
+[Back to Classes TOC](#classes-toc)
 
 <a id="Victim"></a>
 
@@ -1072,6 +655,8 @@ This sub-class of Market contains entities that act like businesses to deliver s
 
 Instances represent entities targeted or affected by a pattern phase, such as an individual person, a specific organization, or a type of system.
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="Vulnerabilities_and_Exploits"></a>
 
 ### [Vulnerabilities and Exploits](#Vulnerabilities_and_Exploits)
@@ -1083,9 +668,235 @@ Instances represent entities targeted or affected by a pattern phase, such as an
 
 A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide vulnerability information, exploits and associated tools
 
+[Back to Classes TOC](#classes-toc)
+
 <a id="individuals"></a>
 
 ## Individuals
+
+[Back to main TOC](#toc)
+
+<a id="individuals-toc"></a>
+
+### Individuals TOC
+
+[Back to main TOC](#toc)
+
+- [Botnet Operator](#BotnetOperator)
+- [Call Center Operator](#Call_Center_Operator)
+- [Exploit Developers](#Exploit_Developers)
+- [Fake Profile Creator](#Fake_Profile_Creator)
+- [Insider Corrupt Employee](#Insider_Corrupt_Employee)
+- [Money Mule](#Money_Mule)
+- [Payment Platform Exploiter](#Payment_Platform_Exploiter)
+- [Recon Specialist](#Recon_Specialist)
+- [Scriptwriter](#Scriptwriter)
+- [Vulnerability Brokers](#Vulnerability_Brokers)
+- [Vulnerability Researchers](#Vulnerability_Researchers)
+- [Botnet Services](#BotnetServices)
+- [Mobile botnet rental](#Mobile_botnet_rental)
+- [Common Infostealer Deployment and Log Harvesting](#DiamondCommonInfostealerDeploymentAndLogHarvesting)
+- [Common Phishing for Information](#Diamond_Common_Phishing_for_Information)
+- [Common Remote Account Compromise](#Diamond_Common_Remote_Account_Compromise)
+- [Common Remote System Compromise](#Diamond_Common_Remote_System_Compromise)
+- [Common Spear-Phishing with Malicious Attachments](#Diamond_Common_Spear-Phishing_with_Malicious_Attachments)
+- [CyX Initial Access](#Diamond_Cy-X_InitialAccess)
+- [Initial Access Broker Operation Initial Access](#DiamondCompositeIABOperationInitialAccess)
+- [Ancillary Credential and Identity Services](#Ancillary_Credential_and_Identity_Services)
+- [Comprehensive Identity Sets](#Comprehensive_Identity_Sets)
+- [Cryptocurrency related customer databases](#Cryptocurrency_related_customer_databases)
+- [Raw Credential Dumps](#Raw_Credential_Dumps)
+- [Antivirus Tools](#Antivirus_Tools)
+- [BEC-as-a-Service](#BEC-as-a-Service)
+- [Card Validation Bot](#Card_Validation_Bot)
+- [Crypters and Packers](#Crypters_and_Packers)
+- [Crypto wallet brute force services](#Crypto_wallet_brute_force_services)
+- [Infostealer](#Infostealer)
+- [Malware-as-a-Service](#Malware-as-a-Service)
+- [Phishing Kits](#Phishing_Kits)
+- [Ransomware-as-a-Service](#Ransomware-as-a-Service)
+- [Remote Access Trojans](#Remote_Access_Trojans)
+- [Subscription-based Information Stealer](#Infostealer-as-a-Service)
+- [Dark Market](#Dark_Market)
+- [Forum](#Forum)
+- [Illicit Service Portals](#Illicit_Service_Portals)
+- [Fake Crypto Trading Platform](#Fake_Crypto_Trading_Platform)
+- [Direct Financial Loss](#Direct_Financial_Loss)
+- [Post-Incident Recovery Costs](#Post_Incident_Recovery_Costs)
+- [Cyber Extortion](#Cyber_Extortion)
+- [Data Broker Services](#Data_Broker_Services)
+- [Legitimate Security Company](#Legitimate_Security_Company)
+- [Cashouts](#Cashouts)
+- [Crypto currency mixers](#Crypto_currency_mixers)
+- [Escrow Services](#Escrow_Services)
+- [Identity verification kits and templates](#Identity_verification_kits_and_templates)
+- [Monetization of wallets with limited access](#Monetization_of_the_wallets_with_limited_access)
+- [Money laundering and cashout services](#Money_laundering_and_cashout_services)
+- [Self-registered accounts in the financial institutions](#Self-registered_accounts_in_the_financial_institutions)
+- [Connected Third Party](#ConnectedThirdParty)
+- [General Organization](#GeneralOrganization)
+- [Institutional Employee](#Institutional_Employee)
+- [Legitimate Service Provider](#Legitimate_Service_Provider)
+- [Private Individual](#Private_Individual)
+- [Policy and Regulatory Impact](#Policy_and_Regulatory_Impact)
+- [Societal Effects](#Societal_Effects)
+- [Strategic and Geopolitical Impact](#Strategic_and_Geopolitical_Impact)
+- [Illicit Data and Access Assets](#Illicit_Data_and_Access_Assets)
+- [Infostealer Logs](#InfostealerLogs)
+- [Unauthorized Network Access](#Unauthorized_Network_Access)
+- [Data Integrity Loss](#Data_Integrity_Loss)
+- [Digital Identity Compromise](#Digital_Identity_Compromise)
+- [Exposure-Based Risk Increase](#Exposure-BasedRiskIncrease)
+- [Information Confidentiality Loss](#Information_Confidentiality_Loss)
+- [Bulletproof Hosting](#Bulletproof_Hosting)
+- [Proxy Services](#Proxy_Services)
+- [Residential Proxies](#Residential_Proxies)
+- [Virtual Private Networks](#Virtual_Private_Networks)
+- [Cryptocurrency Exchanges](#Cryptocurrency_Exchanges)
+- [Dating Website](#Dating_Website)
+- [eCommerce Sites](#eCommerce_Sites)
+- [Messaging App](#Messaging_App)
+- [Money Transfer Mechanisms](#Money_Transfer_Mechanisms)
+- [Open Web](#Open_Web)
+- [Social Media](#Social_Media)
+- [Credential and Identity Marketplace](#Credential_and_Identity_Marketplace)
+- [Crimeware Supply Chain](#Crimeware_Supply_Chain)
+- [Data and Access Marketplace](#Data_and_Access_Marketplace)
+- [Deceptive Content Marketplace](#Deceptive_Content_Marketplace)
+- [Infrastructure Marketplace](#Infrastructure_Marketplace)
+- [Initial Access Marketplace](#Initial_Access_Marketplace)
+- [Monetization and Laundering Services](#Monetization_and_Laundering_Services)
+- [Vulnerabilities and Exploits Marketplace](#Vulnerabilities_and_Exploits_Marketplace)
+- [Operational Continuity Disruption](#Business_Continuity)
+- [System Availability Disruption](#System_Availability_Disruption)
+- [Technical Infrastructure Degradation](#Technical_Infrastructure_Degradation)
+- [Alternative Value Stores](#Alternative_Value_Stores)
+- [Cryptocurrency](#Cryptocurrency)
+- [Electronic Wallets and Payment Apps](#Electronic_Wallets_and_Payment_Apps)
+- [Fiat Currencies](#Fiat_Currencies)
+- [In-Game Assets](#In-Game_Assets)
+- [Stored-Value Cards and Vouchers](#Stored-Value_Cards_and_Vouchers)
+- [BEC Scammer](#BEC_Scammer)
+- [Carder](#Carder)
+- [Infostealer Operator](#InfostealerOperator)
+- [Initial Access Broker](#Initial_Access_Broker)
+- [Intrusion Operator](#Intrusion_Operator)
+- [Malware Developer](#Malware_Developer)
+- [Phisher](#Phisher)
+- [Ransomware Affiliate](#Ransomware_Affiliate)
+- [Ransomware Operator](#Ransomware_Operator)
+- [Ransomware-as-a-Service Operator](#Ransomware-as-a-Service_Operator)
+- [Romance Scammer](#Romance_Scammer)
+- [Skimmer](#Skimmer)
+- [Direct](#Direct)
+- [Deceptive Content](#Deceptive_Content)
+- [Fake identity](#Fake_identity)
+- [Behavioral Changes](#Behavioral_Changes)
+- [Erosion of Trust](#Erosion_of_Trust)
+- [Psychological Distress](#Psychological_Distress)
+- [Dual-Use Intelligence on Businesses](#Dual-UseIntelligenceOnBusinesses)
+- [Dual-Use Intelligence on Individuals](#Dual-UseIntelligenceOnIndividuals)
+- [Dual-Use Internet Reconnaissance](#Dual-UseInternetReconnaissance)
+- [Bulletproof Hosting Provider](#BulletproofHostingProvider)
+- [Legitimate Service Provider](#Legitimate_Service_Provider)
+- [Proxy Provider](#ProxyProvider)
+- [Spear Phisher](#Spear_Phisher)
+- [VPN Service Provider](#VPNServiceProvider)
+- [Business Email Compromise](#Business_Email_Compromise)
+- [Carding](#Carding)
+- [Romance Baiting](#Romance_Baiting)
+- [BEC Delivery](#Diamond_BEC_Delivery)
+- [BEC Exploitation Account Takeover](#Diamond_BEC_Exploitation_AccountTakeover)
+- [BEC Fraud Transaction](#Diamond_BEC_Fraud_Transaction)
+- [BEC PostFraud Laundering](#Diamond_BEC_PostFraud_Laundering)
+- [BEC Recon](#Diamond_BEC_Recon)
+- [BEC Weaponisation](#Diamond_BEC_Weaponisation)
+- [Carding Card Data Acquisition](#Diamond_Carding_Card_Data_Acquisition)
+- [Carding Monetization](#Diamond_Carding_Monetization)
+- [Carding Validation](#Diamond_Carding_Validation)
+- [CyX Encryption](#Diamond_Cy-X_Encryption)
+- [CyX Exfiltration](#Diamond_Cy-X_Exfiltration)
+- [CyX Extortion](#Diamond_Cy-X_Extortion)
+- [CyX LateralMovement](#Diamond_Cy-X_LateralMovement)
+- [CyX Monetization](#Diamond_Cy-X_Monetization)
+- [CyX Preparation](#Diamond_Cy-X_Preparation)
+- [CyX Recon](#Diamond_Cy-X_Recon)
+- [IAB Operation Packaging Valuation and Sale](#DiamondIABOperationPackagingValuationAndSale)
+- [IAB Operation Stabilization and Expansion](#DiamondIABOperationStabilizationAndExpansion)
+- [Initial Access Broker Operation Target Discovery](#DiamondIABOperationTargetDiscovery)
+- [Romance Baiting Grooming](#Diamond_Romance_Baiting_Grooming)
+- [Romance Baiting Targeting](#Diamond_Romance_Baiting_Targeting)
+- [Romance Victim Exploitation](#Diamond_Romance_Baiting_Monetization)
+- [ATM Operators](#ATM_Operators)
+- [Card Holder](#Card_Holder)
+- [Financial Institutions Serving Victims](#Financial_Institutions_Serving_Victims)
+- [Retail Businesses and Merchants](#Retail_Businesses_and_Merchants)
+- [Collection](#Collection)
+- [Command and Control](#Command_and_Control)
+- [Credential Access](#Credential_Access)
+- [Defense Evasion](#Defense_Evasion)
+- [Discovery](#Discovery)
+- [Execution](#Execution)
+- [Exfiltration](#Exfiltration)
+- [Impact](#Impact)
+- [Impair Defenses](#Impair_Defenses)
+- [Initial Access](#Initial_Access)
+- [Lateral Movement](#Lateral_Movement)
+- [Persistence](#Persistence)
+- [Privilege Escalation](#Privilege_Escalation)
+- [Reconnaissance](#Reconnaissance)
+- [Resource Development](#Resource_Development)
+- [Account Discovery](#Account_Discovery)
+- [Active Scanning](#Active_Scanning)
+- [AI-Assisted Carding](#AI-Assisted_Carding)
+- [Browser Information Discovery](#BrowserInformationDiscovery)
+- [Brute Force](#Brute_Force)
+- [Command and Scripting Interpreter](#Command_and_Scripting_Interpreter)
+- [Compromise Accounts](#Compromise_Accounts)
+- [Credentials from Password Stores](#CredentialsFromPasswordStores)
+- [Data Encrypted for Impact](#Data_Encrypted_for_Impact)
+- [Data from Local System](#DataFromLocalSystem)
+- [Develop Capabilities](#Develop_Capabilities)
+- [Exfiltration Over C2 Channel](#Exfiltration_Over_C2_Channel)
+- [Exploit Public-Facing Application](#Exploit_Public-Facing_Application)
+- [Exploitation of Remote Services](#Exploitation_of_Remote_Services)
+- [External Remote Services](#External_Remote_Services)
+- [Financial Theft](#Financial_Theft)
+- [Funds Laundering](#Funds_Laundering)
+- [Gather Victim Identity Information](#Gather_Victim_Identity_Information)
+- [Gather Victim Information (Behavioral)](#Gather_Victim_Information_%28Behavioral%29)
+- [Gather Victim Network Information](#GatherVictimNetworkInformation)
+- [Gather Victim Org Information](#GatherVictimOrgInformation)
+- [Inhibit System Recovery](#Inhibit_System_Recovery)
+- [Lateral Tool Transfer](#Lateral_Tool_Transfer)
+- [Multi-factor Authentication Fatigue](#Multi-factor_Authentication_Fatigue)
+- [Native API](#Native_API)
+- [Obfuscated Files or Information](#Obfuscated_Files_or_Information)
+- [Obtain Capabilities](#Obtain_Capabilities)
+- [Phishing](#Phishing)
+- [Phishing for Information](#Phishing_for_Information)
+- [Process Injection](#Process_Injection)
+- [Remote Services](#Remote_Services)
+- [Search Open Websites/Domains](#Search_Open_Websites%2FDomains)
+- [Search Victim-Owned Websites](#SearchVictim-OwnedWebsites)
+- [Server Software Component](#Server_Software_Component)
+- [Service Stop](#Service_Stop)
+- [Social Engineering](#Social_Engineering)
+- [Stage Capabilities](#Stage_Capabilities)
+- [Steal Web Session Cookie](#StealWebSessionCookie)
+- [System Information Discovery](#System_Information_Discovery)
+- [Use Alternate Authentication Material](#Use_Alternate_Authentication_Material)
+- [User Execution](#User_Execution)
+- [Valid Accounts](#Valid_Accounts)
+- [Windows Management Instrumentation](#Windows_Management_Instrumentation)
+- [Initial Access Broker Operation](#Initial_Access_Broker_Operation)
+- [Ransomware-as-a-Service Operation](#Ransomware-as-a-Service_Operation)
+- [Exploit Kits](#Exploit_Kits)
+- [N-Days](#N-Days)
+- [Offensive Security Frameworks](#Offensive_Security_Frameworks)
+- [Pirated Vulnerability Scanners](#Pirated_Vulnerability_Scanners)
+- [Vulnerability Intelligence](#Vulnerability_Intelligence)
+- [Zero Days](#Zero_Days)
 Named individuals are grouped by class.
 
 ### Class: [Accomplice](#Accomplice)
@@ -1116,6 +927,8 @@ The supporting infrastructure includes infected “zombie” devices and resilie
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Call_Center_Operator"></a>
 
 #### [Call Center Operator](#Call_Center_Operator)
@@ -1139,6 +952,8 @@ While some call center operators are complicit members of the criminal organizat
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Exploit_Developers"></a>
 
 #### [Exploit Developers](#Exploit_Developers)
@@ -1157,6 +972,8 @@ Malicious coders who convert identified software weaknesses into functional atta
 Exploit Developers are specialized threat actors devoted to crafting, refining, or repackaging exploit code. These individuals transform raw vulnerability data into precise, often modular payloads that can be integrated into broader cybercrime campaigns. While some exploit developers may reverse-engineer patches to produce reliable “N-day” exploits, the most valued among them focus on undisclosed “0-day” flaws that bypass existing defenses. In underground markets and private broker circles, Exploit Developers command high fees for their technical prowess, fueling cybercriminal ecosystems by providing the cornerstone of initial access and privilege escalation.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Fake_Profile_Creator"></a>
 
@@ -1179,6 +996,8 @@ These actors use advanced technologies like deepfakes, AI-generated images, and 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Insider_Corrupt_Employee"></a>
 
 #### [Insider Corrupt Employee](#Insider_Corrupt_Employee)
@@ -1198,6 +1017,8 @@ An “Insider/Corrupt Employee” is someone within a legitimate organization, s
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Money_Mule"></a>
 
 #### [Money Mule](#Money_Mule)
@@ -1216,6 +1037,8 @@ A money mule is an individual who transfers illegally obtained money between dif
 A money mule is a critical component in the process of money laundering and fraudulent financial schemes. These individuals are used by criminals to move and launder illicit funds through various bank accounts, digital payment systems, or cryptocurrencies to make the money appear legitimate and to hide the identity of the criminals and the origin of the money. Money mules may be recruited through various means, including deceptive job postings that promise easy money for work-from-home positions, direct contact via email or social media, or through relationships with the criminals themselves.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Payment_Platform_Exploiter"></a>
 
@@ -1240,6 +1063,8 @@ Distinct from those orchestrating fraudulent schemes or transferring funds manua
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Recon_Specialist"></a>
 
 #### [Recon Specialist](#Recon_Specialist)
@@ -1262,6 +1087,8 @@ In addition to OSINT, Recon Specialists may employ social engineering techniques
 Recon Specialists are often part of larger cybercriminal operations, working in collaboration with other role players like malware developers, access brokers, or phishing operators. Their work is foundational to the success of the attack, as it provides the intelligence needed to craft convincing lures or identify exploitable systems. In some cases, Recon Specialists may sell the information they gather to other cybercriminals on underground forums or marketplaces, making them a key component of the cybercrime ecosystem.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Scriptwriter"></a>
 
@@ -1286,6 +1113,8 @@ These individuals or groups may operate independently or as part of a larger cri
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Vulnerability_Brokers"></a>
 
 #### [Vulnerability Brokers](#Vulnerability_Brokers)
@@ -1304,6 +1133,8 @@ Intermediaries who buy and sell zero-day or N-day vulnerability information, bri
 Vulnerability Brokers operate as go-betweens within the shadowy world of illicit vulnerability trade. They cultivate relationships with exploit developers, insider “bug poachers,” and financially motivated security researchers, amassing a portfolio of flaws across software categories—from widely used operating systems to specialized industrial platforms. These brokers then market or auction these vulnerabilities to dedicated threat actors such as ransomware affiliates, espionage groups, or advanced persistent threat cells. Often working through invite-only forums or specialized Tor-based broker portals, Vulnerability Brokers streamline transactions, ensure escrow services, and handle dispute resolution—thereby driving the underground economy of undisclosed exploits and patch-evading code.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Vulnerability_Researchers"></a>
 
@@ -1325,6 +1156,8 @@ Vulnerability Researchers, colloquially called “Bug Hunters,” possess the an
 **variant:** —
 
 ### Class: [Botnets](#Botnets)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="BotnetServices"></a>
 
@@ -1352,6 +1185,8 @@ Botnet services are a key component of the broader cybercrime-as-a-service econo
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Mobile_botnet_rental"></a>
 
 #### [Mobile botnet rental](#Mobile_botnet_rental)
@@ -1368,6 +1203,8 @@ Botnet services are a key component of the broader cybercrime-as-a-service econo
 **variant:** —
 
 ### Class: [Common Pattern Phase](#CommonPatternPhase)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="DiamondCommonInfostealerDeploymentAndLogHarvesting"></a>
 
@@ -1396,6 +1233,8 @@ This Event can be linked to markets such as Hosted Stealer Markets, Crimeware Su
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Common_Phishing_for_Information"></a>
 
 #### [Common Phishing for Information](#Diamond_Common_Phishing_for_Information)
@@ -1419,6 +1258,8 @@ Products or services involved may include phishing kits or deceptive content, wi
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Common_Remote_Account_Compromise"></a>
 
 #### [Common Remote Account Compromise](#Diamond_Common_Remote_Account_Compromise)
@@ -1438,6 +1279,8 @@ This common Pattern Phase captures a credential-based intrusion scenario where a
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Common_Remote_System_Compromise"></a>
 
 #### [Common Remote System Compromise](#Diamond_Common_Remote_System_Compromise)
@@ -1456,6 +1299,8 @@ A general Pattern Phase representing a remote cyber intrusion in which adversari
 This commonly-deployed Pattern Phase, encapsulates a multi-stage cyberattack in which a technically skilled actor breaches a target’s online system. The adversary may scan for weaknesses in public-facing applications or employ password spraying or brute force techniques to compromise weak credentials. Upon successful access, the attacker may exploit further vulnerabilities to maintain persistence, expand their access, or exfiltrate sensitive data. This common Pattern Phase sets the stage for subsequent actions that facilitate data exfiltration or further system compromise.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_Common_Spear-Phishing_with_Malicious_Attachments"></a>
 
@@ -1478,6 +1323,8 @@ This common Pattern Phase captures the technique employed by threat actors who s
 
 ### Class: [Composite Pattern Phase](#CompositePatternPhase)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Cy-X_InitialAccess"></a>
 
 #### [CyX Initial Access](#Diamond_Cy-X_InitialAccess)
@@ -1497,6 +1344,8 @@ During Initial Access, attackers employ a variety of techniques to infiltrate ne
 While initial access can be obtained by stable members of a ransomware group, it is sometimes provided by specialized brokers whose services are purchased by the main group. On other occasions, affiliates are responsible for gaining access to deploy ransomware that they have obtained from the core group via rental or profit-sharing agreements.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="DiamondCompositeIABOperationInitialAccess"></a>
 
@@ -1527,6 +1376,8 @@ This phase is a unique element in the pattern of acquiring and selling initial a
 
 ### Class: [Credential and Identity Artifacts](#Credential_and_Identity_Artifacts)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Ancillary_Credential_and_Identity_Services"></a>
 
 #### [Ancillary Credential and Identity Services](#Ancillary_Credential_and_Identity_Services)
@@ -1545,6 +1396,8 @@ Supplementary support functions that verify, enrich, and optimize stolen data—
 Ancillary Services encompass a suite of specialized tools and support mechanisms offered within the illicit Credential and Identity Marketplace. These services include automated platforms for validating the usability of stolen credentials, enrichment processes that append additional context or personal information to raw data, and change-of-address (COB) operations that adjust associated account or delivery details to improve the likelihood of successful fraud. By enhancing the quality and reliability of illicit data, these services play a critical role in enabling threat actors to achieve more effective account compromise and subsequent monetization of stolen information.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Comprehensive_Identity_Sets"></a>
 
@@ -1565,6 +1418,8 @@ Comprehensive Identity Sets, commonly referred to as “fulls,” are curated pa
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Cryptocurrency_related_customer_databases"></a>
 
 #### [Cryptocurrency related customer databases](#Cryptocurrency_related_customer_databases)
@@ -1583,6 +1438,8 @@ Stolen datasets holding customer records from cryptocurrency exchanges, wallet p
 Cryptocurrency-related customer databases contain email addresses, identity documents, transaction histories, and Know-Your-Customer (KYC) files exfiltrated from crypto exchanges or service providers. Threat actors sell these datasets on underground markets to facilitate targeted phishing, identity theft, and direct account takeover of victims’ trading or custodial wallets.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Raw_Credential_Dumps"></a>
 
@@ -1605,6 +1462,8 @@ Raw Credential Dumps consist of unsanitized datasets containing user account ide
 
 ### Class: [Crimeware](#Crimeware)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Antivirus_Tools"></a>
 
 #### [Antivirus Tools](#Antivirus_Tools)
@@ -1623,6 +1482,8 @@ Legitimate or pirated antivirus engines that criminals repurpose to test malware
 Antivirus Tools encompass full software suites, command-line scanners, and cloud-based analysis services—often obtained through cracked licences or resale. Threat actors use these tools in sandbox environments to confirm that custom malware, stealers, and payloads remain undetected by mainstream security products before deployment.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="BEC-as-a-Service"></a>
 
@@ -1643,6 +1504,8 @@ Provides everything from lookalike domain registration, email templates, and spo
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Card_Validation_Bot"></a>
 
 #### [Card Validation Bot](#Card_Validation_Bot)
@@ -1662,6 +1525,8 @@ The Card Validation Bot is a specialized form of crimeware that automates the ve
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Crypters_and_Packers"></a>
 
 #### [Crypters and Packers](#Crypters_and_Packers)
@@ -1676,6 +1541,8 @@ The Card Validation Bot is a specialized form of crimeware that automates the ve
 **longDescription:** —
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Crypto_wallet_brute_force_services"></a>
 
@@ -1695,6 +1562,8 @@ Illicit service that rents GPU or ASIC power to brute-force encrypted cryptocurr
 Crypto wallet brute-force services provide customers with specialised hardware Markets and customised cracking software that systematically guesses pass-phrases, mnemonic seeds, or password files until a locked cryptocurrency wallet is opened. These services are marketed in underground forums to criminals who possess stolen wallet files or seed fragments and need high-throughput computing to extract the private keys and transfer the stored funds.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Infostealer"></a>
 
@@ -1721,6 +1590,8 @@ Within cybercrime patterns, info stealers act as a data-production mechanism. Th
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Malware-as-a-Service"></a>
 
 #### [Malware-as-a-Service](#Malware-as-a-Service)
@@ -1739,6 +1610,8 @@ Subscription‑based distribution of commodity malware.
 Malware-as-a-Service (MaaS) portals let low‑skill criminals rent stealer logs, bots, or loaders, paying per‑install or per‑campaign.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Phishing_Kits"></a>
 
@@ -1763,6 +1636,8 @@ Phishing kits lower the barrier to entry for cybercriminals, enabling even inexp
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Ransomware-as-a-Service"></a>
 
 #### [Ransomware-as-a-Service](#Ransomware-as-a-Service)
@@ -1782,6 +1657,8 @@ Ransomware-as-a-Service (RaaS) is a cybercrime offering in which malware develop
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Remote_Access_Trojans"></a>
 
 #### [Remote Access Trojans](#Remote_Access_Trojans)
@@ -1800,6 +1677,8 @@ Malware that lets attackers control victim machines remotely.
 Remote Access Trojans (RATs) provide interactive shells, file transfer, and surveillance, giving intruders a beach‑head for lateral movement.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Infostealer-as-a-Service"></a>
 
@@ -1826,6 +1705,8 @@ Within the cybercrime ecosystem, this service sits between crimeware production 
 
 ### Class: [Dark Platforms](#Dark_Platforms)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Dark_Market"></a>
 
 #### [Dark Market](#Dark_Market)
@@ -1847,6 +1728,8 @@ The secretive nature and use of encryption technologies make dark markets both c
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Forum"></a>
 
 #### [Forum](#Forum)
@@ -1865,6 +1748,8 @@ A website on the darkweb dedicated to the discussion and sharing of information 
 A dark web cybercrime forum is a clandestine online platform where cybercriminals gather to exchange knowledge, tools, and services related to illicit activities such as hacking, data theft, and fraud. These forums operate within the encrypted and anonymized confines of the dark web, accessible only through specialized browsers and often requiring invitations or membership fees for entry. Within these forums, cybercriminals engage in discussions ranging from the latest hacking techniques to the sale of stolen credentials, malware, and hacking tools. These platforms also function as marketplaces for cybercriminal goods and services, facilitating transactions for stolen data, malware, and other illicit offerings. Despite efforts by law enforcement and cybersecurity experts to disrupt these forums, they persist as resilient hubs of criminal activity in the digital underworld.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Illicit_Service_Portals"></a>
 
@@ -1887,6 +1772,8 @@ An Illicit Services Portal is defined as a covert digital platform that aggregat
 
 ### Class: [Deceptive_Platforms](#Deceptive_Platforms)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Fake_Crypto_Trading_Platform"></a>
 
 #### [Fake Crypto Trading Platform](#Fake_Crypto_Trading_Platform)
@@ -1908,6 +1795,8 @@ These platforms are typically used in pig-butchering or romance scam scenarios, 
 
 ### Class: [Economic Impact](#Economic_Impact)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Direct_Financial_Loss"></a>
 
 #### [Direct Financial Loss](#Direct_Financial_Loss)
@@ -1928,6 +1817,8 @@ Direct Financial Loss refers to the immediate reduction of a victim’s financia
 It does not include any subsequent expenses related to responding to or recovering from the incident. Instead, it is strictly limited to the value of assets removed or destroyed as a direct outcome of the attack itself. This harm is typically quantifiable at the time of the incident and represents the most immediate financial impact experienced by the victim.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Post_Incident_Recovery_Costs"></a>
 
@@ -1952,6 +1843,8 @@ This harm captures the operational and financial burden of recovery, often exten
 **variant:** —
 
 ### Class: [Extortion](#Extortion)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Cyber_Extortion"></a>
 
@@ -1978,6 +1871,8 @@ Direct victims can be public or private organisations and harms are wide ranging
 
 ### Class: [Facilitator](#Facilitator)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Data_Broker_Services"></a>
 
 #### [Data Broker Services](#Data_Broker_Services)
@@ -2001,6 +1896,8 @@ The availability of data broker services lowers the barrier for attackers, enabl
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Legitimate_Security_Company"></a>
 
 #### [Legitimate Security Company](#Legitimate_Security_Company)
@@ -2022,6 +1919,8 @@ A Legitimate Security Company is a key role player in the cybercrime ecosystem t
 
 ### Class: [Financial Services](#Financial_Services)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Cashouts"></a>
 
 #### [Cashouts](#Cashouts)
@@ -2040,6 +1939,8 @@ Service that converts illicit digital funds into usable cash via money-mule with
 Cashouts cover the downstream phase of cyber-crime monetisation in which stolen or extorted funds—whether held in online bank accounts, payment cards, or cryptocurrency wallets—are rapidly liquidated. Operators coordinate money-mule networks, prepaid cards, high-risk currency exchanges, and ATM withdrawals to move the proceeds outside traceable channels and deliver clean cash to the criminal organisers.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Crypto_currency_mixers"></a>
 
@@ -2060,6 +1961,8 @@ Also called tumblers, mixers pool multiple users’ coins and return fresh ones,
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Escrow_Services"></a>
 
 #### [Escrow Services](#Escrow_Services)
@@ -2078,6 +1981,8 @@ Third-party wallet or broker that temporarily holds funds to reduce fraud in und
 Escrow Services act as neutral intermediaries in illicit online transactions: the buyer transfers cryptocurrency or digital assets to an escrow wallet; the seller delivers the goods (malware, data, access); only then does the escrow operator release payment—minus a commission. While intended to build trust between anonymous criminals, escrow wallets themselves are often controlled by or collude with one side, creating additional risks for participants.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Identity_verification_kits_and_templates"></a>
 
@@ -2098,6 +2003,8 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Monetization_of_the_wallets_with_limited_access"></a>
 
 #### [Monetization of wallets with limited access](#Monetization_of_the_wallets_with_limited_access)
@@ -2113,6 +2020,8 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Money_laundering_and_cashout_services"></a>
 
 #### [Money laundering and cashout services](#Money_laundering_and_cashout_services)
@@ -2127,6 +2036,8 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 **longDescription:** —
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Self-registered_accounts_in_the_financial_institutions"></a>
 
@@ -2144,6 +2055,8 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 **variant:** —
 
 ### Class: [General Victim](#General_Victim_Groups)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="ConnectedThirdParty"></a>
 
@@ -2166,6 +2079,8 @@ Such entities may introduce risk through shared infrastructure, system access, d
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="GeneralOrganization"></a>
 
 #### [General Organization](#GeneralOrganization)
@@ -2187,6 +2102,8 @@ Organizations typically maintain complex technological infrastructures and manag
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Institutional_Employee"></a>
 
 #### [Institutional Employee](#Institutional_Employee)
@@ -2206,6 +2123,8 @@ The Institutional Employee victim entity represents individuals whose roles with
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Legitimate_Service_Provider"></a>
 
 #### [Legitimate Service Provider](#Legitimate_Service_Provider)
@@ -2222,6 +2141,8 @@ Third-party platforms (e.g., social media, online products and services, market 
 **longDescription:** —
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Private_Individual"></a>
 
@@ -2246,6 +2167,8 @@ Private individuals often rely on digital services in their daily activities, ma
 
 ### Class: [Geopolitical Impact](#Geopolitical_Impact)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Policy_and_Regulatory_Impact"></a>
 
 #### [Policy and Regulatory Impact](#Policy_and_Regulatory_Impact)
@@ -2269,6 +2192,8 @@ This harm is distinct from operational or financial impacts, as it focuses on fo
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Societal_Effects"></a>
 
 #### [Societal Effects](#Societal_Effects)
@@ -2291,6 +2216,8 @@ Examples include increased public fear of digital systems, reduced participation
 This harm operates at a collective level and is distinct from individual psychological effects or organizational impacts. It reflects how cybercrime shapes societal attitudes, behaviors, and resilience over time.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Strategic_and_Geopolitical_Impact"></a>
 
@@ -2317,6 +2244,8 @@ This harm is distinct from operational or societal effects, as it focuses on lon
 
 ### Class: [Illicit Access Products](#Illicit_Access_Products)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Illicit_Data_and_Access_Assets"></a>
 
 #### [Illicit Data and Access Assets](#Illicit_Data_and_Access_Assets)
@@ -2340,6 +2269,8 @@ The value of Illicit Data and Access Assets depends on their specificity, qualit
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="InfostealerLogs"></a>
 
 #### [Infostealer Logs](#InfostealerLogs)
@@ -2356,6 +2287,8 @@ Structured bundles of stolen credentials, session data, identity details, and sy
 **longDescription:** —
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Unauthorized_Network_Access"></a>
 
@@ -2387,6 +2320,8 @@ Common forms of illicit access products include:
 
 ### Class: [Informational Impact](#Informational_Impact)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Data_Integrity_Loss"></a>
 
 #### [Data Integrity Loss](#Data_Integrity_Loss)
@@ -2409,6 +2344,8 @@ Unlike confidentiality-related harms, this category is concerned specifically wi
 This harm can disrupt decision-making, operational processes, and system functionality, particularly in environments that depend on accurate and reliable data. Its impact lies in the loss of trust in the correctness of information, rather than its secrecy or availability.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Digital_Identity_Compromise"></a>
 
@@ -2434,6 +2371,8 @@ The primary impact lies in the loss of control over one’s digital presence and
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Exposure-BasedRiskIncrease"></a>
 
 #### [Exposure-Based Risk Increase](#Exposure-BasedRiskIncrease)
@@ -2456,6 +2395,8 @@ The harm is not a loss of confidentiality in the traditional sense, but a loss o
 This materially elevates the victim’s risk exposure, defined as the probability and potential impact of exploitation, even before any intrusion occurs.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Information_Confidentiality_Loss"></a>
 
@@ -2482,6 +2423,8 @@ This harm may lead to downstream consequences such as identity theft, fraud, or 
 
 ### Class: [Infrastructure Services](#Infrastructure_Services)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Bulletproof_Hosting"></a>
 
 #### [Bulletproof Hosting](#Bulletproof_Hosting)
@@ -2500,6 +2443,8 @@ A type of hosting service engineered to resist takedown efforts, offering advers
 Bulletproof Hosting refers to specialized server hosting services offered within the cybercrime underground. These services are designed to operate with minimal regulatory oversight, often from offshore locations, and employ techniques like rapid IP rotation and robust anonymity measures to thwart law enforcement takedown attempts. They provide a secure foundation for hosting phishing pages, malware distribution sites, and command-and-control servers, enabling threat actors to maintain persistent access and evade detection throughout their malicious campaigns.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Proxy_Services"></a>
 
@@ -2520,6 +2465,8 @@ Proxy Services offer a layer of indirection by channeling an adversary’s netwo
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Residential_Proxies"></a>
 
 #### [Residential Proxies](#Residential_Proxies)
@@ -2538,6 +2485,8 @@ Proxy services that route traffic through real residential IP addresses, offerin
 Residential Proxies (often abbreviated as RESIP) utilize IP addresses assigned to everyday households by Internet Service Providers. By channeling internet traffic through these genuine residential connections, adversaries can better mimic normal user behavior and bypass sophisticated anti-bot measures. In the cybercrime landscape, these proxies are prized for their ability to provide anonymity and geographic diversity, enabling activities such as data scraping, credential stuffing, and evasion of fraud detection systems. Their use complicates mitigation efforts because traffic originating from residential IPs is generally trusted and less likely to be blacklisted. Residential proxies are commonly traded in underground markets and are sometimes offered as part of a broader suite of infrastructure services, playing a critical role in the execution of covert operations and large-scale cyber-enabled scams.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Virtual_Private_Networks"></a>
 
@@ -2559,6 +2508,8 @@ Virtual Private Networks (VPNs) establish encrypted tunnels between a user’s d
 **variant:** —
 
 ### Class: [Legitimate Platforms](#Legitimate_Platforms)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Cryptocurrency_Exchanges"></a>
 
@@ -2583,6 +2534,8 @@ Law enforcement and cybersecurity experts monitor exchanges to track illicit tra
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Dating_Website"></a>
 
 #### [Dating Website](#Dating_Website)
@@ -2604,6 +2557,8 @@ For cybercriminals, dating websites provide a low-risk, high-reward opportunity 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="eCommerce_Sites"></a>
 
 #### [eCommerce Sites](#eCommerce_Sites)
@@ -2623,6 +2578,8 @@ eCommerce sites are legitimate digital marketplaces that enable the buying and s
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Messaging_App"></a>
 
 #### [Messaging App](#Messaging_App)
@@ -2639,6 +2596,8 @@ Private, semi-public or public messaging platforms like Telegram, WhatsApp, and 
 **longDescription:** —
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Money_Transfer_Mechanisms"></a>
 
@@ -2659,6 +2618,8 @@ Money transfer mechanisms include formal and informal systems - such as SWIFT ba
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Open_Web"></a>
 
 #### [Open Web](#Open_Web)
@@ -2675,6 +2636,8 @@ Money transfer mechanisms include formal and informal systems - such as SWIFT ba
 Some transactions between cybercriminals, or in support of cybercrime activities, occur on regular, public, internet websites. These are actually quite apparent, for example the rental and management of virtual servers and hosting services, DNS domain registration services, email, business information services, and the like.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Social_Media"></a>
 
@@ -2695,6 +2658,8 @@ Private, semi-public or public social networking platforms like Facebook, Instag
 
 ### Class: [Market or Supply Chain](#Market_or_Supply_Chain)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Credential_and_Identity_Marketplace"></a>
 
 #### [Credential and Identity Marketplace](#Credential_and_Identity_Marketplace)
@@ -2713,6 +2678,8 @@ A dedicated Market in the cybercrime ecosystem where threat actors acquire, trad
 The Credential and Identity Marketplace is defined as a specialized segment within the cybercrime ecosystem dedicated to the procurement, aggregation, and exchange of illicitly obtained user credentials and identity data. This Market encompasses activities whereby threat actors, ranging from data brokers to resellers, package stolen authentication artifacts, such as raw password dumps and comprehensive identity sets (commonly referred to as “fulls”), for subsequent monetization. Within this marketplace, sophisticated vendors offer verified and enriched datasets, while intermediary resellers facilitate the broader dissemination of these assets across various dark web forums and encrypted communication channels. The Market further includes ancillary services, such as credential validation, change-of-address (COB) operations, and other support functions designed to enhance the operational value of the stolen data. Collectively, these elements supply critical raw material to technical infiltrators who deploy the credentials in remote account compromise scenarios, thereby perpetuating a cycle of identity theft, financial fraud, and broader cyber-enabled criminal activity.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Crimeware_Supply_Chain"></a>
 
@@ -2737,6 +2704,8 @@ The Crimeware Supply Chain has commoditized cybercrime, lowering the barrier to 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Data_and_Access_Marketplace"></a>
 
 #### [Data and Access Marketplace](#Data_and_Access_Marketplace)
@@ -2760,6 +2729,8 @@ Sellers in the marketplace include data brokers, credential harvesters, access b
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Deceptive_Content_Marketplace"></a>
 
 #### [Deceptive Content Marketplace](#Deceptive_Content_Marketplace)
@@ -2779,6 +2750,8 @@ The Deceptive Content Marketplace facilitates the trade of tools and materials d
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Infrastructure_Marketplace"></a>
 
 #### [Infrastructure Marketplace](#Infrastructure_Marketplace)
@@ -2797,6 +2770,8 @@ A Market dedicated to the trade of cybercrime infrastructure services such as re
 The Infrastructure Marketplace Market represents a covert, unstructured trading environment on the dark and open web where illicit infrastructure services are bought and sold. This Market aggregates providers of residential proxies, virtual private networks, proxy services, and bulletproof hosting, all of which are critical for concealing operational footprints and facilitating anonymity in cybercrime campaigns. Actors operating within this marketplace leverage these services to bypass detection, maintain persistence, and secure resilient channels for communication and data exfiltration. By linking these commodities to the broader cybercrime ecosystem, the Infrastructure Marketplace underscores the essential role of technical services in enabling sophisticated, low-risk cyber operations.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Initial_Access_Marketplace"></a>
 
@@ -2821,6 +2796,8 @@ The Initial Access Marketplace serves as a critical node in the cybercrime suppl
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Monetization_and_Laundering_Services"></a>
 
 #### [Monetization and Laundering Services](#Monetization_and_Laundering_Services)
@@ -2844,6 +2821,8 @@ Operations in this Market are conducted through dark web marketplaces, encrypted
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Vulnerabilities_and_Exploits_Marketplace"></a>
 
 #### [Vulnerabilities and Exploits Marketplace](#Vulnerabilities_and_Exploits_Marketplace)
@@ -2864,6 +2843,8 @@ The Vulnerabilities_and_Exploits Marketplace is a focal point in the cybercrimin
 **variant:** —
 
 ### Class: [Operational Impact](#Operational_Impact)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Business_Continuity"></a>
 
@@ -2888,6 +2869,8 @@ This harm emphasizes the effect on the organization’s mission and outputs, rat
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="System_Availability_Disruption"></a>
 
 #### [System Availability Disruption](#System_Availability_Disruption)
@@ -2910,6 +2893,8 @@ This harm is strictly defined at the technical level, focusing on the accessibil
 System availability disruption is typically immediate and observable, affecting the functionality of digital infrastructure and preventing normal usage until access is restored.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Technical_Infrastructure_Degradation"></a>
 
@@ -2936,6 +2921,8 @@ This harm is also distinct from operational continuity, as it focuses on technic
 
 ### Class: [Payment Instruments](#Payment_Instruments)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Alternative_Value_Stores"></a>
 
 #### [Alternative Value Stores](#Alternative_Value_Stores)
@@ -2954,6 +2941,8 @@ Tangible or semi-liquid assets (e.g., precious metals, high-value gift vouchers)
 Alternative value stores encompass physical or voucher-based assets, such as gold bars, silver coins, luxury retailer gift certificates, and prepaid mobile top-ups - used by criminals to convert and conceal illicit proceeds.  Rather than rely solely on digital channels, threat actors may exchange cryptocurrency or cash for precious metals or exclusive retail vouchers, then sell or redeem them in markets where financial regulations are weaker.  These assets provide a discreet method to move high-value wealth without leaving telltale transaction logs.  In some regions, mobile credit or SIM-top-ups function as pseudo-currency, enabling localised laundering and facilitating payments among small-scale fraud networks or dark-market resellers.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Cryptocurrency"></a>
 
@@ -2974,6 +2963,8 @@ Cryptocurrency is a decentralised form of digital currency that relies on crypto
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Electronic_Wallets_and_Payment_Apps"></a>
 
 #### [Electronic Wallets and Payment Apps](#Electronic_Wallets_and_Payment_Apps)
@@ -2993,6 +2984,8 @@ Electronic wallets and payment apps allow near-instant peer-to-peer transfers wi
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Fiat_Currencies"></a>
 
 #### [Fiat Currencies](#Fiat_Currencies)
@@ -3009,6 +3002,8 @@ Government-issued legal tenders (e.g., USD, EUR) that cyber-criminals convert in
 **longDescription:** —
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="In-Game_Assets"></a>
 
@@ -3028,6 +3023,8 @@ Digital items and in-game currencies (e.g., MMORPG gold, NFTs) that can be trade
 Virtual and in-game assets refer to non-fungible tokens (NFTs), digital collectibles, or in-game currency units used within online gaming ecosystems.  Criminal actors monetize stolen credit cards, phishing gains, or cryptocurrency by purchasing high-value skins, rare items, or tokens, which they then resell on gray-market platforms for fiat or crypto.  These assets provide anonymity and rapid conversion paths, as many marketplaces lack strict identity verification.  Additionally, some ransomware groups accept NFTs or in-game currency as ransom demands.  By diversifying beyond traditional payment forms, cyber-criminals exploit the burgeoning value of digital collectibles to mask money flows and evade financial oversight.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Stored-Value_Cards_and_Vouchers"></a>
 
@@ -3049,6 +3046,8 @@ Prepaid and stored-value cards such as retailer gift cards, prepaid debit cards,
 **variant:** —
 
 ### Class: [Perpetrator](#Perpetrator)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="BEC_Scammer"></a>
 
@@ -3073,6 +3072,8 @@ This role is central to the Business Email Compromise pattern because it connect
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Carder"></a>
 
 #### [Carder](#Carder)
@@ -3091,6 +3092,8 @@ A cybercrime specialist who acquires and exploits stolen payment card data - eit
 Within the payment card fraud domain, a carder functions as a key operative responsible for the procurement and exploitation of stolen credit and debit card data. Carders obtain such data through diverse means, including phishing, skimming, and acquiring information from underground data brokers - and subsequently validate its utility via nominal test transactions. Upon confirmation, they engage in unauthorized financial activities or monetize the data by distributing it to other criminal entities. Carders frequently interface with ancillary actors, such as money mules and laundering networks, to obscure financial trails and facilitate the seamless conversion of illicit gains.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="InfostealerOperator"></a>
 
@@ -3115,6 +3118,8 @@ This role is usually financially motivated and may operate alone, as part of a s
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Initial_Access_Broker"></a>
 
 #### [Initial Access Broker](#Initial_Access_Broker)
@@ -3133,6 +3138,8 @@ An Initial Access Broker is a specialized role player who secures unauthorized e
 Initial Access Brokers (IABs) focus on acquiring unauthorized access victim organizations from other roles and reselling them on markets, thereby allowing other actors to launch attacks without needing to execute the initial breach. Rather than carrying out attacks themselves, these brokers monetize that initial foothold by selling it to other criminal actors, such as ransomware groups, data thieves, or espionage-focused adversaries. This division of labor has become a cornerstone of the modern cybercrime economy, allowing highly skilled Intrusion Operators to profit repeatedly from their infiltration capabilities while enabling a broader range of threat actors to launch attacks without needing to execute the more technically demanding initial breach.
 
 **variant:** In many documented cases Initial Access Brokers also act as Intrusion Operators, performing the actual work of obtaining access to victim systems before reselling that access to other players for further exploitation.
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Intrusion_Operator"></a>
 
@@ -3153,6 +3160,8 @@ A technically skilled role player who identifies and exploits flaws in hardware,
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Malware_Developer"></a>
 
 #### [Malware Developer](#Malware_Developer)
@@ -3171,6 +3180,8 @@ A technical actor responsible for designing, coding, or maintaining malicious so
 A Malware Developer is a highly technical role player within the cybercrime ecosystem who creates, modifies, or maintains malicious software. Their skillset encompasses software engineering, reverse engineering, and anti-detection capabilities, enabling them to produce crimeware offerings such as trojans, keyloggers, ransomware strains, and other stealthy malware variants. In many cases, Malware Developers either work in collaboration with other specialized roles—like Exploit Developers or Infrastructure providers—or operate as part of a Malware-as-a-Service business model, selling or renting their software to other criminal actors seeking to conduct data theft, fraud, espionage, or disruptive attacks.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Phisher"></a>
 
@@ -3195,6 +3206,8 @@ The role of a phisher is critical to the success of many cybercriminal schemes, 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Ransomware_Affiliate"></a>
 
 #### [Ransomware Affiliate](#Ransomware_Affiliate)
@@ -3213,6 +3226,8 @@ A ransomware affiliate is a participant in a cybercrime model where individuals 
 Ransomware affiliates can help in the distribution of malware and take a cut of the ransom amount when paid. Depending on the ransomware group's business model, affiliates can pay upfront for or get free access to the ransomware software. Ransomware affiliates can be more than distributors but also bulletproof hosters, web developers, negotiators and more. A ransomware affiliate distributes ransomware on behalf of its creators, earning a share of the ransom payments they generate from victims.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Ransomware_Operator"></a>
 
@@ -3233,6 +3248,8 @@ A Ransomware Operator is a threat actor (or group of actors) responsible for exe
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Ransomware-as-a-Service_Operator"></a>
 
 #### [Ransomware-as-a-Service Operator](#Ransomware-as-a-Service_Operator)
@@ -3251,6 +3268,8 @@ A cybercriminal (or group) who establishes and maintains a Ransomware-as-a-Servi
 A Ransomware-as-a-Service (RaaS) Operator is a specialized organisational role player that provides an end-to-end ransomware framework and operational guidance to affiliates. These operators develop or integrate ransomware code, maintain hosting for command-and-control servers, and run payment portals or negotiation channels. Rather than targeting victims directly, they market their ransomware “service” on underground forums or invite-only channels, recruiting affiliates to carry out attacks in exchange for a percentage of ransom payments. Their profits come from licensing fees, revenue splits, and in some cases, parallel operations launched under their own brand of ransomware. This model of dividing technical tasks (development, infrastructure) from operational tasks (network intrusions, data exfiltration) significantly lowers the barrier to entry for cybercriminals and spurs rapid innovation within the ransomware ecosystem.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Romance_Scammer"></a>
 
@@ -3275,6 +3294,8 @@ Their operations rely heavily on social engineering, utilizing psychological man
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Skimmer"></a>
 
 #### [Skimmer](#Skimmer)
@@ -3296,6 +3317,8 @@ Data Thieves/Skimmers are role players within the carding ecosystem who focus on
 
 ### Class: [Platform](#Platform)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Direct"></a>
 
 #### [Direct](#Direct)
@@ -3316,6 +3339,8 @@ In some cases criminal groups and other actors may interact directly with each o
 **variant:** —
 
 ### Class: [Products and Services](#Products_and_Services)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Deceptive_Content"></a>
 
@@ -3339,6 +3364,8 @@ The creation of deceptive content is a critical component of social engineering 
 This type of content plays a central role in enabling various forms of cybercrime, from romance scams to large-scale fraud and disinformation campaigns. Its effectiveness relies on the combination of technical sophistication and psychological manipulation, making it a key tool for cybercriminals and other malicious actors in targeting individuals, organizations, and even entire communities.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Fake_identity"></a>
 
@@ -3365,6 +3392,8 @@ On a broader scale, fake identities are also used in cyber-enabled crimes like m
 
 ### Class: [Psychological Impact](#Psychological_Impact)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Behavioral_Changes"></a>
 
 #### [Behavioral Changes](#Behavioral_Changes)
@@ -3389,6 +3418,8 @@ The impact of this harm lies in how it alters engagement, participation, and usa
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Erosion_of_Trust"></a>
 
 #### [Erosion of Trust](#Erosion_of_Trust)
@@ -3411,6 +3442,8 @@ Unlike psychological distress, which is internal and emotional, this harm is rel
 This harm operates at both individual and collective levels, potentially affecting customer relationships, institutional reputation, and broader participation in digital ecosystems.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Psychological_Distress"></a>
 
@@ -3437,6 +3470,8 @@ Psychological distress may vary in severity and duration, and in some cases can 
 
 ### Class: [Reconnaissance and Open Source Intelligence](#ReconnaissanceAndOpenSourceIntelligence)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Dual-UseIntelligenceOnBusinesses"></a>
 
 #### [Dual-Use Intelligence on Businesses](#Dual-UseIntelligenceOnBusinesses)
@@ -3460,6 +3495,8 @@ For adversaries, the same information can support victim profiling and targeting
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Dual-UseIntelligenceOnIndividuals"></a>
 
 #### [Dual-Use Intelligence on Individuals](#Dual-UseIntelligenceOnIndividuals)
@@ -3482,6 +3519,8 @@ Legitimate users may rely on these services for marketing, recruitment, fraud pr
 In cybercrime contexts, the same kinds of information can be misused to identify employees, derive email addresses, craft convincing lures, support impersonation, or improve social-engineering success. Target identity information, including names, email addresses, personal data, credentials, and MFA-related details, are used during preparation, reconnaissance and targeting phases of multiple patterns.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Dual-UseInternetReconnaissance"></a>
 
@@ -3508,6 +3547,8 @@ Adversaries repurpose legitimate visibility tools to create target lists, priori
 
 ### Class: [Role Player](#Role_Player)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="BulletproofHostingProvider"></a>
 
 #### [Bulletproof Hosting Provider](#BulletproofHostingProvider)
@@ -3522,6 +3563,8 @@ Adversaries repurpose legitimate visibility tools to create target lists, priori
 **longDescription:** —
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Legitimate_Service_Provider"></a>
 
@@ -3540,6 +3583,8 @@ Third-party platforms (e.g., social media, online products and services, market 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="ProxyProvider"></a>
 
 #### [Proxy Provider](#ProxyProvider)
@@ -3554,6 +3599,8 @@ Third-party platforms (e.g., social media, online products and services, market 
 **longDescription:** —
 
 **variant:** Residential Proxy Provider
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Spear_Phisher"></a>
 
@@ -3574,6 +3621,8 @@ The Spear Phisher is an individual who conducts personalized phishing campaigns 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="VPNServiceProvider"></a>
 
 #### [VPN Service Provider](#VPNServiceProvider)
@@ -3590,6 +3639,8 @@ The Spear Phisher is an individual who conducts personalized phishing campaigns 
 **variant:** —
 
 ### Class: [Scams and Fraud](#Scams_and_Fraud)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Business_Email_Compromise"></a>
 
@@ -3613,6 +3664,8 @@ BEC campaigns are carried out by organised threat actors who specialise in resea
 Victims include organisations of any size, as well as employees with authority to initiate or approve payments or share sensitive information. Impacts may include financial loss, exposure of confidential data, reputational damage, operational disruption, and loss of trust in normal communication processes. The harm can extend beyond the primary target if third-party information or funds are misdirected, creating additional indirect victims and further consequences.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Carding"></a>
 
@@ -3639,6 +3692,8 @@ Common monetisation strategies include loading cards into a digital wallets, pur
 
 **variant:** In a variant based on social engineering, the attacker swaps the victim’s physical card with a fake card at an ATM and captures the PIN via shoulder surfing, later using the stolen card.
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Romance_Baiting"></a>
 
 #### [Romance Baiting](#Romance_Baiting)
@@ -3664,6 +3719,8 @@ These scams target private individuals and can cause significant financial losse
 
 ### Class: [Specific Pattern Phase](#SpecificPatternPhase)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_BEC_Delivery"></a>
 
 #### [BEC Delivery](#Diamond_BEC_Delivery)
@@ -3682,6 +3739,8 @@ The adversary sends the crafted email or message to the target organization or i
 After creating and testing their BEC lures in the Weaponization phase, the adversary delivers the malicious or deceptive email to the intended recipient. This delivery may involve spoofed sender addresses, lookalike domains, or compromised email accounts to increase legitimacy. Delivery marks the point at which the victim first encounters the attacker’s crafted content, setting the stage for credential theft or fraudulent financial requests.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_BEC_Exploitation_AccountTakeover"></a>
 
@@ -3704,6 +3763,8 @@ Having gained access, the attacker may set up mail-forwarding or auto-deletion r
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_BEC_Fraud_Transaction"></a>
 
 #### [BEC Fraud Transaction](#Diamond_BEC_Fraud_Transaction)
@@ -3723,6 +3784,8 @@ Having taken over a legitimate mailbox or established believable email dialogue,
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_BEC_PostFraud_Laundering"></a>
 
 #### [BEC PostFraud Laundering](#Diamond_BEC_PostFraud_Laundering)
@@ -3741,6 +3804,8 @@ After the victim's funds are stolen, the adversary engages in multi-step launder
 This Pattern Phase represents the post-fraud phase of a BEC scheme, where the adversary (or associates) rapidly disperse or layer stolen funds to evade detection. Common techniques include splitting the funds across multiple bank accounts, recruiting money mules, converting fiat to cryptocurrency, and leveraging mixers or unregulated exchanges. The goal is to launder the proceeds so that they appear legitimate and minimize the chance of recovery or law enforcement identification.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_BEC_Recon"></a>
 
@@ -3765,6 +3830,8 @@ The recon process is critical to the success of a BEC attack, as it enables atta
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_BEC_Weaponisation"></a>
 
 #### [BEC Weaponisation](#Diamond_BEC_Weaponisation)
@@ -3788,6 +3855,8 @@ This phase is critical to the success of a BEC attack, as the quality of the cra
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Carding_Card_Data_Acquisition"></a>
 
 #### [Carding Card Data Acquisition](#Diamond_Carding_Card_Data_Acquisition)
@@ -3806,6 +3875,8 @@ An adversary uses phishing, skimming, or checkout malware via compromised paymen
 The Card Data Acquisition phase is the initial stage of a carding scheme, in which financially motivated adversaries obtain payment card details from victims for later fraudulent use. The role players involved may include individual attackers such as carders or skimmers, organized carding groups, or users of carding-as-a-service ecosystems who rely on stolen or rented infrastructure to collect payment data at scale. They may target cardholders directly through phishing and smishing campaigns that direct victims to fake payment or login pages, or they may compromise merchant and payment environments through skimming at point-of-sale systems and ATMs, digital skimming malware injected into e-commerce checkout pages, or network intrusions that exfiltrate card databases. The infrastructure used in this phase can include compromised websites, fake payment portals, infected POS terminals, ATM skimmers, malicious scripts, underground phishing kits, and other commodity tools obtained through illicit markets. Victims are typically cardholders, merchants, processors, or financial institutions, and the immediate impact is the theft of sensitive payment card information. Once acquired, the data may be aggregated, packaged, and sold on underground card shops or other illicit marketplaces, or retained for validation and later monetization.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_Carding_Monetization"></a>
 
@@ -3826,6 +3897,8 @@ The Monetization phase is the stage in which adversaries convert stolen and vali
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Carding_Validation"></a>
 
 #### [Carding Validation](#Diamond_Carding_Validation)
@@ -3844,6 +3917,8 @@ After acquiring card data, adversaries use card-checking tools or low-value test
 The Validation phase is the stage in which attackers confirm that stolen payment card data is active and suitable for fraud before attempting larger-scale transactions. The role players involved are typically carders, fraud crews, or organized networks using carding-as-a-service providers to process stolen card data efficiently. They use tools such as "checkers", card-checking bots, automated platforms, or small test charges to verify each card’s balance, validity, and fraud controls while blending into normal payment traffic. The infrastructure supporting this phase may include merchant payment systems, payment gateways, anonymization services, proxies, and other platforms that help the attacker make low-value transactions appear legitimate. Victims are usually cardholders, and in some cases merchants or financial institutions, who may see suspicious alerts, temporary account freezes, or other fraud-control responses. When the stolen cards have been confirmed to be active and usable, threat actors will separate valuable data from unusable data and move toward profitable fraudulent purchases or resale on underground markets.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_Cy-X_Encryption"></a>
 
@@ -3864,6 +3939,8 @@ During the CyX Encryption event, ransomware affiliates or core operators respons
 By specifically targeting backups or high-priority data and systems first, attackers greatly reduce the victim’s ability to recover without paying the ransom. This disruption cements the adversary’s bargaining power in the subsequent extortion phase.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_Cy-X_Exfiltration"></a>
 
@@ -3886,6 +3963,8 @@ This step underpins the ‘double extortion’ model, where adversaries threaten
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Cy-X_Extortion"></a>
 
 #### [CyX Extortion](#Diamond_Cy-X_Extortion)
@@ -3906,6 +3985,8 @@ They often threaten to leak sensitive data if the ransom is not paid, intensifyi
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Cy-X_LateralMovement"></a>
 
 #### [CyX LateralMovement](#Diamond_Cy-X_LateralMovement)
@@ -3924,6 +4005,8 @@ Threat actors use a variety of offensive tools and living off the land technique
 In the CyX LateralMovement event, attackers leverage compromised accounts, exploits, or misconfigurations to traverse the victim’s environment. They may perform credential dumping, privilege escalation, or even abuse legitimate administrative tools (e.g., PsExec, PowerShell, WMI) to propagate beyond the initially breached host, coordinating their movements through command-and-control infrastructure that issues commands and receives reconnaissance data. They actively avoid detection by disabling Endpoint Detection and Response systems or clearing logs. By systematically moving across endpoints and servers, threat actors gain broader control, positioning themselves to locate high-value data and critical systems, which enables adversaries to maximize impact in the subsequent stages.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_Cy-X_Monetization"></a>
 
@@ -3945,6 +4028,8 @@ Given that ransomware attackers are profit orientated, when ransom payment is re
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Cy-X_Preparation"></a>
 
 #### [CyX Preparation](#Diamond_Cy-X_Preparation)
@@ -3963,6 +4048,8 @@ Attackers identify, gather, and stage critical data for encryption or exfiltrati
 In the CyX Preparation phase, adversaries capitalize on their expanded access to pinpoint vital assets and assemble them for imminent encryption or data theft. This includes locating sensitive files, disabling or deleting backups, and cataloging servers essential to the victim’s operations. Attackers may also install persistence mechanisms or schedule coordinated tasks to synchronize the ransomware’s deployment. Through careful preparation - such as mapping dependencies, neutralizing recovery options, and ensuring they understand the victim’s critical data - the adversaries guarantee that the upcoming ransomware detonation causes maximum operational disruption and pressure for ransom payment.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_Cy-X_Recon"></a>
 
@@ -3986,6 +4073,8 @@ Prospective targets can be public and private organizations of all types.
 By mapping network assets, software versions, user account details, system and data dependency, and the financial situation of targets, attackers refine their approach to maximize the success rate of subsequent compromise. This initial reconnaissance sets the foundation for the entire ransomware campaign.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="DiamondIABOperationPackagingValuationAndSale"></a>
 
@@ -4014,6 +4103,8 @@ This Phase is a critical link between intrusion and exploitation phases, connect
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="DiamondIABOperationStabilizationAndExpansion"></a>
 
 #### [IAB Operation Stabilization and Expansion](#DiamondIABOperationStabilizationAndExpansion)
@@ -4041,6 +4132,8 @@ This Phase follows initial compromise and precedes access packaging and marketpl
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="DiamondIABOperationTargetDiscovery"></a>
 
 #### [Initial Access Broker Operation Target Discovery](#DiamondIABOperationTargetDiscovery)
@@ -4066,6 +4159,8 @@ The victims are typically organizations or individuals with publicly exposed sys
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Romance_Baiting_Grooming"></a>
 
 #### [Romance Baiting Grooming](#Diamond_Romance_Baiting_Grooming)
@@ -4089,6 +4184,8 @@ Consistent communication, via daily messages, calls, or video chats, reinforces 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Diamond_Romance_Baiting_Targeting"></a>
 
 #### [Romance Baiting Targeting](#Diamond_Romance_Baiting_Targeting)
@@ -4110,6 +4207,8 @@ During the initial targeting, the scammer uses charm, flattery, and emotional ma
 Scammers can work individually or form part of wider groups. When they form part of groups, they can be either employees freely working for a salary or victims of human trafficking who have been forced to participate in crime to earn their freedom.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Diamond_Romance_Baiting_Monetization"></a>
 
@@ -4133,6 +4232,8 @@ This phase marks the culmination of the scam, resulting in significant financial
 
 ### Class: [Specific Victim](#Specific_Victim_Groups)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="ATM_Operators"></a>
 
 #### [ATM Operators](#ATM_Operators)
@@ -4152,6 +4253,8 @@ ATM operators and financial institutions that deploy and service automated telle
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Card_Holder"></a>
 
 #### [Card Holder](#Card_Holder)
@@ -4170,6 +4273,8 @@ An individual who regularly uses credit or debit cards and may potentially suffe
 A Cardholder is a consumer who uses credit and debit cards for everyday transactions and, while not directly targeted by cybercriminals, may become adversely affected if their card information is compromised. Cyber-enabled crimes such as carding, phishing, or skimming can result in the unauthorized acquisition of card details. In such cases, these individuals face the potential of fraudulent transactions, the inconvenience of resolving disputed charges, and the broader challenge of restoring financial security. This classification emphasizes that while the cardholder is not necessarily specifically targetted, their regular card use makes them vulnerable to collateral damage via cybercrime activity. It underscores the importance of robust security measures both at the personal and institutional levels to mitigate these risks.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Financial_Institutions_Serving_Victims"></a>
 
@@ -4194,6 +4299,8 @@ These entities also act as intermediaries in the financial system, meaning they 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Retail_Businesses_and_Merchants"></a>
 
 #### [Retail Businesses and Merchants](#Retail_Businesses_and_Merchants)
@@ -4215,6 +4322,8 @@ Retail businesses, ranging from small merchants to large supermarket chains, are
 
 ### Class: [Tactic](#Tactic)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Collection"></a>
 
 #### [Collection](#Collection)
@@ -4233,6 +4342,8 @@ The adversary is trying to gather data of interest to their goal.
 Collection consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to either steal (exfiltrate) the data or to use the data to gain more information about the target environment. Common target sources include various drive types, browsers, audio, video, and email. Common collection methods include capturing screenshots and keyboard input.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Command_and_Control"></a>
 
@@ -4254,6 +4365,8 @@ For example, the compromised system might connect to a command-and-control serve
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Credential_Access"></a>
 
 #### [Credential Access](#Credential_Access)
@@ -4272,6 +4385,8 @@ The adversary is trying to steal account names and passwords.
 Credential Access consists of techniques for stealing credentials like account names and passwords. Techniques used to get credentials include keylogging or credential dumping. Using legitimate credentials can give adversaries access to systems, make them harder to detect, and provide the opportunity to create more accounts to help achieve their goals.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Defense_Evasion"></a>
 
@@ -4292,6 +4407,8 @@ Defense Evasion consists of techniques that adversaries use to avoid detection t
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Discovery"></a>
 
 #### [Discovery](#Discovery)
@@ -4310,6 +4427,8 @@ The adversary is trying to figure out your environment.
 Discovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what’s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Execution"></a>
 
@@ -4330,6 +4449,8 @@ Execution consists of techniques that result in adversary-controlled code runnin
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Exfiltration"></a>
 
 #### [Exfiltration](#Exfiltration)
@@ -4349,6 +4470,8 @@ Exfiltration consists of techniques that adversaries may use to steal data from 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Impact"></a>
 
 #### [Impact](#Impact)
@@ -4367,6 +4490,8 @@ The adversary is trying to manipulate, interrupt, or destroy your systems and da
 Impact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries’ goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Impair_Defenses"></a>
 
@@ -4389,6 +4514,8 @@ Adversaries may also impair routine operations that contribute to defensive hygi
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Initial_Access"></a>
 
 #### [Initial Access](#Initial_Access)
@@ -4407,6 +4534,8 @@ The adversary is trying to get into a network.
 Initial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Lateral_Movement"></a>
 
@@ -4427,6 +4556,8 @@ Lateral Movement consists of techniques that adversaries use to enter and contro
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Persistence"></a>
 
 #### [Persistence](#Persistence)
@@ -4446,6 +4577,8 @@ Persistence consists of techniques that adversaries use to keep access to system
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Privilege_Escalation"></a>
 
 #### [Privilege Escalation](#Privilege_Escalation)
@@ -4464,6 +4597,8 @@ The adversary is trying to gain higher-level permissions.
 Privilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Reconnaissance"></a>
 
@@ -4485,6 +4620,8 @@ For example, an attacker might use tools to scan for open ports on a company's n
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Resource_Development"></a>
 
 #### [Resource Development](#Resource_Development)
@@ -4505,6 +4642,8 @@ Resource Development consists of techniques that involve adversaries creating, p
 **variant:** —
 
 ### Class: [Technique](#Technique)
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Account_Discovery"></a>
 
@@ -4529,6 +4668,8 @@ For examples, cloud environments typically provide easily accessible interfaces 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Active_Scanning"></a>
 
 #### [Active Scanning](#Active_Scanning)
@@ -4550,6 +4691,8 @@ Adversaries may perform different forms of active scanning depending on what inf
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="AI-Assisted_Carding"></a>
 
 #### [AI-Assisted Carding](#AI-Assisted_Carding)
@@ -4568,6 +4711,8 @@ A threat technique using machine learning or other AI techniques to automate or 
 AI-Assisted Carding leverages advanced automation and machine learning to improve the effectiveness and scale of card fraud. Machine learning models may be trained on datasets of known valid card transactions to quickly identify which stolen payment cards are likely still active. AI-driven bots can also generate customized "test" purchases across multiple eCommerce platforms, detecting patterns in real-time (such as flagged transactions or merchant denial rates) to refine subsequent attacks. In some cases, these systems dynamically adjust transaction amounts, merchant categories, and even geolocation details to avoid typical fraud alerts or daily spending limits. By embedding AI models into their workflow, Carders reduce manual labor, expedite the validation and monetization of compromised card data, and counter basic protective mechanisms installed by eCommerce providers.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="BrowserInformationDiscovery"></a>
 
@@ -4592,6 +4737,8 @@ Specific storage locations vary based on platform and/or application, but browse
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Brute_Force"></a>
 
 #### [Brute Force](#Brute_Force)
@@ -4612,6 +4759,8 @@ Adversaries may use brute force techniques to gain access to accounts when passw
 Brute forcing credentials may take place at various points during a breach. For example, adversaries may attempt to brute force access to Valid Accounts within a victim environment leveraging knowledge gathered from other post-compromise behaviors such as OS Credential Dumping, Account Discovery, or Password Policy Discovery. Adversaries may also combine brute forcing activity with behaviors such as External Remote Services as part of Initial Access.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Command_and_Scripting_Interpreter"></a>
 
@@ -4635,6 +4784,8 @@ There are also cross-platform interpreters such as Python, as well as those comm
 Adversaries may abuse these technologies in various ways as a means of executing arbitrary commands. Commands and scripts can be embedded in Initial Access payloads delivered to victims as lure documents or as secondary payloads downloaded from an existing C2. Adversaries may also execute commands through interactive terminals/shells, as well as utilize various Remote Services in order to achieve remote Execution
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Compromise_Accounts"></a>
 
@@ -4661,6 +4812,8 @@ Adversaries may directly leverage compromised email accounts for Phishing for In
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="CredentialsFromPasswordStores"></a>
 
 #### [Credentials from Password Stores](#CredentialsFromPasswordStores)
@@ -4679,6 +4832,8 @@ Adversaries may search for common password storage locations to obtain user cred
 Adversaries may search for common password storage locations to obtain user credentials. Passwords are stored in several places on a system, depending on the operating system or application holding the credentials. There are also specific applications and services that store passwords to make them easier for users to manage and maintain, such as password managers and cloud secrets vaults. Once credentials are obtained, they can be used to perform lateral movement and access restricted information.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Data_Encrypted_for_Impact"></a>
 
@@ -4705,6 +4860,8 @@ In cloud environments, storage objects within compromised accounts may also be e
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="DataFromLocalSystem"></a>
 
 #### [Data from Local System](#DataFromLocalSystem)
@@ -4725,6 +4882,8 @@ Adversaries may search local system sources, such as file systems, configuration
 Adversaries may do this using a Command and Scripting Interpreter, such as cmd as well as a Network Device CLI, which have functionality to interact with the file system to gather information. Adversaries may also use Automated Collection on the local system.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Develop_Capabilities"></a>
 
@@ -4747,6 +4906,8 @@ As with legitimate development efforts, different skill sets may be required for
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Exfiltration_Over_C2_Channel"></a>
 
 #### [Exfiltration Over C2 Channel](#Exfiltration_Over_C2_Channel)
@@ -4765,6 +4926,8 @@ Technique attackers use to move stolen data out of the victim environment by pig
 In this technique, adversaries blend outbound data theft into the same encrypted command-and-control (C2) stream that already maintains persistence on the victim network. File chunks, credential dumps, or database extracts are wrapped into normal beacon traffic—often over HTTPS, DNS, or custom TCP protocols—so the exfiltration is hidden inside ‘legitimate-looking’ C2 packets and bypasses perimeter inspection.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Exploit_Public-Facing_Application"></a>
 
@@ -4793,6 +4956,8 @@ For websites and databases, the OWASP top 10 and CWE top 25 highlight the most c
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Exploitation_of_Remote_Services"></a>
 
 #### [Exploitation of Remote Services](#Exploitation_of_Remote_Services)
@@ -4818,6 +4983,8 @@ Depending on the permissions level of the vulnerable remote service an adversary
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="External_Remote_Services"></a>
 
 #### [External Remote Services](#External_Remote_Services)
@@ -4836,6 +5003,8 @@ Technique attackers use to log into exposed RDP, SSH, VPN, or Citrix services ho
 External Remote Services describes adversary abuse of legitimately deployed remote-access interfaces that sit on the public internet. Using stolen or brute-forced credentials, the attacker authenticates to RDP, SSH, virtual desktop, or VPN endpoints and gains an interactive session on internal systems. Because the connection appears as normal remote administration traffic, it can bypass email filtering and social-engineering defences while granting direct command execution, file transfer, and a launch point for lateral movement.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Financial_Theft"></a>
 
@@ -4862,6 +5031,8 @@ Due to the potentially immense business impact of financial theft, an adversary 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Funds_Laundering"></a>
 
 #### [Funds Laundering](#Funds_Laundering)
@@ -4880,6 +5051,8 @@ Technique attackers use to move, layer, or convert illicit proceeds through inte
 Funds Laundering is a series of steps taken by adversaries to obscure the origin of stolen assets or illicit proceeds. After obtaining funds (e.g., via BEC, ransomware, or other cybercrime), attackers may enlist money mules or specialized laundering services to split, bounce, or convert funds across multiple financial institutions or cryptocurrency platforms. This process, often known as layering, is designed to evade detection by law enforcement and anti-money laundering (AML) systems, making retrieval or attribution far more challenging.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Gather_Victim_Identity_Information"></a>
 
@@ -4904,6 +5077,8 @@ Gathering this information may reveal opportunities for other forms of reconnais
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Gather_Victim_Information_%28Behavioral%29"></a>
 
 #### [Gather Victim Information (Behavioral)](#Gather_Victim_Information_%28Behavioral%29)
@@ -4922,6 +5097,8 @@ Technique attackers use to collect a target’s routines, preferences, and onlin
 Adversaries may gather behavioral and organizational information about a target that can be used during targeting. This may include routines, preferences, working relationships, communication styles, responsibilities, and details about how the victim or organization normally operates. Such information helps attackers tailor social-engineering approaches, improve impersonation credibility, and identify the most effective route for follow-on actions such as phishing, account compromise, or fraudulent financial requests.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="GatherVictimNetworkInformation"></a>
 
@@ -4942,6 +5119,8 @@ Adversaries may gather this information in various ways, such as direct collecti
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="GatherVictimOrgInformation"></a>
 
 #### [Gather Victim Org Information](#GatherVictimOrgInformation)
@@ -4960,6 +5139,8 @@ Adversaries may gather information about the victim's organization that can be u
 Adversaries may gather this information in various ways, such as direct elicitation via Phishing for Information. Information about an organization may also be exposed to adversaries via online or other accessible data sets (ex: Social Media or Search Victim-Owned Websites). Gathering this information may reveal opportunities for other forms of reconnaissance (ex: Phishing for Information or Search Open Websites/Domains), establishing operational resources (ex: Establish Accounts or Compromise Accounts), and/or initial access (ex: Phishing or Trusted Relationship).
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Inhibit_System_Recovery"></a>
 
@@ -4981,6 +5162,8 @@ Adversaries may delete or remove built-in data and turn off services designed to
 Operating systems may contain features that can help fix corrupted systems, such as a backup catalog, volume shadow copies, and automatic repair features. Adversaries may disable or delete system recovery features to augment the effects of Data Destruction and Data Encrypted for Impact. Furthermore, adversaries may disable recovery notifications, then corrupt backups.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Lateral_Tool_Transfer"></a>
 
@@ -5005,6 +5188,8 @@ Files can also be transferred using native or otherwise present tools on the vic
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Multi-factor_Authentication_Fatigue"></a>
 
 #### [Multi-factor Authentication Fatigue](#Multi-factor_Authentication_Fatigue)
@@ -5023,6 +5208,8 @@ Files can also be transferred using native or otherwise present tools on the vic
 “Multi-factor Authentication Fatigue” (often called “MFA fatigue” or “push bombing”) exploits the reliance on push-based MFA notifications to gain unauthorized access. The attacker, having obtained valid credentials (e.g., via phishing or a previous breach), continually initiates login attempts. Each attempt triggers the target user’s MFA application to prompt approval. Overwhelmed or annoyed by endless notifications, the user may inadvertently tap “approve” or “accept,” thus allowing the adversary to bypass MFA protections. This approach underscores a significant human factor vulnerability in MFA systems, as it does not rely on technical exploits but on wearing down a legitimate user’s attentiveness or patience.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Native_API"></a>
 
@@ -5051,6 +5238,8 @@ Adversaries may use assembly to directly or in-directly invoke syscalls in an at
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Obfuscated_Files_or_Information"></a>
 
 #### [Obfuscated Files or Information](#Obfuscated_Files_or_Information)
@@ -5076,6 +5265,8 @@ Adversaries may also abuse Command Obfuscation to obscure commands executed from
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Obtain_Capabilities"></a>
 
 #### [Obtain Capabilities](#Obtain_Capabilities)
@@ -5099,6 +5290,8 @@ In addition to purchasing capabilities, adversaries may steal capabilities from 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Phishing"></a>
 
 #### [Phishing](#Phishing)
@@ -5121,6 +5314,8 @@ Adversaries may send victims emails containing malicious attachments or links, t
 Victims may also receive phishing messages that instruct them to call a phone number where they are directed to visit a malicious URL, download malware, or install adversary-accessible remote management tools onto their computer (i.e., User Execution).
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Phishing_for_Information"></a>
 
@@ -5149,6 +5344,8 @@ Phishing for information may also involve evasive techniques, such as removing o
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Process_Injection"></a>
 
 #### [Process Injection](#Process_Injection)
@@ -5171,6 +5368,8 @@ There are many different ways to inject code into a process, many of which abuse
 More sophisticated samples may perform multiple process injections to segment modules and further evade detection, utilizing named pipes or other inter-process communication (IPC) mechanisms as a communication channel.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Remote_Services"></a>
 
@@ -5195,6 +5394,8 @@ Legitimate applications (such as Software Deployment Tools and other administrat
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Search_Open_Websites%2FDomains"></a>
 
 #### [Search Open Websites/Domains](#Search_Open_Websites%2FDomains)
@@ -5215,6 +5416,8 @@ Adversaries may search freely available websites and/or domains for information 
 Adversaries may search in different online sites depending on what information they seek to gather. Information from these sources may reveal opportunities for other forms of reconnaissance (ex: Phishing for Information or Search Open Technical Databases), establishing operational resources (ex: Establish Accounts or Compromise Accounts), and/or initial access (ex: External Remote Services or Phishing).
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="SearchVictim-OwnedWebsites"></a>
 
@@ -5237,6 +5440,8 @@ In addition to manually browsing the website, adversaries may attempt to identif
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Server_Software_Component"></a>
 
 #### [Server Software Component](#Server_Software_Component)
@@ -5255,6 +5460,8 @@ Technique attackers use to establish persistence by installing or abusing malici
 Adversaries may abuse legitimate extensible development features of servers to establish persistent access to systems. Enterprise server applications may include features that allow developers to write and install software or scripts to extend the functionality of the main application. Adversaries may install malicious components to extend and abuse server applications.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Service_Stop"></a>
 
@@ -5277,6 +5484,8 @@ Adversaries may accomplish this by disabling individual services of high importa
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Social_Engineering"></a>
 
 #### [Social Engineering](#Social_Engineering)
@@ -5296,6 +5505,8 @@ Social Engineering exploits human vulnerabilities rather than technical flaws. A
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Stage_Capabilities"></a>
 
 #### [Stage Capabilities](#Stage_Capabilities)
@@ -5314,6 +5525,8 @@ Adversaries may upload, install, or otherwise set up capabilities that can be us
 Adversaries may upload, install, or otherwise set up capabilities that can be used during targeting. To support their operations, an adversary may need to take capabilities they developed (Develop Capabilities) or obtained (Obtain Capabilities) and stage them on infrastructure under their control. These capabilities may be staged on infrastructure that was previously purchased/rented by the adversary (Acquire Infrastructure) or was otherwise compromised by them (Compromise Infrastructure). Capabilities may also be staged on web services, such as GitHub or Pastebin, or on Platform-as-a-Service (PaaS) offerings that enable users to easily provision applications.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="StealWebSessionCookie"></a>
 
@@ -5342,6 +5555,8 @@ After an adversary acquires a valid cookie, they can then perform a Web Session 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="System_Information_Discovery"></a>
 
 #### [System Information Discovery](#System_Information_Discovery)
@@ -5365,6 +5580,8 @@ Infrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure a
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Use_Alternate_Authentication_Material"></a>
 
 #### [Use Alternate Authentication Material](#Use_Alternate_Authentication_Material)
@@ -5387,6 +5604,8 @@ Authentication processes generally require a valid identity (e.g., username) alo
 Caching alternate authentication material allows the system to verify an identity has successfully authenticated without asking the user to reenter authentication factor(s). Because the alternate authentication must be maintained by the system—either in memory or on disk—it may be at risk of being stolen through Credential Access techniques. By stealing alternate authentication material, adversaries are able to bypass system access controls and authenticate to systems without knowing the plaintext password or any additional authentication factors.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="User_Execution"></a>
 
@@ -5417,6 +5636,8 @@ For example, tech support scams can be facilitated through Phishing, vishing, or
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Valid_Accounts"></a>
 
 #### [Valid Accounts](#Valid_Accounts)
@@ -5439,6 +5660,8 @@ In some cases, adversaries may abuse inactive accounts: for example, those belon
 The overlap of permissions for local, domain, and cloud accounts across a network of systems is of concern because the adversary may be able to pivot across accounts and systems to reach a high level of access (i.e., domain or enterprise administrator) to bypass access controls set within the enterprise.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Windows_Management_Instrumentation"></a>
 
@@ -5467,6 +5690,8 @@ Note: wmic.exe is deprecated as of January of 2024, with the WMIC feature being 
 
 ### Class: [Theft](#Theft)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Initial_Access_Broker_Operation"></a>
 
 #### [Initial Access Broker Operation](#Initial_Access_Broker_Operation)
@@ -5492,6 +5717,8 @@ Victim organizations may remain unaware of the breach until the purchased access
 
 ### Class: [Underground Managed Service](#Underground_Managed_Service)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Ransomware-as-a-Service_Operation"></a>
 
 #### [Ransomware-as-a-Service Operation](#Ransomware-as-a-Service_Operation)
@@ -5513,6 +5740,8 @@ A Ransomware-as-a-Service Operation represents a structured, often collaborative
 
 ### Class: [Vulnerabilities and Exploits](#Vulnerabilities_and_Exploits)
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Exploit_Kits"></a>
 
 #### [Exploit Kits](#Exploit_Kits)
@@ -5531,6 +5760,8 @@ Pre-packaged suites of malicious code designed to automatically scan for and exp
 Exploit Kits are structured bundles of exploits and payloads that allow cybercriminals to automate the process of compromising users who visit infected websites or malicious advertisements. Rather than manually selecting individual exploits, attackers rely on these kits—which often contain multiple vulnerability exploits for browsers, plugins, or operating systems—to identify and target unpatched systems. Once a victim’s device is successfully breached, the kit deploys malware, facilitates remote access, or otherwise advances the criminal’s objectives. Originally, Exploit Kits proliferated in “drive-by download” campaigns, but they continue to evolve, integrating zero-day or N-day exploits. Their accessibility and user-friendly interfaces have made them staples in the cybercriminal marketplace, lowering the technical bar required to launch sophisticated attacks.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="N-Days"></a>
 
@@ -5551,6 +5782,8 @@ N-Day Exploits refer to exploits for vulnerabilities that are already disclosed 
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Offensive_Security_Frameworks"></a>
 
 #### [Offensive Security Frameworks](#Offensive_Security_Frameworks)
@@ -5569,6 +5802,8 @@ Offensive security frameworks originally designed for penetration testing but wi
 Offensive Security Frameworks refers to comprehensive tool suites (e.g., Metasploit, Cobalt Strike) that provide a full cycle of malicious capability, from discovering vulnerabilities and deploying exploits to establishing a foothold and managing infected systems. Originally intended for legitimate security assessments, these frameworks have sophisticated features (e.g., payload generation, automated exploit modules, stealthy command-and-control channels) that make them attractive to threat actors seeking to compromise targets more efficiently. Criminals often obtain cracked or illicitly licensed copies, integrate them with crypters/packers to evade detection, and leverage bulletproof hosting services to run their command-and-control servers, thus transforming these legitimate pen-testing tools into potent “crimeware” solutions within the cybercrime ecosystem.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Pirated_Vulnerability_Scanners"></a>
 
@@ -5589,6 +5824,8 @@ Encompass legitimate security-assessment applications that have been pirated, cr
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="Vulnerability_Intelligence"></a>
 
 #### [Vulnerability Intelligence](#Vulnerability_Intelligence)
@@ -5607,6 +5844,8 @@ Curated sets of vulnerability disclosures, exploit proofs-of-concept, and bug bo
 Vulnerability Intelligence (Reports & Databases) revolves around the systematic collection and distribution of software flaws—whether documented through legitimate bug bounty channels or discovered by rogue insiders. These compilations may include confidential advisories, technical write-ups, or detailed proof-of-concept code that guides adversaries toward effective exploitation. Traded on closed forums, specialized broker portals, or even public code repositories (prior to takedown), such intelligence drastically streamlines attackers’ reconnaissance efforts. By purchasing or swapping these insights, malicious operators can rapidly pinpoint unpatched entry points or refine existing exploits, fueling the perpetual arms race between cybercriminals and defenders.
 
 **variant:** —
+
+[Back to Individuals TOC](#individuals-toc)
 
 <a id="Zero_Days"></a>
 
@@ -5627,9 +5866,41 @@ Zero-Day Exploits—often called “0-Day”—target unknown or undisclosed sof
 
 **variant:** —
 
+[Back to Individuals TOC](#individuals-toc)
+
 <a id="properties"></a>
 
 ## Properties
+
+[Back to main TOC](#toc)
+
+<a id="properties-toc"></a>
+
+### Properties TOC
+
+[Back to main TOC](#toc)
+
+- [acceptsPaymentInstrument](#acceptsPaymentInstrument)
+- [directlyCausesHarmToVictim](#directlyCausesHarmToVictim)
+- [indirectlyCausesHarmToVictim](#indirectlyCausesHarmToVictim)
+- [involvesPatternPhase](#involvesPatternPhase)
+- [isBoughtByRole](#isBoughtByRole)
+- [isSoldByRole](#isSoldByRole)
+- [linksToMarket](#linksToMarket)
+- [mitreKillChain](#mitreKillChain)
+- [patternPhaseCouldInvolveCommodity](#patternPhaseCouldInvolveCommodity)
+- [patternPhaseCouldInvolveRole](#patternPhaseCouldInvolveRole)
+- [patternPhaseCouldInvolveThreat](#patternPhaseCouldInvolveThreat)
+- [patternPhaseInvolvesCommodity](#patternPhaseInvolvesCommodity)
+- [patternPhaseInvolvesEvent](#patternPhaseInvolvesEvent)
+- [patternPhaseInvolvesPlatform](#patternPhaseInvolvesPlatform)
+- [patternPhaseInvolvesRole](#patternPhaseInvolvesRole)
+- [patternPhaseInvolvesSecondaryVictim](#patternPhaseInvolvesSecondaryVictim)
+- [patternPhaseInvolvesThreat](#patternPhaseInvolvesThreat)
+- [patternPhaseInvolvesVictim](#patternPhaseInvolvesVictim)
+- [patternPhaseProducesCommodity](#patternPhaseProducesCommodity)
+- [tradedOnPlatform](#tradedOnPlatform)
+- [tradesCommodity](#tradesCommodity)
 <a id="acceptsPaymentInstrument"></a>
 
 ### [acceptsPaymentInstrument](#acceptsPaymentInstrument)
@@ -5644,6 +5915,8 @@ Specifies which payment instruments a marketplace or service provider accepts or
 **appEdgeDescription:** —
 
 **appEdgeDescriptionReversed:** —
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="directlyCausesHarmToVictim"></a>
 
@@ -5660,6 +5933,8 @@ Links a pattern phase to a harm that it directly causes to the victim. Use this 
 
 **appEdgeDescriptionReversed:** is directly caused by
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="indirectlyCausesHarmToVictim"></a>
 
 ### [indirectlyCausesHarmToVictim](#indirectlyCausesHarmToVictim)
@@ -5674,6 +5949,8 @@ Links a pattern phase to a harm that occurs indirectly as a result of the event.
 **appEdgeDescription:** indirectly causes
 
 **appEdgeDescriptionReversed:** is indirectly caused by
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="involvesPatternPhase"></a>
 
@@ -5690,6 +5967,8 @@ Links a Pattern or Market to the Diamond Model events that are used to execute t
 
 **appEdgeDescriptionReversed:** is a component of
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="isBoughtByRole"></a>
 
 ### [isBoughtByRole](#isBoughtByRole)
@@ -5705,6 +5984,8 @@ Indicates that the commodities in a Market are procured by the specified Role Pl
 
 **appEdgeDescriptionReversed:** buys through
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="isSoldByRole"></a>
 
 ### [isSoldByRole](#isSoldByRole)
@@ -5717,6 +5998,8 @@ Indicates that the commodities in a Market are procured by the specified Role Pl
 **appEdgeDescription:** serves the seller
 
 **appEdgeDescriptionReversed:** sells through
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="linksToMarket"></a>
 
@@ -5733,6 +6016,8 @@ Used to indicate that one Market may employ products or services from another Ma
 
 **appEdgeDescriptionReversed:** —
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="mitreKillChain"></a>
 
 ### [mitreKillChain](#mitreKillChain)
@@ -5747,6 +6032,8 @@ Links to the Mitre Tactic (kill chain) for a Technique
 **appEdgeDescription:** is a technique of
 
 **appEdgeDescriptionReversed:** includes technique
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="patternPhaseCouldInvolveCommodity"></a>
 
@@ -5763,6 +6050,8 @@ Used to link a Pattern Phase to an ecosystem product or service that is used in 
 
 **appEdgeDescriptionReversed:** could be leveraged as commodity in
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="patternPhaseCouldInvolveRole"></a>
 
 ### [patternPhaseCouldInvolveRole](#patternPhaseCouldInvolveRole)
@@ -5775,6 +6064,8 @@ Used to link a Pattern Phase to an ecosystem product or service that is used in 
 **appEdgeDescription:** could be carried out by
 
 **appEdgeDescriptionReversed:** could carry out
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="patternPhaseCouldInvolveThreat"></a>
 
@@ -5791,6 +6082,8 @@ Identifies the Threat Action could be a component in a Pattern Phase
 
 **appEdgeDescriptionReversed:** could include action
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="patternPhaseInvolvesCommodity"></a>
 
 ### [patternPhaseInvolvesCommodity](#patternPhaseInvolvesCommodity)
@@ -5805,6 +6098,8 @@ Used to link a Pattern Phase to an ecosystem product or service that is used in 
 **appEdgeDescription:** leverages commodity
 
 **appEdgeDescriptionReversed:** is leveraged in
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="patternPhaseInvolvesEvent"></a>
 
@@ -5821,6 +6116,8 @@ This property is used to chain Pattern Phases to each other. In cases where one 
 
 **appEdgeDescriptionReversed:** is encompassed in
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="patternPhaseInvolvesPlatform"></a>
 
 ### [patternPhaseInvolvesPlatform](#patternPhaseInvolvesPlatform)
@@ -5835,6 +6132,8 @@ Identifies the Platform as the "Infrastructure" component in a Pattern Phase
 **appEdgeDescription:** is executed from
 
 **appEdgeDescriptionReversed:** is used to execute
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="patternPhaseInvolvesRole"></a>
 
@@ -5851,6 +6150,8 @@ Identifies the Role Player as the "Adversary" component in the Diamond Model
 
 **appEdgeDescriptionReversed:** carries out
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="patternPhaseInvolvesSecondaryVictim"></a>
 
 ### [patternPhaseInvolvesSecondaryVictim](#patternPhaseInvolvesSecondaryVictim)
@@ -5865,6 +6166,8 @@ Links a pattern phase to a secondary victim (an entity indirectly affected by th
 **appEdgeDescription:** has indirect impact on
 
 **appEdgeDescriptionReversed:** is directly impacted by
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="patternPhaseInvolvesThreat"></a>
 
@@ -5881,6 +6184,8 @@ Identifies the Threat Action component in a Pattern Phase
 
 **appEdgeDescriptionReversed:** is an action within
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="patternPhaseInvolvesVictim"></a>
 
 ### [patternPhaseInvolvesVictim](#patternPhaseInvolvesVictim)
@@ -5895,6 +6200,8 @@ Identifies the PRIMARY Victim component in the Diamond Model; Links a pattern ph
 **appEdgeDescription:** has direct impact on
 
 **appEdgeDescriptionReversed:** is directly impacted by
+
+[Back to Properties TOC](#properties-toc)
 
 <a id="patternPhaseProducesCommodity"></a>
 
@@ -5911,6 +6218,8 @@ Used to link a Pattern Phase that produces a commodity to an ecosystem product o
 
 **appEdgeDescriptionReversed:** is produced by the phase
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="tradedOnPlatform"></a>
 
 ### [tradedOnPlatform](#tradedOnPlatform)
@@ -5926,6 +6235,8 @@ Property used to reflect where a given commodity is exchanged.
 
 **appEdgeDescriptionReversed:** is used to host
 
+[Back to Properties TOC](#properties-toc)
+
 <a id="tradesCommodity"></a>
 
 ### [tradesCommodity](#tradesCommodity)
@@ -5940,3 +6251,5 @@ Associates a Market with the commodity or commodities that get traded within it.
 **appEdgeDescription:** trades
 
 **appEdgeDescriptionReversed:** is traded on
+
+[Back to Properties TOC](#properties-toc)
