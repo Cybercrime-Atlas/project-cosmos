@@ -50,7 +50,7 @@ This repository uses dual licensing:
 
 ## Security
 
-To report a security issue or vulnerability, please email [info@cybercrime-atlas.org](mailto:info@cybercrime-atlas.org). See [SECURITY.md](SECURITY.md) for our responsible-disclosure policy.
+To report a security issue or vulnerability, please email [github@cybercrime-atlas.org](mailto:github@cybercrime-atlas.org). See [SECURITY.md](SECURITY.md) for our responsible-disclosure policy.
 
 ## About Cybercrime Atlas
 
