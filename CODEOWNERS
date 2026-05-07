@@ -1,7 +1,11 @@
 # CODEOWNERS — Project Cosmos
 # https://docs.github.com/articles/about-code-owners
 #
-# These users are requested for review on every pull request by default.
-# Branch protection on `main` is configured to require their approval.
+# All members of the project-cosmos-maintainers team are requested for
+# review on every pull request by default. Branch protection on `main` is
+# configured to require their approval.
+#
+# To add or remove a code owner, change team membership at:
+# https://github.com/orgs/Cybercrime-Atlas/teams/project-cosmos-maintainers
 
-* @J-Cybercrime-Atlas @mecha-atlas
+* @Cybercrime-Atlas/project-cosmos-maintainers
