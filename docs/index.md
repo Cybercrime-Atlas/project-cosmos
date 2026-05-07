@@ -6,17 +6,17 @@ Atlas Ontology is a public ontology for representing cybercrime entities, relati
 
 Primary namespace:
 
-`https://ontology.example.org/atlas-ontology`
+`https://cosmos.cybercrime-atlas.org/atlas-ontology`
 
 ## Latest downloads
 
-- [OWL / RDF-XML](https://ontology.example.org/atlas-ontology.owl)
-- [Turtle](https://ontology.example.org/atlas-ontology.ttl)
-- [RDF/XML](https://ontology.example.org/atlas-ontology.rdf)
+- [OWL / RDF-XML](https://cosmos.cybercrime-atlas.org/atlas-ontology.owl)
+- [Turtle](https://cosmos.cybercrime-atlas.org/atlas-ontology.ttl)
+- [RDF/XML](https://cosmos.cybercrime-atlas.org/atlas-ontology.rdf)
 
 ## Documentation
 
-- [Ontology namespace page](https://ontology.example.org/atlas-ontology/)
+- [Ontology namespace page](https://cosmos.cybercrime-atlas.org/atlas-ontology/)
 
 ## Contributing
 
@@ -26,4 +26,3 @@ See:
 
 - [Contributing guide](../CONTRIBUTING.md)
 - [Security policy](../SECURITY.md)
-

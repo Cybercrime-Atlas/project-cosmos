@@ -2,7 +2,7 @@
 
 ## Namespace URI
 
-`https://ontology.example.org/atlas-ontology`
+`https://cosmos.cybercrime-atlas.org/atlas-ontology`
 
 ## Preferred prefix
 
@@ -22,9 +22,9 @@ Replace this with your current release identifier, for example:
 
 Latest files:
 
-- [OWL / RDF-XML](https://ontology.example.org/atlas-ontology.owl)
-- [Turtle](https://ontology.example.org/atlas-ontology.ttl)
-- [RDF/XML](https://ontology.example.org/atlas-ontology.rdf)
+- [OWL / RDF-XML](https://cosmos.cybercrime-atlas.org/atlas-ontology.owl)
+- [Turtle](https://cosmos.cybercrime-atlas.org/atlas-ontology.ttl)
+- [RDF/XML](https://cosmos.cybercrime-atlas.org/atlas-ontology.rdf)
 
 ## Stable use
 
@@ -34,9 +34,8 @@ Use the namespace URI for ontology terms and the download URLs for direct retrie
 
 Release snapshots should be published under:
 
-`https://ontology.example.org/releases/`
+`https://cosmos.cybercrime-atlas.org/releases/`
 
 ## Contributing
 
 See the GitHub repository contribution guidance.
-
