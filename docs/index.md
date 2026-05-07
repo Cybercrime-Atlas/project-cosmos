@@ -19,7 +19,7 @@ Primary namespace:
 - [Ontology namespace page](https://cosmos.cybercrime-atlas.org/atlas-ontology/)
 - [Entity Reference](reference.md)
 - [Ontolgy Writing Guide](writing_guide.md)
-- [Ontolgy Overview Infographic](infographic.png)
+- [Ontolgy Overview Infographic](/atlas-ontology/infographic.png)
 
 ## Contributing
 
