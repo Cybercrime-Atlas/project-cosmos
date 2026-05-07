@@ -1,0 +1,885 @@
+---
+title: Project COSMOS Writing Guide
+layout: default
+nav_order: 3
+---
+
+# Project COSMOS Writing Guide
+
+This guide defines writing standards for Project COSMOS ontology content.
+
+Use this guide when creating or reviewing labels, aliases, short descriptions, long descriptions, and variants for ontology individuals and classes.
+
+The guide is designed to grow over time. Start with the shared rules, then apply the class-specific rules for the individual being written.
+
+## Table of Contents
+
+- [How to Use This Guide](#how-to-use-this-guide)
+- [Rule Precedence](#rule-precedence)
+- [General Writing Rules](#general-writing-rules)
+- [Shared Field Rules](#shared-field-rules)
+- [Class-Specific Writing Rules](#class-specific-writing-rules)
+  - [Pattern](#pattern)
+  - [Pattern Phase / Diamond Event](#pattern-phase--diamond-event)
+  - [Products and Services / Commodities](#products-and-services--commodities)
+  - [Market](#market)
+  - [Role Player](#role-player)
+  - [Platform](#platform)
+  - [Victim](#victim)
+  - [Harm](#harm)
+  - [Technique](#technique)
+- [Reusable Templates](#reusable-templates)
+- [Review Checklists](#review-checklists)
+- [Editorial Review Notes](#editorial-review-notes)
+- [Future Guidance](#future-guidance)
+
+## How to Use This Guide
+
+Apply this guide in the following order.
+
+1. Identify the ontology class of the entity or individual.
+2. Apply the relevant class-specific rules.
+3. If no exact class rule exists, apply the nearest parent-class or class-family rule.
+4. If no class-family rule exists, apply the shared field rules.
+5. Use the review checklist before committing content.
+
+The guide separates shared writing conventions from class-specific rules because fields such as `rdfs:label`, `alsoCalled`, `shortDescription`, and `longDescription` may have different expectations depending on the class of the individual.
+
+## Rule Precedence
+
+Class-specific field rules override class-family rules.
+
+Class-family rules override shared field rules.
+
+Shared field rules apply only when no more specific rule is available.
+
+```text
+Exact class rule
+overrides
+Class-family rule
+overrides
+Shared default rule
+```
+
+## General Writing Rules
+
+### American English
+
+Use American English for all descriptions.
+
+### Plain Analytic Style
+
+Use clear analytic prose.
+
+Avoid marketing language, sensational wording, and unnecessary jargon.
+
+Avoid time-specific incident detail unless it is essential to the stable definition of the entity.
+
+### Description Length Defaults
+
+These are default limits unless a class-specific rule says otherwise.
+
+| Field | Default maximum |
+|---|---:|
+| `shortDescription` | 40 words |
+| `longDescription` | 250 words |
+| `variant` | 40 words |
+
+## Shared Field Rules
+
+These rules apply unless a class-specific section provides different guidance.
+
+### `rdfs:label`
+
+The label should be the preferred human-readable name for the entity.
+
+The label should be concise, recognizable, and suitable for display in lists, diagrams, and ontology browsers.
+
+### `alsoCalled`
+
+The `alsoCalled` field captures common aliases, alternative names, abbreviations, or ecosystem terms.
+
+Only include aliases that are common enough to be useful.
+
+Do not include one-off references, incident-specific names, or speculative aliases.
+
+### `shortDescription`
+
+The `shortDescription` should provide a concise summary of the entity.
+
+It should normally be one sentence and 40 words or less.
+
+The purpose is to help a reader quickly decide whether the entity is relevant.
+
+### `longDescription`
+
+The `longDescription` should provide the fuller analytic explanation of the entity.
+
+It should normally be 250 words or less.
+
+Use paragraph breaks where they improve readability.
+
+Do not add operational instructions, command-level procedures, indicators of compromise, or unnecessary implementation detail.
+
+### `variant`
+
+A `variant` captures a noteworthy variation on a general entity description.
+
+A variant should describe a common variation that is important enough to record, but not common enough to change the core description.
+
+A variant is description text, not a separate entity.
+
+A variant should read like an additional paragraph appended to the end of the `longDescription`.
+
+Rules:
+
+- Unlimited variants may be used.
+- A variant is not an entity.
+- Each variant should be 40 words or less.
+- A variant should describe a recurring variation, not a one-off case.
+
+## Class-Specific Writing Rules
+
+## Pattern
+
+### Purpose
+
+A Pattern is a structured model representing a recurrent, recognizable manifestation of illicit, adverse, or exploitative cyber-dependent or cyber-enabled activity.
+
+A Pattern encompasses multiple Diamond Events that collectively express a coherent operational or business model.
+
+### Criteria
+
+A Pattern should meet all of the following criteria.
+
+| Criterion | Meaning |
+|---|---|
+| Recognizable | The activity has been observed, noted, and described. |
+| Recurrent | The activity happens often enough, and consistently enough, to be modeled as a Pattern. |
+| Cyber-dependent or cyber-enabled | The activity has a significant cyber component. |
+| Illicit, adverse, or exploitative | The activity is forbidden by law, rules, or customs; causes negative impact; or produces advantage or gain for the perpetrator. |
+| Complex business or operational model | The activity cannot be simplified to a single TTP or Diamond Event. |
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Name the recurring cybercrime pattern or operational model. |
+| `alsoCalled` | Include widely used alternative names for the Pattern. Do not include one-off campaign names unless they are commonly used to refer to the Pattern itself. |
+| `shortDescription` | Summarize the illicit activity, major operational model, and primary victim impact. |
+| `longDescription` | Describe the illicit activity, the Diamond Event flow, the role players and ecosystem elements, and the victims and impacts. |
+| `variant` | Capture common Pattern variations that do not justify a separate Pattern. |
+
+### Pattern `longDescription` Guidance
+
+A Pattern `longDescription` should be 250 words or less.
+
+It should cover three major sections.
+
+1. Description of the illicit activity, including a concise summary of the Diamond Event flow.
+2. Description of the threat actors, role players, and ecosystem elements.
+3. Summary of victims and victim impacts.
+
+### Pattern Template
+
+```text
+Label:
+[Recognizable Pattern name]
+
+alsoCalled:
+[Common aliases or alternative names, if any]
+
+shortDescription:
+[One-sentence description of the recurring illicit activity and primary victim impact.]
+
+longDescription:
+[Paragraph 1: Describe the illicit, adverse, or exploitative activity and the overall operational model.]
+
+[Paragraph 2: Summarize the Diamond Event flow, role players, and ecosystem elements.]
+
+[Paragraph 3: Summarize victim groups and primary harms or impacts.]
+
+variant:
+[Optional recurring variation, 40 words or less.]
+```
+
+## Pattern Phase / Diamond Event
+
+### Purpose
+
+A Pattern Phase, also described as a Diamond Event, represents a single, recognizable, illicit, adverse, or exploitative cyber-dependent or cyber-enabled activity.
+
+A Diamond Event describes a complete phase in a Pattern.
+
+A Threat Action is a specific technical action that a role player performs during that phase.
+
+### Core Diamond Model Elements
+
+A Diamond Event should describe a unique set of four interconnected core elements.
+
+| Diamond Model Element | Project COSMOS interpretation |
+|---|---|
+| Adversary | Role Player |
+| Capability | Threat Action |
+| Infrastructure | Platform or Commodity |
+| Victim | Victim and Impact |
+
+### Modeling Rules
+
+A Diamond Event can describe a distinct phase within a Pattern.
+
+Diamond Events represent the phases or steps taken by an actor to form a Pattern.
+
+One Diamond Event may be associated with one or more Patterns.
+
+A Diamond Event may also be linked to a Market when that Market trades the activity.
+
+Diamond Events may be chained together in sequences when one Diamond Event includes or depends on another Event.
+
+Some Diamond Events, especially technical Events, occur commonly across diverse Patterns. These should be labeled and modeled as reusable Common Events when appropriate.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Use a short, action-oriented phase name. Aim for 5 to 12 words. Name the phase of activity, not a single technical action. |
+| `alsoCalled` | Include common alternative names for the phase only. Do not use tool names, campaign names, or overly narrow incident names as aliases. |
+| `shortDescription` | Use one sentence, 40 words or less. Make the four core Diamond Model elements explicit at a high level. |
+| `longDescription` | Use up to 250 words. Explain the phase role, the four Diamond Model elements, and relationships to Patterns, Markets, and chained Events. |
+| `variant` | Capture recurring variations in how the Event is performed, without creating a separate Event. |
+
+### Label Guidance
+
+#### Intent
+
+The label should provide a compact, human-readable name for the phase of activity.
+
+It should be recognizable in lists and diagrams without requiring the reader to open the full description.
+
+It should emphasize the illicit or adverse cyber activity and the role of the adversary.
+
+#### Content Rules
+
+A good Diamond Event label should:
+
+- Capture the phase-level outcome or purpose.
+- Focus on what is happening in that step.
+- Implicitly reflect the four core elements without listing them explicitly.
+- Convey the illicit or exploitative nature of the activity.
+- Avoid neutral wording such as `Email campaign`.
+- Avoid proper campaign names.
+- Avoid overly technical jargon or long enumerations.
+
+If the Event is reusable across diverse Patterns, make the label generic but specific enough to be useful.
+
+Use the schema to mark or classify Common Events where possible, rather than forcing the word `Common` into the label unless the data model requires it.
+
+#### Suggested Label Structure
+
+```text
+[Pattern or Common] + [adversary action] + [target or goal] + [key vector]
+```
+
+#### Example Label Patterns
+
+```text
+Credential harvesting via cloned webmail portal
+Initial access via commodity ransomware affiliate kit
+Account takeover using SIM-swap fraud
+```
+
+### Short Description Guidance
+
+#### Intent
+
+The `shortDescription` should provide a single-sentence summary of the Diamond Event as a complete phase.
+
+It should make the linkage between the four core elements explicit at a high level.
+
+It should allow a reader to quickly decide whether this Event is the one they want.
+
+#### Content Rules
+
+In 40 words or less, the short description should:
+
+- Describe a single, recognizable illicit or adverse activity.
+- Make clear that the activity is cyber-dependent or cyber-enabled.
+- Reference the adversary or role player.
+- Reference the capability or threat action.
+- Reference the infrastructure, platform, or commodity.
+- Reference the victim or impact.
+- Avoid including the name of the Diamond Event.
+- Optionally indicate the broader Pattern or Market context.
+- Optionally indicate whether the Event is reusable across multiple Patterns.
+
+#### Suggested Short Description Structure
+
+```text
+A [role player] uses [capability] via [infrastructure] to [impact on victim] as [phase role] in [Pattern or Market context].
+```
+
+### Long Description Guidance
+
+#### Intent
+
+The `longDescription` should provide a multi-dimensional narrative of the phase.
+
+It should explain:
+
+- Who acts.
+- What they do.
+- Where or how they do it.
+- Against whom they act.
+- What effect the activity has.
+- How the Event fits into larger Patterns, Markets, and Event chains.
+
+#### Content Rules
+
+Within 250 words, the long description should:
+
+- Characterize the adversary or role player.
+- Describe the capability or threat actions at phase level.
+- Explain the infrastructure, platform, or commodity.
+- Detail the victim and impact.
+- Position the Event in larger structures such as Patterns, Markets, and chained Events.
+- Explain Common Event status if the Event is reusable across diverse Patterns.
+- Avoid full procedural detail, command-level steps, or indicators of compromise.
+
+#### Suggested Long Description Structure
+
+Paragraph 1: Context and phase role.
+
+Identify the activity as a Diamond Event and summarize its purpose and phase within Patterns.
+
+Paragraph 2: Four elements.
+
+Describe Adversary, Capability, Infrastructure, Victim, and Impact in an integrated narrative.
+
+Paragraph 3: Relationships and reuse.
+
+Explain links to Patterns, Markets, common predecessor or successor Events, and whether the Event is reusable.
+
+### Diamond Event Template
+
+```text
+Label:
+[Pattern or Common] + [phase-level action] + [target or goal] + [key vector]
+
+alsoCalled:
+[Common alternative names for the phase, if any]
+
+shortDescription:
+A [role player] uses [capability] via [infrastructure] to [impact on victim] as [phase role] in [Pattern or Market context].
+
+longDescription:
+[Paragraph 1: Identify the activity as a Diamond Event and explain its phase role.]
+
+[Paragraph 2: Describe the role player, capability, infrastructure, victim, and impact.]
+
+[Paragraph 3: Explain Pattern, Market, chaining, reuse, or Common Event relationships.]
+
+variant:
+[Optional recurring variation, 40 words or less.]
+```
+
+## Products and Services / Commodities
+
+### Purpose
+
+A Products and Services entity, also referred to as a commodity, describes a product, service, tool, dataset, credential set, infrastructure service, or other tradable or usable item in the cybercrime ecosystem.
+
+A commodity can be added to any number of Diamond Events for a given Pattern.
+
+A Diamond Event can be linked to any number of commodities.
+
+A commodity can be linked to any number of Diamond Events.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Name the commodity, product, service, or tradable category. |
+| `alsoCalled` | Include common marketplace names, slang, abbreviations, or ecosystem terms. |
+| `shortDescription` | Define what is traded or used and why it matters operationally. |
+| `longDescription` | Describe the function, buyers and sellers, operational role, and relationship to Patterns, Markets, or Diamond Events. |
+| `variant` | Capture common variations in product form, service model, delivery model, or use context. |
+
+### Products and Services Template
+
+```text
+Label:
+[Product, service, tool, dataset, credential set, or commodity category]
+
+alsoCalled:
+[Common marketplace names, slang, or abbreviations]
+
+shortDescription:
+[One-sentence explanation of what the commodity is and what it enables.]
+
+longDescription:
+[Paragraph 1: Define the commodity and its function.]
+
+[Paragraph 2: Explain how it is obtained, sold, rented, operated, or used.]
+
+[Paragraph 3: Explain its relationship to Patterns, Markets, role players, or Diamond Events.]
+
+variant:
+[Optional recurring variation, 40 words or less.]
+```
+
+## Market
+
+### Purpose
+
+A Market represents a supply chain, underground service, managed service, or trading context in which products, services, or activities are exchanged.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Name the market, supply chain, or service model. |
+| `alsoCalled` | Include common market names, ecosystem terms, or abbreviations. |
+| `shortDescription` | Summarize what is traded, who participates, and what the Market enables. |
+| `longDescription` | Describe traded commodities, buyers, sellers, platforms, role players, and links to Patterns or Diamond Events. |
+| `variant` | Capture recurring market-model variations. |
+
+### Market Template
+
+```text
+Label:
+[Market, supply chain, or service model name]
+
+alsoCalled:
+[Common alternative terms]
+
+shortDescription:
+[One-sentence summary of what is traded and what the Market enables.]
+
+longDescription:
+[Paragraph 1: Define the Market and the activity or service model.]
+
+[Paragraph 2: Describe buyers, sellers, role players, commodities, and platforms.]
+
+[Paragraph 3: Explain links to Patterns, Diamond Events, or other Markets.]
+
+variant:
+[Optional recurring variation, 40 words or less.]
+```
+
+## Role Player
+
+### Purpose
+
+A Role Player describes a functional role in the cybercrime ecosystem.
+
+A Role Player is not a named person, organization, campaign, or incident.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Name the role, not an individual person, group, or campaign. |
+| `alsoCalled` | Include common role aliases, slang, or ecosystem terms. |
+| `shortDescription` | State what the role player does and how they contribute to the activity. |
+| `longDescription` | Describe responsibilities, capabilities, relationships to other roles, and where the role appears in Patterns, Markets, or Diamond Events. |
+| `variant` | Capture recurring variations in role specialization, operating model, or relationship to other roles. |
+
+### Role Player Template
+
+```text
+Label:
+[Functional role name]
+
+alsoCalled:
+[Common role aliases or ecosystem terms]
+
+shortDescription:
+[One-sentence description of what the role player does.]
+
+longDescription:
+[Paragraph 1: Define the role and its main responsibilities.]
+
+[Paragraph 2: Describe capabilities, resources, and operating context.]
+
+[Paragraph 3: Explain relationships to other roles, Markets, Patterns, or Diamond Events.]
+
+variant:
+[Optional recurring role variation, 40 words or less.]
+```
+
+## Platform
+
+### Purpose
+
+A Platform describes infrastructure, services, environments, or channels that enable activity in Patterns, Markets, or Diamond Events.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Name the platform type or infrastructure category. |
+| `alsoCalled` | Include common platform labels, ecosystem terms, or slang. |
+| `shortDescription` | Explain what the platform enables. |
+| `longDescription` | Describe how the platform is used, who uses it, what it supports, and how it relates to Patterns, Markets, or Diamond Events. |
+| `variant` | Capture recurring variations in platform type, access model, or abuse context. |
+
+### Platform Template
+
+```text
+Label:
+[Platform or infrastructure category]
+
+alsoCalled:
+[Common alternative terms]
+
+shortDescription:
+[One-sentence explanation of what the platform enables.]
+
+longDescription:
+[Paragraph 1: Define the platform and its function.]
+
+[Paragraph 2: Explain how it is accessed, operated, or abused.]
+
+[Paragraph 3: Explain links to Patterns, Markets, commodities, or Diamond Events.]
+
+variant:
+[Optional recurring platform variation, 40 words or less.]
+```
+
+## Victim
+
+### Purpose
+
+A Victim entity describes a victim group, target category, or affected population.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Name the victim group or target category. |
+| `alsoCalled` | Include widely used alternative victim-group names. |
+| `shortDescription` | Identify who is affected and the relevant exposure or harm context. |
+| `longDescription` | Describe why the group is targeted, how it is affected, and which Patterns or Diamond Events commonly involve it. |
+| `variant` | Capture recurring variations in victim type, sector, geography, scale, or exposure. |
+
+### Victim Template
+
+```text
+Label:
+[Victim group or target category]
+
+alsoCalled:
+[Common alternative victim-group names]
+
+shortDescription:
+[One-sentence explanation of who is affected and why the group matters.]
+
+longDescription:
+[Paragraph 1: Define the victim group.]
+
+[Paragraph 2: Explain why the group is targeted or exposed.]
+
+[Paragraph 3: Describe common impacts and links to Patterns or Diamond Events.]
+
+variant:
+[Optional recurring victim variation, 40 words or less.]
+```
+
+## Harm
+
+### Purpose
+
+A Harm entity describes an adverse impact or consequence experienced by a victim.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Name the harm or impact type. |
+| `alsoCalled` | Include recognized alternative terms, not incident-specific phrases. |
+| `shortDescription` | Define the harm in plain language. |
+| `longDescription` | Explain how the harm arises, who experiences it, and how it differs from related harms. |
+| `variant` | Capture recurring variations in how the harm manifests. |
+
+### Harm Template
+
+```text
+Label:
+[Harm or impact type]
+
+alsoCalled:
+[Recognized alternative terms]
+
+shortDescription:
+[One-sentence plain-language definition of the harm.]
+
+longDescription:
+[Paragraph 1: Define the harm.]
+
+[Paragraph 2: Explain how the harm arises in cybercrime activity.]
+
+[Paragraph 3: Explain who experiences it and how it differs from related harms.]
+
+variant:
+[Optional recurring harm variation, 40 words or less.]
+```
+
+## Technique
+
+### Purpose
+
+A Technique describes a technical or operational action at a level below a Diamond Event.
+
+A Technique should support understanding of what happens within a phase, without replacing the phase-level Diamond Event description.
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | Use the recognized technique name where available. |
+| `alsoCalled` | Include common aliases, ATT&CK-style names, or recognized alternative labels where applicable. |
+| `shortDescription` | Define the technical action at a high level. |
+| `longDescription` | Explain the technique purpose, typical use, and relationship to Pattern Phases. Avoid procedural how-to detail. |
+| `variant` | Capture recurring variations in technique use or implementation. |
+
+### Technique Template
+
+```text
+Label:
+[Recognized technique name]
+
+alsoCalled:
+[Common aliases or recognized alternative technique names]
+
+shortDescription:
+[One-sentence high-level definition of the technique.]
+
+longDescription:
+[Paragraph 1: Define the technique and its purpose.]
+
+[Paragraph 2: Explain typical use at phase level.]
+
+[Paragraph 3: Explain links to Pattern Phases, Tactics, or broader activity.]
+
+variant:
+[Optional recurring technique variation, 40 words or less.]
+```
+
+## Reusable Templates
+
+### Generic Entity Template
+
+Use this when no more specific class template exists.
+
+```text
+Label:
+[Preferred human-readable entity name]
+
+alsoCalled:
+[Common aliases, if any]
+
+shortDescription:
+[One-sentence concise summary, 40 words or less unless class-specific guidance differs.]
+
+longDescription:
+[Full analytic description, 250 words or less unless class-specific guidance differs.]
+
+variant:
+[Optional recurring variation, 40 words or less.]
+```
+
+### Class Guidance Template
+
+Use this structure when adding guidance for a new class.
+
+```markdown
+## [Class Name]
+
+### Purpose
+
+[Explain what this class represents.]
+
+### Field Rules
+
+| Field | Rule |
+|---|---|
+| `rdfs:label` | [Label rule.] |
+| `alsoCalled` | [Alias rule.] |
+| `shortDescription` | [Short description rule.] |
+| `longDescription` | [Long description rule.] |
+| `variant` | [Variant rule.] |
+
+### [Class Name] Template
+
+```text
+Label:
+[...]
+
+alsoCalled:
+[...]
+
+shortDescription:
+[...]
+
+longDescription:
+[...]
+
+variant:
+[...]
+```
+```
+
+## Review Checklists
+
+## General Checklist
+
+- [ ] Uses American English.
+- [ ] Applies the rule for the entity's class.
+- [ ] Uses the shared field rule only when no class-specific rule exists.
+- [ ] `shortDescription` follows the relevant class-specific length and content rule.
+- [ ] `longDescription` follows the relevant class-specific length and content rule.
+- [ ] `alsoCalled` includes only useful, recurring aliases.
+- [ ] `variant` describes a recurring variation, not a separate entity.
+- [ ] Description avoids unnecessary time-specific or incident-specific detail.
+- [ ] Description avoids operational how-to instructions.
+
+## Pattern Checklist
+
+- [ ] Represents recurrent activity.
+- [ ] Represents recognizable activity.
+- [ ] Has a significant cyber component.
+- [ ] Describes illicit, adverse, or exploitative activity.
+- [ ] Cannot be reduced to a single TTP or Diamond Event.
+- [ ] `longDescription` covers illicit activity, Diamond Event flow, role players, ecosystem elements, victims, and impacts.
+
+## Pattern Phase / Diamond Event Checklist
+
+- [ ] Describes a single phase of activity.
+- [ ] Includes Adversary / Role Player.
+- [ ] Includes Capability / Threat Action.
+- [ ] Includes Infrastructure / Platform or Commodity.
+- [ ] Includes Victim / Impact.
+- [ ] Label is short, action-oriented, and typically 5 to 12 words.
+- [ ] Label names a phase, not a single technical action.
+- [ ] `shortDescription` is one sentence and 40 words or less.
+- [ ] `shortDescription` makes the four core elements explicit at a high level.
+- [ ] `longDescription` explains phase role, four elements, and relationships.
+- [ ] Reuse or Common Event status is explained where relevant.
+- [ ] Description avoids full procedural detail and indicators of compromise.
+
+## Products and Services / Commodities Checklist
+
+- [ ] Describes a product, service, tool, dataset, credential set, infrastructure service, or other commodity.
+- [ ] Explains what the commodity enables.
+- [ ] Describes how it may be bought, sold, rented, operated, or used.
+- [ ] Links to relevant Patterns, Markets, or Diamond Events where appropriate.
+
+## Editorial Review Notes
+
+The source Word document includes several editorial issues that should be resolved in future revisions.
+
+### Pattern Section Formatting
+
+The Pattern section contains a note indicating a formatting mistake. The substantive Pattern guidance has been preserved, but the formatting issue should be reviewed in the source material before future publication.
+
+### Compound or Composite Events
+
+The Diamond Events section notes that compound events should be described. This guide currently refers to Event chaining and reusable Common Events, but a future section should define Compound or Composite Events explicitly.
+
+Suggested future section:
+
+```markdown
+## Compound or Composite Diamond Events
+
+### Purpose
+
+[Define when a Diamond Event should be modeled as compound or composite.]
+
+### Modeling Rules
+
+[Explain when to chain Events, when to create a CompositePatternPhase, and when to reuse Common Events.]
+```
+
+### Diamond Event Name in Long Description
+
+The source document includes an unresolved note asking whether a Diamond Event `longDescription` should include the name of the Diamond Event.
+
+Current working rule:
+
+A Diamond Event `shortDescription` should not include the Diamond Event name.
+
+A Diamond Event `longDescription` may include the Diamond Event name when it improves clarity, but should not simply repeat the label without adding analytic value.
+
+## Future Guidance
+
+This guide should be extended over time with class-specific rules for additional ontology classes and subclasses.
+
+Recommended future sections include:
+
+- `Market_or_Supply_Chain`
+- `Underground_Service`
+- `Underground_Managed_Service`
+- `Crimeware`
+- `Payment_Instruments`
+- `Credential_and_Identity_Artifacts`
+- `Infrastructure_Services`
+- `Specific_Victim_Groups`
+- `General_Victim_Groups`
+- `Economic_Impact`
+- `Psychological_Impact`
+- `Operational_Impact`
+- `Physical_Impact`
+- `Tactic`
+
+## Suggested Repository Structure
+
+A simple initial structure is:
+
+```text
+docs/
+  index.md
+  ontology-reference.md
+  writing-guide.md
+```
+
+As the writing guidance grows, split the guide into child pages.
+
+```text
+docs/
+  writing-guide/
+    index.md
+    shared-rules.md
+    class-specific-rules.md
+    patterns.md
+    pattern-phases.md
+    markets.md
+    products-and-services.md
+    role-players.md
+    platforms.md
+    victims.md
+    harms.md
+    techniques.md
+    review-checklists.md
+```
+
+For GitHub Pages navigation, the parent page can use:
+
+```yaml
+---
+title: Writing Guide
+layout: default
+nav_order: 3
+has_children: true
+---
+```
+
+Child pages can use:
+
+```yaml
+---
+title: Pattern Phases
+layout: default
+parent: Writing Guide
+nav_order: 4
+---
+```
