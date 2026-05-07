@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png" alt="Atlas logo" width="400" height="165">
+  </a>
+</p>
+
 # Project Cosmos
 
 > Ontology project for Cybercrime Atlas mapping — Powered by the World Economic Forum
@@ -10,10 +16,10 @@ The goal is a common reference framework that researchers, analysts, vendors, ac
 
 The repository will grow as the ontology develops. Initial planned structure:
 
-- **`/ontology/`** — Core ontology definitions (entity types, relationships, attributes)
-- **`/schemas/`** — Machine-readable schemas (JSON-LD, RDF, etc.) for automated tooling
-- **`/docs/`** — Methodology, design rationale, and usage guides
-- **`/examples/`** — Worked examples mapping real-world cybercriminal ecosystems
+- **`ontology/source/`** — canonical editable ontology source
+- **`ontology/derived/`** — generated serializations
+- **`ontology/releases/`** — version snapshots
+- **`docs/`** — GitHub Pages content
 
 ## Why an ontology
 
