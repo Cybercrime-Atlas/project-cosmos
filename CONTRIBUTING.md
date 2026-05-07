@@ -2,78 +2,82 @@
 
 Thank you for your interest in contributing. Project Cosmos is an open ontology, and we welcome contributions from researchers, analysts, vendors, academics, and law-enforcement partners.
 
-This guide explains how to file issues, propose changes, and submit pull requests.
-
 ## Code of Conduct
 
-All participants are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Report concerns to `info@cybercrime-atlas.org`.
+All participants are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Report concerns to `github@cybercrime-atlas.org`.
 
-## Ways to contribute
+## What you can contribute
 
-There are several ways to contribute, in roughly increasing order of effort:
+You may propose:
 
-1. **Open an issue** — flag a bug, ask a question, propose a small change
-2. **Propose an ontology change** — suggest a new entity type, a new relationship, or a refinement to an existing definition
-3. **Submit a pull request** — fix a bug, add an example, improve documentation, or implement an accepted proposal
-4. **Contribute a worked example** — show how Project Cosmos can be used to map a real (publicly known) cybercriminal ecosystem
+- new ontology terms
+- improved shortDescription or longDescription values
+- relationship corrections
+- identifier corrections
+- documentation improvements
+- release and publication fixes
 
-## Filing an issue
+## Before you contribute
 
-Before opening an issue, please search existing issues to see if your topic has already been raised.
+1. Check whether an existing issue already covers the change.
+2. Open an issue first for major structural changes.
+3. Keep one logical change per pull request.
 
-Use the relevant template:
+## Repository rules
 
-- **Bug report** — for problems with the ontology, schemas, documentation, or examples
-- **Proposal** — for changes or additions to the ontology
+- The canonical ontology source is `ontology/source/atlas-ontology.owl`.
+- Do not edit generated files manually unless the change specifically concerns publication output.
+- Do not change public IRIs casually. Treat them as stable identifiers.
 
-Please include enough context that someone unfamiliar with your specific use case can understand what you're proposing and why.
+## Pull request expectations
 
-## Proposing an ontology change
+Each pull request should explain:
 
-Ontology changes have downstream effects for everyone who has adopted Project Cosmos. We treat them as design decisions and follow a lightweight RFC-style process:
+- what changed
+- why it changed
+- whether any IRI changed
+- whether any descriptions, relationships, or documentation also need updating
 
-1. Open a **Proposal** issue describing the change, the motivation, and any alternatives you considered
-2. The maintainers and community discuss the proposal in the issue thread
-3. Once there is rough consensus, a maintainer (or you, if you'd like) opens a pull request implementing the change
-4. The pull request is reviewed against the agreed proposal and merged
+## Description standards
 
-Larger or more contentious changes may be left open longer to gather wider input. Please be patient — careful change management is part of why an ontology is useful.
+### shortDescription
+- concise and standalone
+- usually about 20–40 words
+- should identify the essence of the concept
+- should not simply repeat the label
 
-## Submitting a pull request
+### longDescription
+- fuller explanatory treatment
+- should add context, scope, function, and boundaries
+- should remain stable and reusable
+- should not drift into incident-specific reporting unless that is intentional
 
-1. **Fork** the repository to your own account (or create a feature branch if you have direct access)
-2. **Branch naming** — use a short, descriptive name with a prefix:
-   - `feat/` for new features or additions
-   - `fix/` for bug fixes
-   - `docs/` for documentation-only changes
-   - `chore/` for housekeeping
-   - For example: `feat/add-financial-flow-entity`, `fix/typo-in-actor-definition`
-3. **Commit messages** — please write clear, descriptive messages. We loosely follow [Conventional Commits](https://www.conventionalcommits.org/):
-   - `feat: add Financial Flow entity type`
-   - `fix: correct typo in Actor description`
-   - `docs: clarify usage example for Infrastructure mapping`
-4. **Open the pull request** — fill in the PR template; reference any related issues
-5. **Wait for review** — at least one maintainer must approve. Code-owners review is required for changes to the core ontology
-6. **Address feedback** — push additional commits to the same branch; we'll squash on merge
+## Structural changes requiring extra care
 
-## Style and conventions
+Raise an issue before submitting a PR if you want to:
 
-- Markdown files should use sentence-case headings
-- File and directory names should use lowercase with hyphens (e.g. `threat-actor-attributes.md`)
-- Schemas should validate against the relevant standard (JSON-LD, RDF/Turtle, etc.) before submission
-- Examples should reference only publicly known threat actors, infrastructure, or events — do not include sensitive or unattributed intelligence
+- rename classes, properties, or individuals
+- change namespace or versioning behavior
+- delete public terms
+- alter major relationship patterns
+- change release or publication workflows
 
-## Sensitive content
+## Review process
 
-Project Cosmos is a **public** repository. Do not include:
+Typical review checks include:
 
-- Information about active investigations
-- Identities of confidential sources
-- Non-public threat-actor identifying information
-- Closed-source intelligence (e.g., from paid platforms)
-- Anything classified TLP:AMBER or TLP:RED
+- ontology validity
+- IRI stability
+- naming consistency
+- description quality
+- relationship correctness
+- publication impact
 
-If a worked example would require sensitive material, either omit those details or anchor the example on a publicly disclosed case (indictments, vendor reports, court filings, press releases).
+## Security
+
+Do not publish secrets, credentials, tokens, internal system details, or unpublished sensitive data.
+
+For security issues, see [SECURITY.md](SECURITY.md).
 
 ## Questions
 
