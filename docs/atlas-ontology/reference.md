@@ -3,6 +3,8 @@ title: Project COSMOS Ontology Reference
 layout: default
 ---
 
+<a id="top"></a>
+
 # Project COSMOS Ontology Reference
 
 ## Table of Contents
@@ -573,10 +575,12 @@ layout: default
 
 [tradesCommodity](#tradesCommodity)
 
-## Classes {#classes}
+<a id="classes"></a>
 
-### [Accomplice](#Accomplice) {#Accomplice}
+## Classes
+<a id="Accomplice"></a>
 
+### [Accomplice](#Accomplice)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Accomplice`
 
 **Label:** Accomplice
@@ -585,8 +589,9 @@ layout: default
 
 Describes roles within the ecosystem that knowingly and deliberately facilitates the criminal or malicious actions of other role players.
 
-### [Botnets](#Botnets) {#Botnets}
+<a id="Botnets"></a>
 
+### [Botnets](#Botnets)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Botnets`
 
 **Label:** Botnets
@@ -595,24 +600,27 @@ Describes roles within the ecosystem that knowingly and deliberately facilitates
 
 A botnet is a network of compromised devices infected with malware, remotely orchestrated by criminals to conduct cyberattacks such as DDoS, phishing, spamming, and distributing malware.
 
-### [Common Pattern Phase](#CommonPatternPhase) {#CommonPatternPhase}
+<a id="CommonPatternPhase"></a>
 
+### [Common Pattern Phase](#CommonPatternPhase)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#CommonPatternPhase`
 
 **Label:** Common Pattern Phase
 
 **rdfs:comment:** —
 
-### [Composite Pattern Phase](#CompositePatternPhase) {#CompositePatternPhase}
+<a id="CompositePatternPhase"></a>
 
+### [Composite Pattern Phase](#CompositePatternPhase)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#CompositePatternPhase`
 
 **Label:** Composite Pattern Phase
 
 **rdfs:comment:** —
 
-### [Credential and Identity Artifacts](#Credential_and_Identity_Artifacts) {#Credential_and_Identity_Artifacts}
+<a id="Credential_and_Identity_Artifacts"></a>
 
+### [Credential and Identity Artifacts](#Credential_and_Identity_Artifacts)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Credential_and_Identity_Artifacts`
 
 **Label:** Credential and Identity Artifacts
@@ -621,8 +629,9 @@ A botnet is a network of compromised devices infected with malware, remotely orc
 
 A specialized subclass encompassing illicit products derived from stolen authentication and identity data, including raw credential dumps, comprehensive identity sets, and ancillary services that augment the value of such data for cyber-enabled fraud.
 
-### [Crimeware](#Crimeware) {#Crimeware}
+<a id="Crimeware"></a>
 
+### [Crimeware](#Crimeware)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Crimeware`
 
 **Label:** Crimeware
@@ -631,8 +640,9 @@ A specialized subclass encompassing illicit products derived from stolen authent
 
 A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide tmalicious tools and software designed to enable or automate various forms of cybercrime..
 
-### [Dark Platforms](#Dark_Platforms) {#Dark_Platforms}
+<a id="Dark_Platforms"></a>
 
+### [Dark Platforms](#Dark_Platforms)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Dark_Platforms`
 
 **Label:** Dark Platforms
@@ -641,8 +651,9 @@ A class encompassing products and services that encompass a range of commodities
 
 A subclass of Platforms that are explicitly designed for or dominated by illicit activities, often operating on the dark web or through anonymizing technologies.
 
-### [Deceptive_Platforms](#Deceptive_Platforms) {#Deceptive_Platforms}
+<a id="Deceptive_Platforms"></a>
 
+### [Deceptive_Platforms](#Deceptive_Platforms)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Deceptive_Platforms`
 
 **Label:** Deceptive_Platforms
@@ -651,8 +662,9 @@ A subclass of Platforms that are explicitly designed for or dominated by illicit
 
 A subclass of Platforms that includes websites, apps, or other online services deliberately fabricated to appear credible, but which exist primarily to deceive and exploit unsuspecting victims.
 
-### [Disruption](#Disruption) {#Disruption}
+<a id="Disruption"></a>
 
+### [Disruption](#Disruption)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Disruption`
 
 **Label:** Disruption
@@ -661,8 +673,9 @@ A subclass of Platforms that includes websites, apps, or other online services d
 
 Broad term covering activities that interfere with the normal functioning of digital systems or infrastructure.
 
-### [Economic Impact](#Economic_Impact) {#Economic_Impact}
+<a id="Economic_Impact"></a>
 
+### [Economic Impact](#Economic_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Economic_Impact`
 
 **Label:** Economic Impact
@@ -671,8 +684,9 @@ Broad term covering activities that interfere with the normal functioning of dig
 
 Harms that represent financial consequences (e.g., loss of money, fines, extra costs) experienced by victims.
 
-### [Environmental Impact](#Environmental_Impact) {#Environmental_Impact}
+<a id="Environmental_Impact"></a>
 
+### [Environmental Impact](#Environmental_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Environmental_Impact`
 
 **Label:** Environmental Impact
@@ -681,8 +695,9 @@ Harms that represent financial consequences (e.g., loss of money, fines, extra c
 
 Harms that represent damage to the environment or natural resources (e.g., pollution, facility damage with ecological effects) caused by an event phase.
 
-### [Extortion](#Extortion) {#Extortion}
+<a id="Extortion"></a>
 
+### [Extortion](#Extortion)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Extortion`
 
 **Label:** Extortion
@@ -691,8 +706,9 @@ Harms that represent damage to the environment or natural resources (e.g., pollu
 
 Broad term covering activities that are fundamentally a form of extortion
 
-### [Facilitator](#Facilitator) {#Facilitator}
+<a id="Facilitator"></a>
 
+### [Facilitator](#Facilitator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Facilitator`
 
 **Label:** Facilitator
@@ -701,8 +717,9 @@ Broad term covering activities that are fundamentally a form of extortion
 
 A neutral term used in criminology to describe a role that enables or assists in the execution of a crime, unwittingly, unintentionally, or opportunistically.
 
-### [Financial Services](#Financial_Services) {#Financial_Services}
+<a id="Financial_Services"></a>
 
+### [Financial Services](#Financial_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Financial_Services`
 
 **Label:** Financial Services
@@ -711,8 +728,9 @@ A neutral term used in criminology to describe a role that enables or assists in
 
 A class containing illicit operations that facilitate the movement, laundering, or monetization of stolen funds and assets.
 
-### [General Victim](#General_Victim_Groups) {#General_Victim_Groups}
+<a id="General_Victim_Groups"></a>
 
+### [General Victim](#General_Victim_Groups)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#General_Victim_Groups`
 
 **Label:** General Victim
@@ -721,8 +739,9 @@ A class containing illicit operations that facilitate the movement, laundering, 
 
 Instances represent broad categories of victims (e.g., “employees”, “customers”, “financial institutions”) not tied to a single incident.
 
-### [Geopolitical Impact](#Geopolitical_Impact) {#Geopolitical_Impact}
+<a id="Geopolitical_Impact"></a>
 
+### [Geopolitical Impact](#Geopolitical_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Geopolitical_Impact`
 
 **Label:** Geopolitical Impact
@@ -731,8 +750,9 @@ Instances represent broad categories of victims (e.g., “employees”, “custo
 
 Harms affecting government or international stability (e.g., tensions from a state-sponsored cyber attack) caused by an event phase.
 
-### [Grey Platforms](#Grey_Platforms) {#Grey_Platforms}
+<a id="Grey_Platforms"></a>
 
+### [Grey Platforms](#Grey_Platforms)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Grey_Platforms`
 
 **Label:** Grey Platforms
@@ -741,8 +761,9 @@ Harms affecting government or international stability (e.g., tensions from a sta
 
 A subclass of Platforms to describe platforms that operate legally but are often unregulated, have weak compliance measures, or are intentionally permissive
 
-### [Harm](#Harm) {#Harm}
+<a id="Harm"></a>
 
+### [Harm](#Harm)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Harm`
 
 **Label:** Harm
@@ -751,16 +772,18 @@ A subclass of Platforms to describe platforms that operate legally but are often
 
 Instances represent specific kinds of damage or impact that victims may suffer. For example, an individual might denote a financial loss or system downtime caused by an event phase.
 
-### [Illicit Access Products](#Illicit_Access_Products) {#Illicit_Access_Products}
+<a id="Illicit_Access_Products"></a>
 
+### [Illicit Access Products](#Illicit_Access_Products)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Illicit_Access_Products`
 
 **Label:** Illicit Access Products
 
 **rdfs:comment:** —
 
-### [Informational Impact](#Informational_Impact) {#Informational_Impact}
+<a id="Informational_Impact"></a>
 
+### [Informational Impact](#Informational_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Informational_Impact`
 
 **Label:** Informational Impact
@@ -769,8 +792,9 @@ Instances represent specific kinds of damage or impact that victims may suffer. 
 
 Harms represent compromises to information assets (e.g., stolen or corrupted data, denied access) suffered by victims.
 
-### [Infrastructure Services](#Infrastructure_Services) {#Infrastructure_Services}
+<a id="Infrastructure_Services"></a>
 
+### [Infrastructure Services](#Infrastructure_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Infrastructure_Services`
 
 **Label:** Infrastructure Services
@@ -779,8 +803,9 @@ Harms represent compromises to information assets (e.g., stolen or corrupted dat
 
 A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide the technical backbone for malicious operations
 
-### [Legitimate Platforms](#Legitimate_Platforms) {#Legitimate_Platforms}
+<a id="Legitimate_Platforms"></a>
 
+### [Legitimate Platforms](#Legitimate_Platforms)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Legitimate_Platforms`
 
 **Label:** Legitimate Platforms
@@ -789,8 +814,9 @@ A class encompassing products and services that encompass a range of commodities
 
 A subclass of Platforms that describes Platforms that operate within legal frameworks, comply with regulations, and are not inherently designed for illicit purposes but may be exploited by cybercriminals.
 
-### [Market](#Market) {#Market}
+<a id="Market"></a>
 
+### [Market](#Market)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Market`
 
 **Label:** Market
@@ -803,8 +829,9 @@ Market is a class of entities that represent informal or unstructured trading 'm
 
 Market has sub-classes for specific cases where the Market manifests as a service or managed service in the underground economy.
 
-### [Market or Supply Chain](#Market_or_Supply_Chain) {#Market_or_Supply_Chain}
+<a id="Market_or_Supply_Chain"></a>
 
+### [Market or Supply Chain](#Market_or_Supply_Chain)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Market_or_Supply_Chain`
 
 **Label:** Market or Supply Chain
@@ -813,8 +840,9 @@ Market has sub-classes for specific cases where the Market manifests as a servic
 
 This sub-class of Markets contains entities that are market places or supply chains for products or services in the underground
 
-### [Operational Impact](#Operational_Impact) {#Operational_Impact}
+<a id="Operational_Impact"></a>
 
+### [Operational Impact](#Operational_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Operational_Impact`
 
 **Label:** Operational Impact
@@ -823,8 +851,9 @@ This sub-class of Markets contains entities that are market places or supply cha
 
 Harms represent disruptions to normal operations (e.g., service outages, workflow stops) caused by an event phase.
 
-### [Pattern](#Pattern) {#Pattern}
+<a id="Pattern"></a>
 
+### [Pattern](#Pattern)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Pattern`
 
 **Label:** Pattern
@@ -839,8 +868,9 @@ A Pattern is a structured model representing a recurrent, recognizable manifesta
 4. Illicit - forbidden by law, rules or customs, adverse -  negative impact on the victim, exploitative - produces advantage or gain for the perpetrator.
 5. Complex business or operational model -  cannot be simplified to a TTP or Pattern Phase.
 
-### [Pattern Phase](#Pattern_Phase) {#Pattern_Phase}
+<a id="Pattern_Phase"></a>
 
+### [Pattern Phase](#Pattern_Phase)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Pattern_Phase`
 
 **Label:** Pattern Phase
@@ -855,8 +885,9 @@ Each event in the Pattern Phase is enriched with meta-features such as time, pha
 
 USAGE NOTE: Some Pattern Phases (especially technical) occur commonly across diverse Patterns; they are labelled "Common" and can be re-used.
 
-### [Payment Instruments](#Payment_Instruments) {#Payment_Instruments}
+<a id="Payment_Instruments"></a>
 
+### [Payment Instruments](#Payment_Instruments)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Payment_Instruments`
 
 **Label:** Payment Instruments
@@ -865,8 +896,9 @@ USAGE NOTE: Some Pattern Phases (especially technical) occur commonly across div
 
 This class contains mediums of exchange—such as cryptocurrencies, fiat currencies, gift cards, prepaid cards, electronic wallets, and other value‐transfer instruments—that actors acquire, trade, and launder within the cybercrime ecosystem.
 
-### [Perpetrator](#Perpetrator) {#Perpetrator}
+<a id="Perpetrator"></a>
 
+### [Perpetrator](#Perpetrator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Perpetrator`
 
 **Label:** Perpetrator
@@ -875,8 +907,9 @@ This class contains mediums of exchange—such as cryptocurrencies, fiat currenc
 
 Refers to a function within the ecosystem that contributes directly on a victim or directly or knowingly contributes to the commitment of a crime.
 
-### [Physical Impact](#Physical_Impact) {#Physical_Impact}
+<a id="Physical_Impact"></a>
 
+### [Physical Impact](#Physical_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Physical_Impact`
 
 **Label:** Physical Impact
@@ -885,8 +918,9 @@ Refers to a function within the ecosystem that contributes directly on a victim 
 
 Harms represent real-world damage or injury (e.g., destroyed hardware, physical harm to people) resulting from an event phase.
 
-### [Platform](#Platform) {#Platform}
+<a id="Platform"></a>
 
+### [Platform](#Platform)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Platform`
 
 **Label:** Platform
@@ -897,8 +931,9 @@ Contains generally-described technology services, applications or platforms that
 
 Platforms can be linked to Markets and Pattern Phases.
 
-### [Products and Services](#Products_and_Services) {#Products_and_Services}
+<a id="Products_and_Services"></a>
 
+### [Products and Services](#Products_and_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Products_and_Services`
 
 **Label:** Products and Services
@@ -907,8 +942,9 @@ Platforms can be linked to Markets and Pattern Phases.
 
 Products and Services encompass tools, capabilities, goods, or services used within Pattern Phases to enable, facilitate, or support cybercrime activity. They are traded on Marketplaces and may be linked to both Pattern Phases and Marketplaces.
 
-### [Psychological Impact](#Psychological_Impact) {#Psychological_Impact}
+<a id="Psychological_Impact"></a>
 
+### [Psychological Impact](#Psychological_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Psychological_Impact`
 
 **Label:** Psychological Impact
@@ -917,8 +953,9 @@ Products and Services encompass tools, capabilities, goods, or services used wit
 
 Represent emotional or mental harm (e.g., anxiety, trauma) experienced by victims due to an event phase.
 
-### [Reconnaissance and Open Source Intelligence](#ReconnaissanceAndOpenSourceIntelligence) {#ReconnaissanceAndOpenSourceIntelligence}
+<a id="ReconnaissanceAndOpenSourceIntelligence"></a>
 
+### [Reconnaissance and Open Source Intelligence](#ReconnaissanceAndOpenSourceIntelligence)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#ReconnaissanceAndOpenSourceIntelligence`
 
 **Label:** Reconnaissance and Open Source Intelligence
@@ -927,8 +964,9 @@ Represent emotional or mental harm (e.g., anxiety, trauma) experienced by victim
 
 Dual-use tools, platforms, datasets, and services that collect or organize publicly available technical, organizational, or personal information, enabling legitimate research and security work but also supporting adversary target discovery, profiling, and attack preparation.
 
-### [Role Player](#Role_Player) {#Role_Player}
+<a id="Role_Player"></a>
 
+### [Role Player](#Role_Player)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Role_Player`
 
 **Label:** Role Player
@@ -937,8 +975,9 @@ Dual-use tools, platforms, datasets, and services that collect or organize publi
 
 Super class for all roles that are performed within the cybercrime ecosystem, generally described.
 
-### [Scams and Fraud](#Scams_and_Fraud) {#Scams_and_Fraud}
+<a id="Scams_and_Fraud"></a>
 
+### [Scams and Fraud](#Scams_and_Fraud)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Scams_and_Fraud`
 
 **Label:** Scams and Fraud
@@ -947,16 +986,18 @@ Super class for all roles that are performed within the cybercrime ecosystem, ge
 
 The intentional act of deception or misrepresentation used to secure an unlawful gain, typically involving financial or material advantage.
 
-### [Specific Pattern Phase](#SpecificPatternPhase) {#SpecificPatternPhase}
+<a id="SpecificPatternPhase"></a>
 
+### [Specific Pattern Phase](#SpecificPatternPhase)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#SpecificPatternPhase`
 
 **Label:** Specific Pattern Phase
 
 **rdfs:comment:** —
 
-### [Specific Victim](#Specific_Victim_Groups) {#Specific_Victim_Groups}
+<a id="Specific_Victim_Groups"></a>
 
+### [Specific Victim](#Specific_Victim_Groups)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Specific_Victim_Groups`
 
 **Label:** Specific Victim
@@ -965,8 +1006,9 @@ The intentional act of deception or misrepresentation used to secure an unlawful
 
 Instances represent more concrete categories of victims (e.g., “data owners”, “trading firms”) who could be affected by a phase.
 
-### [Tactic](#Tactic) {#Tactic}
+<a id="Tactic"></a>
 
+### [Tactic](#Tactic)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Tactic`
 
 **Label:** Tactic
@@ -975,8 +1017,9 @@ Instances represent more concrete categories of victims (e.g., “data owners”
 
 Mitre ATTACK or CAPEC threat action tactic. Linked to a technique to capture what stage in the killchain a technique is involved in.
 
-### [Technique](#Technique) {#Technique}
+<a id="Technique"></a>
 
+### [Technique](#Technique)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Technique`
 
 **Label:** Technique
@@ -985,8 +1028,9 @@ Mitre ATTACK or CAPEC threat action tactic. Linked to a technique to capture wha
 
 Mitre ATTACK or CAPEC threat action technique. Linked to a Pattern Phase to describe the illicit actions role players would or could perform.
 
-### [Theft](#Theft) {#Theft}
+<a id="Theft"></a>
 
+### [Theft](#Theft)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Theft`
 
 **Label:** Theft
@@ -995,8 +1039,9 @@ Mitre ATTACK or CAPEC threat action technique. Linked to a Pattern Phase to desc
 
 The unlawful taking of another person’s property with the intent to permanently deprive them of its use or possession.
 
-### [Underground Managed Service](#Underground_Managed_Service) {#Underground_Managed_Service}
+<a id="Underground_Managed_Service"></a>
 
+### [Underground Managed Service](#Underground_Managed_Service)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Underground_Managed_Service`
 
 **Label:** Underground Managed Service
@@ -1005,8 +1050,9 @@ The unlawful taking of another person’s property with the intent to permanentl
 
 This sub-class of Markets contains entities that act like businesses to deliver managed or continuous services (probably on a subscription basis) to other Role Players within the underground economy
 
-### [Underground Service](#Underground_Service) {#Underground_Service}
+<a id="Underground_Service"></a>
 
+### [Underground Service](#Underground_Service)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Underground_Service`
 
 **Label:** Underground Service
@@ -1015,8 +1061,9 @@ This sub-class of Markets contains entities that act like businesses to deliver 
 
 This sub-class of Market contains entities that act like businesses to deliver specific services to other Role Players within the underground economy
 
-### [Victim](#Victim) {#Victim}
+<a id="Victim"></a>
 
+### [Victim](#Victim)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Victim`
 
 **Label:** Victim
@@ -1025,8 +1072,9 @@ This sub-class of Market contains entities that act like businesses to deliver s
 
 Instances represent entities targeted or affected by a pattern phase, such as an individual person, a specific organization, or a type of system.
 
-### [Vulnerabilities and Exploits](#Vulnerabilities_and_Exploits) {#Vulnerabilities_and_Exploits}
+<a id="Vulnerabilities_and_Exploits"></a>
 
+### [Vulnerabilities and Exploits](#Vulnerabilities_and_Exploits)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Vulnerabilities_and_Exploits`
 
 **Label:** Vulnerabilities and Exploits
@@ -1035,14 +1083,16 @@ Instances represent entities targeted or affected by a pattern phase, such as an
 
 A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide vulnerability information, exploits and associated tools
 
-## Individuals {#individuals}
+<a id="individuals"></a>
 
+## Individuals
 Named individuals are grouped by class.
 
 ### Class: [Accomplice](#Accomplice)
 
-#### [Botnet Operator](#BotnetOperator) {#BotnetOperator}
+<a id="BotnetOperator"></a>
 
+#### [Botnet Operator](#BotnetOperator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#BotnetOperator`
 
 **Label:** Botnet Operator
@@ -1066,8 +1116,9 @@ The supporting infrastructure includes infected “zombie” devices and resilie
 
 **variant:** —
 
-#### [Call Center Operator](#Call_Center_Operator) {#Call_Center_Operator}
+<a id="Call_Center_Operator"></a>
 
+#### [Call Center Operator](#Call_Center_Operator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Call_Center_Operator`
 
 **Label:** Call Center Operator
@@ -1088,8 +1139,9 @@ While some call center operators are complicit members of the criminal organizat
 
 **variant:** —
 
-#### [Exploit Developers](#Exploit_Developers) {#Exploit_Developers}
+<a id="Exploit_Developers"></a>
 
+#### [Exploit Developers](#Exploit_Developers)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Exploit_Developers`
 
 **Label:** Exploit Developers
@@ -1106,8 +1158,9 @@ Exploit Developers are specialized threat actors devoted to crafting, refining, 
 
 **variant:** —
 
-#### [Fake Profile Creator](#Fake_Profile_Creator) {#Fake_Profile_Creator}
+<a id="Fake_Profile_Creator"></a>
 
+#### [Fake Profile Creator](#Fake_Profile_Creator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Fake_Profile_Creator`
 
 **Label:** Fake Profile Creator
@@ -1126,8 +1179,9 @@ These actors use advanced technologies like deepfakes, AI-generated images, and 
 
 **variant:** —
 
-#### [Insider Corrupt Employee](#Insider_Corrupt_Employee) {#Insider_Corrupt_Employee}
+<a id="Insider_Corrupt_Employee"></a>
 
+#### [Insider Corrupt Employee](#Insider_Corrupt_Employee)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Insider_Corrupt_Employee`
 
 **Label:** Insider Corrupt Employee
@@ -1144,8 +1198,9 @@ An “Insider/Corrupt Employee” is someone within a legitimate organization, s
 
 **variant:** —
 
-#### [Money Mule](#Money_Mule) {#Money_Mule}
+<a id="Money_Mule"></a>
 
+#### [Money Mule](#Money_Mule)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Money_Mule`
 
 **Label:** Money Mule
@@ -1162,8 +1217,9 @@ A money mule is a critical component in the process of money laundering and frau
 
 **variant:** —
 
-#### [Payment Platform Exploiter](#Payment_Platform_Exploiter) {#Payment_Platform_Exploiter}
+<a id="Payment_Platform_Exploiter"></a>
 
+#### [Payment Platform Exploiter](#Payment_Platform_Exploiter)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Payment_Platform_Exploiter`
 
 **Label:** Payment Platform Exploiter
@@ -1184,8 +1240,9 @@ Distinct from those orchestrating fraudulent schemes or transferring funds manua
 
 **variant:** —
 
-#### [Recon Specialist](#Recon_Specialist) {#Recon_Specialist}
+<a id="Recon_Specialist"></a>
 
+#### [Recon Specialist](#Recon_Specialist)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Recon_Specialist`
 
 **Label:** Recon Specialist
@@ -1206,8 +1263,9 @@ Recon Specialists are often part of larger cybercriminal operations, working in 
 
 **variant:** —
 
-#### [Scriptwriter](#Scriptwriter) {#Scriptwriter}
+<a id="Scriptwriter"></a>
 
+#### [Scriptwriter](#Scriptwriter)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Scriptwriter`
 
 **Label:** Scriptwriter
@@ -1228,8 +1286,9 @@ These individuals or groups may operate independently or as part of a larger cri
 
 **variant:** —
 
-#### [Vulnerability Brokers](#Vulnerability_Brokers) {#Vulnerability_Brokers}
+<a id="Vulnerability_Brokers"></a>
 
+#### [Vulnerability Brokers](#Vulnerability_Brokers)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Vulnerability_Brokers`
 
 **Label:** Vulnerability Brokers
@@ -1246,8 +1305,9 @@ Vulnerability Brokers operate as go-betweens within the shadowy world of illicit
 
 **variant:** —
 
-#### [Vulnerability Researchers](#Vulnerability_Researchers) {#Vulnerability_Researchers}
+<a id="Vulnerability_Researchers"></a>
 
+#### [Vulnerability Researchers](#Vulnerability_Researchers)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Vulnerability_Researchers`
 
 **Label:** Vulnerability Researchers
@@ -1266,8 +1326,9 @@ Vulnerability Researchers, colloquially called “Bug Hunters,” possess the an
 
 ### Class: [Botnets](#Botnets)
 
-#### [Botnet Services](#BotnetServices) {#BotnetServices}
+<a id="BotnetServices"></a>
 
+#### [Botnet Services](#BotnetServices)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#BotnetServices`
 
 **Label:** Botnet Services
@@ -1291,8 +1352,9 @@ Botnet services are a key component of the broader cybercrime-as-a-service econo
 
 **variant:** —
 
-#### [Mobile botnet rental](#Mobile_botnet_rental) {#Mobile_botnet_rental}
+<a id="Mobile_botnet_rental"></a>
 
+#### [Mobile botnet rental](#Mobile_botnet_rental)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Mobile_botnet_rental`
 
 **Label:** Mobile botnet rental
@@ -1307,8 +1369,9 @@ Botnet services are a key component of the broader cybercrime-as-a-service econo
 
 ### Class: [Common Pattern Phase](#CommonPatternPhase)
 
-#### [Common Infostealer Deployment and Log Harvesting](#DiamondCommonInfostealerDeploymentAndLogHarvesting) {#DiamondCommonInfostealerDeploymentAndLogHarvesting}
+<a id="DiamondCommonInfostealerDeploymentAndLogHarvesting"></a>
 
+#### [Common Infostealer Deployment and Log Harvesting](#DiamondCommonInfostealerDeploymentAndLogHarvesting)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#DiamondCommonInfostealerDeploymentAndLogHarvesting`
 
 **Label:** Common Infostealer Deployment and Log Harvesting
@@ -1333,8 +1396,9 @@ This Event can be linked to markets such as Hosted Stealer Markets, Crimeware Su
 
 **variant:** —
 
-#### [Common Phishing for Information](#Diamond_Common_Phishing_for_Information) {#Diamond_Common_Phishing_for_Information}
+<a id="Diamond_Common_Phishing_for_Information"></a>
 
+#### [Common Phishing for Information](#Diamond_Common_Phishing_for_Information)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Common_Phishing_for_Information`
 
 **Label:** Common Phishing for Information
@@ -1355,8 +1419,9 @@ Products or services involved may include phishing kits or deceptive content, wi
 
 **variant:** —
 
-#### [Common Remote Account Compromise](#Diamond_Common_Remote_Account_Compromise) {#Diamond_Common_Remote_Account_Compromise}
+<a id="Diamond_Common_Remote_Account_Compromise"></a>
 
+#### [Common Remote Account Compromise](#Diamond_Common_Remote_Account_Compromise)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Common_Remote_Account_Compromise`
 
 **Label:** Common Remote Account Compromise
@@ -1373,8 +1438,9 @@ This common Pattern Phase captures a credential-based intrusion scenario where a
 
 **variant:** —
 
-#### [Common Remote System Compromise](#Diamond_Common_Remote_System_Compromise) {#Diamond_Common_Remote_System_Compromise}
+<a id="Diamond_Common_Remote_System_Compromise"></a>
 
+#### [Common Remote System Compromise](#Diamond_Common_Remote_System_Compromise)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Common_Remote_System_Compromise`
 
 **Label:** Common Remote System Compromise
@@ -1391,8 +1457,9 @@ This commonly-deployed Pattern Phase, encapsulates a multi-stage cyberattack in 
 
 **variant:** —
 
-#### [Common Spear-Phishing with Malicious Attachments](#Diamond_Common_Spear-Phishing_with_Malicious_Attachments) {#Diamond_Common_Spear-Phishing_with_Malicious_Attachments}
+<a id="Diamond_Common_Spear-Phishing_with_Malicious_Attachments"></a>
 
+#### [Common Spear-Phishing with Malicious Attachments](#Diamond_Common_Spear-Phishing_with_Malicious_Attachments)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Common_Spear-Phishing_with_Malicious_Attachments`
 
 **Label:** Common Spear-Phishing with Malicious Attachments
@@ -1411,8 +1478,9 @@ This common Pattern Phase captures the technique employed by threat actors who s
 
 ### Class: [Composite Pattern Phase](#CompositePatternPhase)
 
-#### [CyX Initial Access](#Diamond_Cy-X_InitialAccess) {#Diamond_Cy-X_InitialAccess}
+<a id="Diamond_Cy-X_InitialAccess"></a>
 
+#### [CyX Initial Access](#Diamond_Cy-X_InitialAccess)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_InitialAccess`
 
 **Label:** CyX Initial Access
@@ -1430,8 +1498,9 @@ While initial access can be obtained by stable members of a ransomware group, it
 
 **variant:** —
 
-#### [Initial Access Broker Operation Initial Access](#DiamondCompositeIABOperationInitialAccess) {#DiamondCompositeIABOperationInitialAccess}
+<a id="DiamondCompositeIABOperationInitialAccess"></a>
 
+#### [Initial Access Broker Operation Initial Access](#DiamondCompositeIABOperationInitialAccess)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#DiamondCompositeIABOperationInitialAccess`
 
 **Label:** Initial Access Broker Operation Initial Access
@@ -1458,8 +1527,9 @@ This phase is a unique element in the pattern of acquiring and selling initial a
 
 ### Class: [Credential and Identity Artifacts](#Credential_and_Identity_Artifacts)
 
-#### [Ancillary Credential and Identity Services](#Ancillary_Credential_and_Identity_Services) {#Ancillary_Credential_and_Identity_Services}
+<a id="Ancillary_Credential_and_Identity_Services"></a>
 
+#### [Ancillary Credential and Identity Services](#Ancillary_Credential_and_Identity_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Ancillary_Credential_and_Identity_Services`
 
 **Label:** Ancillary Credential and Identity Services
@@ -1476,8 +1546,9 @@ Ancillary Services encompass a suite of specialized tools and support mechanisms
 
 **variant:** —
 
-#### [Comprehensive Identity Sets](#Comprehensive_Identity_Sets) {#Comprehensive_Identity_Sets}
+<a id="Comprehensive_Identity_Sets"></a>
 
+#### [Comprehensive Identity Sets](#Comprehensive_Identity_Sets)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Comprehensive_Identity_Sets`
 
 **Label:** Comprehensive Identity Sets
@@ -1494,8 +1565,9 @@ Comprehensive Identity Sets, commonly referred to as “fulls,” are curated pa
 
 **variant:** —
 
-#### [Cryptocurrency related customer databases](#Cryptocurrency_related_customer_databases) {#Cryptocurrency_related_customer_databases}
+<a id="Cryptocurrency_related_customer_databases"></a>
 
+#### [Cryptocurrency related customer databases](#Cryptocurrency_related_customer_databases)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Cryptocurrency_related_customer_databases`
 
 **Label:** Cryptocurrency related customer databases
@@ -1512,8 +1584,9 @@ Cryptocurrency-related customer databases contain email addresses, identity docu
 
 **variant:** —
 
-#### [Raw Credential Dumps](#Raw_Credential_Dumps) {#Raw_Credential_Dumps}
+<a id="Raw_Credential_Dumps"></a>
 
+#### [Raw Credential Dumps](#Raw_Credential_Dumps)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Raw_Credential_Dumps`
 
 **Label:** Raw Credential Dumps
@@ -1532,8 +1605,9 @@ Raw Credential Dumps consist of unsanitized datasets containing user account ide
 
 ### Class: [Crimeware](#Crimeware)
 
-#### [Antivirus Tools](#Antivirus_Tools) {#Antivirus_Tools}
+<a id="Antivirus_Tools"></a>
 
+#### [Antivirus Tools](#Antivirus_Tools)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Antivirus_Tools`
 
 **Label:** Antivirus Tools
@@ -1550,8 +1624,9 @@ Antivirus Tools encompass full software suites, command-line scanners, and cloud
 
 **variant:** —
 
-#### [BEC-as-a-Service](#BEC-as-a-Service) {#BEC-as-a-Service}
+<a id="BEC-as-a-Service"></a>
 
+#### [BEC-as-a-Service](#BEC-as-a-Service)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#BEC-as-a-Service`
 
 **Label:** BEC-as-a-Service
@@ -1568,8 +1643,9 @@ Provides everything from lookalike domain registration, email templates, and spo
 
 **variant:** —
 
-#### [Card Validation Bot](#Card_Validation_Bot) {#Card_Validation_Bot}
+<a id="Card_Validation_Bot"></a>
 
+#### [Card Validation Bot](#Card_Validation_Bot)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Card_Validation_Bot`
 
 **Label:** Card Validation Bot
@@ -1586,8 +1662,9 @@ The Card Validation Bot is a specialized form of crimeware that automates the ve
 
 **variant:** —
 
-#### [Crypters and Packers](#Crypters_and_Packers) {#Crypters_and_Packers}
+<a id="Crypters_and_Packers"></a>
 
+#### [Crypters and Packers](#Crypters_and_Packers)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Crypters_and_Packers`
 
 **Label:** Crypters and Packers
@@ -1600,8 +1677,9 @@ The Card Validation Bot is a specialized form of crimeware that automates the ve
 
 **variant:** —
 
-#### [Crypto wallet brute force services](#Crypto_wallet_brute_force_services) {#Crypto_wallet_brute_force_services}
+<a id="Crypto_wallet_brute_force_services"></a>
 
+#### [Crypto wallet brute force services](#Crypto_wallet_brute_force_services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Crypto_wallet_brute_force_services`
 
 **Label:** Crypto wallet brute force services
@@ -1618,8 +1696,9 @@ Crypto wallet brute-force services provide customers with specialised hardware M
 
 **variant:** —
 
-#### [Infostealer](#Infostealer) {#Infostealer}
+<a id="Infostealer"></a>
 
+#### [Infostealer](#Infostealer)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Infostealer`
 
 **Label:** Infostealer
@@ -1642,8 +1721,9 @@ Within cybercrime patterns, info stealers act as a data-production mechanism. Th
 
 **variant:** —
 
-#### [Malware-as-a-Service](#Malware-as-a-Service) {#Malware-as-a-Service}
+<a id="Malware-as-a-Service"></a>
 
+#### [Malware-as-a-Service](#Malware-as-a-Service)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Malware-as-a-Service`
 
 **Label:** Malware-as-a-Service
@@ -1660,8 +1740,9 @@ Malware-as-a-Service (MaaS) portals let low‑skill criminals rent stealer logs,
 
 **variant:** —
 
-#### [Phishing Kits](#Phishing_Kits) {#Phishing_Kits}
+<a id="Phishing_Kits"></a>
 
+#### [Phishing Kits](#Phishing_Kits)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Phishing_Kits`
 
 **Label:** Phishing Kits
@@ -1682,8 +1763,9 @@ Phishing kits lower the barrier to entry for cybercriminals, enabling even inexp
 
 **variant:** —
 
-#### [Ransomware-as-a-Service](#Ransomware-as-a-Service) {#Ransomware-as-a-Service}
+<a id="Ransomware-as-a-Service"></a>
 
+#### [Ransomware-as-a-Service](#Ransomware-as-a-Service)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Ransomware-as-a-Service`
 
 **Label:** Ransomware-as-a-Service
@@ -1700,8 +1782,9 @@ Ransomware-as-a-Service (RaaS) is a cybercrime offering in which malware develop
 
 **variant:** —
 
-#### [Remote Access Trojans](#Remote_Access_Trojans) {#Remote_Access_Trojans}
+<a id="Remote_Access_Trojans"></a>
 
+#### [Remote Access Trojans](#Remote_Access_Trojans)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Remote_Access_Trojans`
 
 **Label:** Remote Access Trojans
@@ -1718,8 +1801,9 @@ Remote Access Trojans (RATs) provide interactive shells, file transfer, and surv
 
 **variant:** —
 
-#### [Subscription-based Information Stealer](#Infostealer-as-a-Service) {#Infostealer-as-a-Service}
+<a id="Infostealer-as-a-Service"></a>
 
+#### [Subscription-based Information Stealer](#Infostealer-as-a-Service)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Infostealer-as-a-Service`
 
 **Label:** Subscription-based Information Stealer
@@ -1742,8 +1826,9 @@ Within the cybercrime ecosystem, this service sits between crimeware production 
 
 ### Class: [Dark Platforms](#Dark_Platforms)
 
-#### [Dark Market](#Dark_Market) {#Dark_Market}
+<a id="Dark_Market"></a>
 
+#### [Dark Market](#Dark_Market)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Dark_Market`
 
 **Label:** Dark Market
@@ -1762,8 +1847,9 @@ The secretive nature and use of encryption technologies make dark markets both c
 
 **variant:** —
 
-#### [Forum](#Forum) {#Forum}
+<a id="Forum"></a>
 
+#### [Forum](#Forum)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Forum`
 
 **Label:** Forum
@@ -1780,8 +1866,9 @@ A dark web cybercrime forum is a clandestine online platform where cybercriminal
 
 **variant:** —
 
-#### [Illicit Service Portals](#Illicit_Service_Portals) {#Illicit_Service_Portals}
+<a id="Illicit_Service_Portals"></a>
 
+#### [Illicit Service Portals](#Illicit_Service_Portals)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Illicit_Service_Portals`
 
 **Label:** Illicit Service Portals
@@ -1800,8 +1887,9 @@ An Illicit Services Portal is defined as a covert digital platform that aggregat
 
 ### Class: [Deceptive_Platforms](#Deceptive_Platforms)
 
-#### [Fake Crypto Trading Platform](#Fake_Crypto_Trading_Platform) {#Fake_Crypto_Trading_Platform}
+<a id="Fake_Crypto_Trading_Platform"></a>
 
+#### [Fake Crypto Trading Platform](#Fake_Crypto_Trading_Platform)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Fake_Crypto_Trading_Platform`
 
 **Label:** Fake Crypto Trading Platform
@@ -1820,8 +1908,9 @@ These platforms are typically used in pig-butchering or romance scam scenarios, 
 
 ### Class: [Economic Impact](#Economic_Impact)
 
-#### [Direct Financial Loss](#Direct_Financial_Loss) {#Direct_Financial_Loss}
+<a id="Direct_Financial_Loss"></a>
 
+#### [Direct Financial Loss](#Direct_Financial_Loss)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Direct_Financial_Loss`
 
 **Label:** Direct Financial Loss
@@ -1840,8 +1929,9 @@ It does not include any subsequent expenses related to responding to or recoveri
 
 **variant:** —
 
-#### [Post-Incident Recovery Costs](#Post_Incident_Recovery_Costs) {#Post_Incident_Recovery_Costs}
+<a id="Post_Incident_Recovery_Costs"></a>
 
+#### [Post-Incident Recovery Costs](#Post_Incident_Recovery_Costs)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Post_Incident_Recovery_Costs`
 
 **Label:** Post-Incident Recovery Costs
@@ -1863,8 +1953,9 @@ This harm captures the operational and financial burden of recovery, often exten
 
 ### Class: [Extortion](#Extortion)
 
-#### [Cyber Extortion](#Cyber_Extortion) {#Cyber_Extortion}
+<a id="Cyber_Extortion"></a>
 
+#### [Cyber Extortion](#Cyber_Extortion)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Cyber_Extortion`
 
 **Label:** Cyber Extortion
@@ -1887,8 +1978,9 @@ Direct victims can be public or private organisations and harms are wide ranging
 
 ### Class: [Facilitator](#Facilitator)
 
-#### [Data Broker Services](#Data_Broker_Services) {#Data_Broker_Services}
+<a id="Data_Broker_Services"></a>
 
+#### [Data Broker Services](#Data_Broker_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Data_Broker_Services`
 
 **Label:** Data Broker Services
@@ -1909,8 +2001,9 @@ The availability of data broker services lowers the barrier for attackers, enabl
 
 **variant:** —
 
-#### [Legitimate Security Company](#Legitimate_Security_Company) {#Legitimate_Security_Company}
+<a id="Legitimate_Security_Company"></a>
 
+#### [Legitimate Security Company](#Legitimate_Security_Company)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Legitimate_Security_Company`
 
 **Label:** Legitimate Security Company
@@ -1929,8 +2022,9 @@ A Legitimate Security Company is a key role player in the cybercrime ecosystem t
 
 ### Class: [Financial Services](#Financial_Services)
 
-#### [Cashouts](#Cashouts) {#Cashouts}
+<a id="Cashouts"></a>
 
+#### [Cashouts](#Cashouts)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Cashouts`
 
 **Label:** Cashouts
@@ -1947,8 +2041,9 @@ Cashouts cover the downstream phase of cyber-crime monetisation in which stolen 
 
 **variant:** —
 
-#### [Crypto currency mixers](#Crypto_currency_mixers) {#Crypto_currency_mixers}
+<a id="Crypto_currency_mixers"></a>
 
+#### [Crypto currency mixers](#Crypto_currency_mixers)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Crypto_currency_mixers`
 
 **Label:** Crypto currency mixers
@@ -1965,8 +2060,9 @@ Also called tumblers, mixers pool multiple users’ coins and return fresh ones,
 
 **variant:** —
 
-#### [Escrow Services](#Escrow_Services) {#Escrow_Services}
+<a id="Escrow_Services"></a>
 
+#### [Escrow Services](#Escrow_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Escrow_Services`
 
 **Label:** Escrow Services
@@ -1983,8 +2079,9 @@ Escrow Services act as neutral intermediaries in illicit online transactions: th
 
 **variant:** —
 
-#### [Identity verification kits and templates](#Identity_verification_kits_and_templates) {#Identity_verification_kits_and_templates}
+<a id="Identity_verification_kits_and_templates"></a>
 
+#### [Identity verification kits and templates](#Identity_verification_kits_and_templates)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Identity_verification_kits_and_templates`
 
 **Label:** Identity verification kits and templates
@@ -2001,8 +2098,9 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 
 **variant:** —
 
-#### [Monetization of wallets with limited access](#Monetization_of_the_wallets_with_limited_access) {#Monetization_of_the_wallets_with_limited_access}
+<a id="Monetization_of_the_wallets_with_limited_access"></a>
 
+#### [Monetization of wallets with limited access](#Monetization_of_the_wallets_with_limited_access)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Monetization_of_the_wallets_with_limited_access`
 
 **Label:** Monetization of wallets with limited access
@@ -2015,8 +2113,9 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 
 **variant:** —
 
-#### [Money laundering and cashout services](#Money_laundering_and_cashout_services) {#Money_laundering_and_cashout_services}
+<a id="Money_laundering_and_cashout_services"></a>
 
+#### [Money laundering and cashout services](#Money_laundering_and_cashout_services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Money_laundering_and_cashout_services`
 
 **Label:** Money laundering and cashout services
@@ -2029,8 +2128,9 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 
 **variant:** —
 
-#### [Self-registered accounts in the financial institutions](#Self-registered_accounts_in_the_financial_institutions) {#Self-registered_accounts_in_the_financial_institutions}
+<a id="Self-registered_accounts_in_the_financial_institutions"></a>
 
+#### [Self-registered accounts in the financial institutions](#Self-registered_accounts_in_the_financial_institutions)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Self-registered_accounts_in_the_financial_institutions`
 
 **Label:** Self-registered accounts in the financial institutions
@@ -2045,8 +2145,9 @@ Identity-verification kits and templates bundle high-resolution scans of passpor
 
 ### Class: [General Victim](#General_Victim_Groups)
 
-#### [Connected Third Party](#ConnectedThirdParty) {#ConnectedThirdParty}
+<a id="ConnectedThirdParty"></a>
 
+#### [Connected Third Party](#ConnectedThirdParty)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#ConnectedThirdParty`
 
 **Label:** Connected Third Party
@@ -2065,8 +2166,9 @@ Such entities may introduce risk through shared infrastructure, system access, d
 
 **variant:** —
 
-#### [General Organization](#GeneralOrganization) {#GeneralOrganization}
+<a id="GeneralOrganization"></a>
 
+#### [General Organization](#GeneralOrganization)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#GeneralOrganization`
 
 **Label:** General Organization
@@ -2085,8 +2187,9 @@ Organizations typically maintain complex technological infrastructures and manag
 
 **variant:** —
 
-#### [Institutional Employee](#Institutional_Employee) {#Institutional_Employee}
+<a id="Institutional_Employee"></a>
 
+#### [Institutional Employee](#Institutional_Employee)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Institutional_Employee`
 
 **Label:** Institutional Employee
@@ -2103,8 +2206,9 @@ The Institutional Employee victim entity represents individuals whose roles with
 
 **variant:** —
 
-#### [Legitimate Service Provider](#Legitimate_Service_Provider) {#Legitimate_Service_Provider}
+<a id="Legitimate_Service_Provider"></a>
 
+#### [Legitimate Service Provider](#Legitimate_Service_Provider)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Legitimate_Service_Provider`
 
 **Label:** Legitimate Service Provider
@@ -2119,8 +2223,9 @@ Third-party platforms (e.g., social media, online products and services, market 
 
 **variant:** —
 
-#### [Private Individual](#Private_Individual) {#Private_Individual}
+<a id="Private_Individual"></a>
 
+#### [Private Individual](#Private_Individual)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Private_Individual`
 
 **Label:** Private Individual
@@ -2141,8 +2246,9 @@ Private individuals often rely on digital services in their daily activities, ma
 
 ### Class: [Geopolitical Impact](#Geopolitical_Impact)
 
-#### [Policy and Regulatory Impact](#Policy_and_Regulatory_Impact) {#Policy_and_Regulatory_Impact}
+<a id="Policy_and_Regulatory_Impact"></a>
 
+#### [Policy and Regulatory Impact](#Policy_and_Regulatory_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Policy_and_Regulatory_Impact`
 
 **Label:** Policy and Regulatory Impact
@@ -2163,8 +2269,9 @@ This harm is distinct from operational or financial impacts, as it focuses on fo
 
 **variant:** —
 
-#### [Societal Effects](#Societal_Effects) {#Societal_Effects}
+<a id="Societal_Effects"></a>
 
+#### [Societal Effects](#Societal_Effects)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Societal_Effects`
 
 **Label:** Societal Effects
@@ -2185,8 +2292,9 @@ This harm operates at a collective level and is distinct from individual psychol
 
 **variant:** —
 
-#### [Strategic and Geopolitical Impact](#Strategic_and_Geopolitical_Impact) {#Strategic_and_Geopolitical_Impact}
+<a id="Strategic_and_Geopolitical_Impact"></a>
 
+#### [Strategic and Geopolitical Impact](#Strategic_and_Geopolitical_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Strategic_and_Geopolitical_Impact`
 
 **Label:** Strategic and Geopolitical Impact
@@ -2209,8 +2317,9 @@ This harm is distinct from operational or societal effects, as it focuses on lon
 
 ### Class: [Illicit Access Products](#Illicit_Access_Products)
 
-#### [Illicit Data and Access Assets](#Illicit_Data_and_Access_Assets) {#Illicit_Data_and_Access_Assets}
+<a id="Illicit_Data_and_Access_Assets"></a>
 
+#### [Illicit Data and Access Assets](#Illicit_Data_and_Access_Assets)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Illicit_Data_and_Access_Assets`
 
 **Label:** Illicit Data and Access Assets
@@ -2231,8 +2340,9 @@ The value of Illicit Data and Access Assets depends on their specificity, qualit
 
 **variant:** —
 
-#### [Infostealer Logs](#InfostealerLogs) {#InfostealerLogs}
+<a id="InfostealerLogs"></a>
 
+#### [Infostealer Logs](#InfostealerLogs)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#InfostealerLogs`
 
 **Label:** Infostealer Logs
@@ -2247,8 +2357,9 @@ Structured bundles of stolen credentials, session data, identity details, and sy
 
 **variant:** —
 
-#### [Unauthorized Network Access](#Unauthorized_Network_Access) {#Unauthorized_Network_Access}
+<a id="Unauthorized_Network_Access"></a>
 
+#### [Unauthorized Network Access](#Unauthorized_Network_Access)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Unauthorized_Network_Access`
 
 **Label:** Unauthorized Network Access
@@ -2276,8 +2387,9 @@ Common forms of illicit access products include:
 
 ### Class: [Informational Impact](#Informational_Impact)
 
-#### [Data Integrity Loss](#Data_Integrity_Loss) {#Data_Integrity_Loss}
+<a id="Data_Integrity_Loss"></a>
 
+#### [Data Integrity Loss](#Data_Integrity_Loss)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Data_Integrity_Loss`
 
 **Label:** Data Integrity Loss
@@ -2298,8 +2410,9 @@ This harm can disrupt decision-making, operational processes, and system functio
 
 **variant:** —
 
-#### [Digital Identity Compromise](#Digital_Identity_Compromise) {#Digital_Identity_Compromise}
+<a id="Digital_Identity_Compromise"></a>
 
+#### [Digital Identity Compromise](#Digital_Identity_Compromise)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Digital_Identity_Compromise`
 
 **Label:** Digital Identity Compromise
@@ -2321,8 +2434,9 @@ The primary impact lies in the loss of control over one’s digital presence and
 
 **variant:** —
 
-#### [Exposure-Based Risk Increase](#Exposure-BasedRiskIncrease) {#Exposure-BasedRiskIncrease}
+<a id="Exposure-BasedRiskIncrease"></a>
 
+#### [Exposure-Based Risk Increase](#Exposure-BasedRiskIncrease)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Exposure-BasedRiskIncrease`
 
 **Label:** Exposure-Based Risk Increase
@@ -2343,8 +2457,9 @@ This materially elevates the victim’s risk exposure, defined as the probabilit
 
 **variant:** —
 
-#### [Information Confidentiality Loss](#Information_Confidentiality_Loss) {#Information_Confidentiality_Loss}
+<a id="Information_Confidentiality_Loss"></a>
 
+#### [Information Confidentiality Loss](#Information_Confidentiality_Loss)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Information_Confidentiality_Loss`
 
 **Label:** Information Confidentiality Loss
@@ -2367,8 +2482,9 @@ This harm may lead to downstream consequences such as identity theft, fraud, or 
 
 ### Class: [Infrastructure Services](#Infrastructure_Services)
 
-#### [Bulletproof Hosting](#Bulletproof_Hosting) {#Bulletproof_Hosting}
+<a id="Bulletproof_Hosting"></a>
 
+#### [Bulletproof Hosting](#Bulletproof_Hosting)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Bulletproof_Hosting`
 
 **Label:** Bulletproof Hosting
@@ -2385,8 +2501,9 @@ Bulletproof Hosting refers to specialized server hosting services offered within
 
 **variant:** —
 
-#### [Proxy Services](#Proxy_Services) {#Proxy_Services}
+<a id="Proxy_Services"></a>
 
+#### [Proxy Services](#Proxy_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Proxy_Services`
 
 **Label:** Proxy Services
@@ -2403,8 +2520,9 @@ Proxy Services offer a layer of indirection by channeling an adversary’s netwo
 
 **variant:** —
 
-#### [Residential Proxies](#Residential_Proxies) {#Residential_Proxies}
+<a id="Residential_Proxies"></a>
 
+#### [Residential Proxies](#Residential_Proxies)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Residential_Proxies`
 
 **Label:** Residential Proxies
@@ -2421,8 +2539,9 @@ Residential Proxies (often abbreviated as RESIP) utilize IP addresses assigned t
 
 **variant:** —
 
-#### [Virtual Private Networks](#Virtual_Private_Networks) {#Virtual_Private_Networks}
+<a id="Virtual_Private_Networks"></a>
 
+#### [Virtual Private Networks](#Virtual_Private_Networks)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Virtual_Private_Networks`
 
 **Label:** Virtual Private Networks
@@ -2441,8 +2560,9 @@ Virtual Private Networks (VPNs) establish encrypted tunnels between a user’s d
 
 ### Class: [Legitimate Platforms](#Legitimate_Platforms)
 
-#### [Cryptocurrency Exchanges](#Cryptocurrency_Exchanges) {#Cryptocurrency_Exchanges}
+<a id="Cryptocurrency_Exchanges"></a>
 
+#### [Cryptocurrency Exchanges](#Cryptocurrency_Exchanges)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Cryptocurrency_Exchanges`
 
 **Label:** Cryptocurrency Exchanges
@@ -2463,8 +2583,9 @@ Law enforcement and cybersecurity experts monitor exchanges to track illicit tra
 
 **variant:** —
 
-#### [Dating Website](#Dating_Website) {#Dating_Website}
+<a id="Dating_Website"></a>
 
+#### [Dating Website](#Dating_Website)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Dating_Website`
 
 **Label:** Dating Website
@@ -2483,8 +2604,9 @@ For cybercriminals, dating websites provide a low-risk, high-reward opportunity 
 
 **variant:** —
 
-#### [eCommerce Sites](#eCommerce_Sites) {#eCommerce_Sites}
+<a id="eCommerce_Sites"></a>
 
+#### [eCommerce Sites](#eCommerce_Sites)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#eCommerce_Sites`
 
 **Label:** eCommerce Sites
@@ -2501,8 +2623,9 @@ eCommerce sites are legitimate digital marketplaces that enable the buying and s
 
 **variant:** —
 
-#### [Messaging App](#Messaging_App) {#Messaging_App}
+<a id="Messaging_App"></a>
 
+#### [Messaging App](#Messaging_App)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Messaging_App`
 
 **Label:** Messaging App
@@ -2517,8 +2640,9 @@ Private, semi-public or public messaging platforms like Telegram, WhatsApp, and 
 
 **variant:** —
 
-#### [Money Transfer Mechanisms](#Money_Transfer_Mechanisms) {#Money_Transfer_Mechanisms}
+<a id="Money_Transfer_Mechanisms"></a>
 
+#### [Money Transfer Mechanisms](#Money_Transfer_Mechanisms)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Money_Transfer_Mechanisms`
 
 **Label:** Money Transfer Mechanisms
@@ -2535,8 +2659,9 @@ Money transfer mechanisms include formal and informal systems - such as SWIFT ba
 
 **variant:** —
 
-#### [Open Web](#Open_Web) {#Open_Web}
+<a id="Open_Web"></a>
 
+#### [Open Web](#Open_Web)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Open_Web`
 
 **Label:** Open Web
@@ -2551,8 +2676,9 @@ Some transactions between cybercriminals, or in support of cybercrime activities
 
 **variant:** —
 
-#### [Social Media](#Social_Media) {#Social_Media}
+<a id="Social_Media"></a>
 
+#### [Social Media](#Social_Media)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Social_Media`
 
 **Label:** Social Media
@@ -2569,8 +2695,9 @@ Private, semi-public or public social networking platforms like Facebook, Instag
 
 ### Class: [Market or Supply Chain](#Market_or_Supply_Chain)
 
-#### [Credential and Identity Marketplace](#Credential_and_Identity_Marketplace) {#Credential_and_Identity_Marketplace}
+<a id="Credential_and_Identity_Marketplace"></a>
 
+#### [Credential and Identity Marketplace](#Credential_and_Identity_Marketplace)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Credential_and_Identity_Marketplace`
 
 **Label:** Credential and Identity Marketplace
@@ -2587,8 +2714,9 @@ The Credential and Identity Marketplace is defined as a specialized segment with
 
 **variant:** —
 
-#### [Crimeware Supply Chain](#Crimeware_Supply_Chain) {#Crimeware_Supply_Chain}
+<a id="Crimeware_Supply_Chain"></a>
 
+#### [Crimeware Supply Chain](#Crimeware_Supply_Chain)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Crimeware_Supply_Chain`
 
 **Label:** Crimeware Supply Chain
@@ -2609,8 +2737,9 @@ The Crimeware Supply Chain has commoditized cybercrime, lowering the barrier to 
 
 **variant:** —
 
-#### [Data and Access Marketplace](#Data_and_Access_Marketplace) {#Data_and_Access_Marketplace}
+<a id="Data_and_Access_Marketplace"></a>
 
+#### [Data and Access Marketplace](#Data_and_Access_Marketplace)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Data_and_Access_Marketplace`
 
 **Label:** Data and Access Marketplace
@@ -2631,8 +2760,9 @@ Sellers in the marketplace include data brokers, credential harvesters, access b
 
 **variant:** —
 
-#### [Deceptive Content Marketplace](#Deceptive_Content_Marketplace) {#Deceptive_Content_Marketplace}
+<a id="Deceptive_Content_Marketplace"></a>
 
+#### [Deceptive Content Marketplace](#Deceptive_Content_Marketplace)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Deceptive_Content_Marketplace`
 
 **Label:** Deceptive Content Marketplace
@@ -2649,8 +2779,9 @@ The Deceptive Content Marketplace facilitates the trade of tools and materials d
 
 **variant:** —
 
-#### [Infrastructure Marketplace](#Infrastructure_Marketplace) {#Infrastructure_Marketplace}
+<a id="Infrastructure_Marketplace"></a>
 
+#### [Infrastructure Marketplace](#Infrastructure_Marketplace)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Infrastructure_Marketplace`
 
 **Label:** Infrastructure Marketplace
@@ -2667,8 +2798,9 @@ The Infrastructure Marketplace Market represents a covert, unstructured trading 
 
 **variant:** —
 
-#### [Initial Access Marketplace](#Initial_Access_Marketplace) {#Initial_Access_Marketplace}
+<a id="Initial_Access_Marketplace"></a>
 
+#### [Initial Access Marketplace](#Initial_Access_Marketplace)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Initial_Access_Marketplace`
 
 **Label:** Initial Access Marketplace
@@ -2689,8 +2821,9 @@ The Initial Access Marketplace serves as a critical node in the cybercrime suppl
 
 **variant:** —
 
-#### [Monetization and Laundering Services](#Monetization_and_Laundering_Services) {#Monetization_and_Laundering_Services}
+<a id="Monetization_and_Laundering_Services"></a>
 
+#### [Monetization and Laundering Services](#Monetization_and_Laundering_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Monetization_and_Laundering_Services`
 
 **Label:** Monetization and Laundering Services
@@ -2711,8 +2844,9 @@ Operations in this Market are conducted through dark web marketplaces, encrypted
 
 **variant:** —
 
-#### [Vulnerabilities and Exploits Marketplace](#Vulnerabilities_and_Exploits_Marketplace) {#Vulnerabilities_and_Exploits_Marketplace}
+<a id="Vulnerabilities_and_Exploits_Marketplace"></a>
 
+#### [Vulnerabilities and Exploits Marketplace](#Vulnerabilities_and_Exploits_Marketplace)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Vulnerabilities_and_Exploits_Marketplace`
 
 **Label:** Vulnerabilities and Exploits Marketplace
@@ -2731,8 +2865,9 @@ The Vulnerabilities_and_Exploits Marketplace is a focal point in the cybercrimin
 
 ### Class: [Operational Impact](#Operational_Impact)
 
-#### [Operational Continuity Disruption](#Business_Continuity) {#Business_Continuity}
+<a id="Business_Continuity"></a>
 
+#### [Operational Continuity Disruption](#Business_Continuity)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Business_Continuity`
 
 **Label:** Operational Continuity Disruption
@@ -2753,8 +2888,9 @@ This harm emphasizes the effect on the organization’s mission and outputs, rat
 
 **variant:** —
 
-#### [System Availability Disruption](#System_Availability_Disruption) {#System_Availability_Disruption}
+<a id="System_Availability_Disruption"></a>
 
+#### [System Availability Disruption](#System_Availability_Disruption)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#System_Availability_Disruption`
 
 **Label:** System Availability Disruption
@@ -2775,8 +2911,9 @@ System availability disruption is typically immediate and observable, affecting 
 
 **variant:** —
 
-#### [Technical Infrastructure Degradation](#Technical_Infrastructure_Degradation) {#Technical_Infrastructure_Degradation}
+<a id="Technical_Infrastructure_Degradation"></a>
 
+#### [Technical Infrastructure Degradation](#Technical_Infrastructure_Degradation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Technical_Infrastructure_Degradation`
 
 **Label:** Technical Infrastructure Degradation
@@ -2799,8 +2936,9 @@ This harm is also distinct from operational continuity, as it focuses on technic
 
 ### Class: [Payment Instruments](#Payment_Instruments)
 
-#### [Alternative Value Stores](#Alternative_Value_Stores) {#Alternative_Value_Stores}
+<a id="Alternative_Value_Stores"></a>
 
+#### [Alternative Value Stores](#Alternative_Value_Stores)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Alternative_Value_Stores`
 
 **Label:** Alternative Value Stores
@@ -2817,8 +2955,9 @@ Alternative value stores encompass physical or voucher-based assets, such as gol
 
 **variant:** —
 
-#### [Cryptocurrency](#Cryptocurrency) {#Cryptocurrency}
+<a id="Cryptocurrency"></a>
 
+#### [Cryptocurrency](#Cryptocurrency)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Cryptocurrency`
 
 **Label:** Cryptocurrency
@@ -2835,8 +2974,9 @@ Cryptocurrency is a decentralised form of digital currency that relies on crypto
 
 **variant:** —
 
-#### [Electronic Wallets and Payment Apps](#Electronic_Wallets_and_Payment_Apps) {#Electronic_Wallets_and_Payment_Apps}
+<a id="Electronic_Wallets_and_Payment_Apps"></a>
 
+#### [Electronic Wallets and Payment Apps](#Electronic_Wallets_and_Payment_Apps)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Electronic_Wallets_and_Payment_Apps`
 
 **Label:** Electronic Wallets and Payment Apps
@@ -2853,8 +2993,9 @@ Electronic wallets and payment apps allow near-instant peer-to-peer transfers wi
 
 **variant:** —
 
-#### [Fiat Currencies](#Fiat_Currencies) {#Fiat_Currencies}
+<a id="Fiat_Currencies"></a>
 
+#### [Fiat Currencies](#Fiat_Currencies)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Fiat_Currencies`
 
 **Label:** Fiat Currencies
@@ -2869,8 +3010,9 @@ Government-issued legal tenders (e.g., USD, EUR) that cyber-criminals convert in
 
 **variant:** —
 
-#### [In-Game Assets](#In-Game_Assets) {#In-Game_Assets}
+<a id="In-Game_Assets"></a>
 
+#### [In-Game Assets](#In-Game_Assets)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#In-Game_Assets`
 
 **Label:** In-Game Assets
@@ -2887,8 +3029,9 @@ Virtual and in-game assets refer to non-fungible tokens (NFTs), digital collecti
 
 **variant:** —
 
-#### [Stored-Value Cards and Vouchers](#Stored-Value_Cards_and_Vouchers) {#Stored-Value_Cards_and_Vouchers}
+<a id="Stored-Value_Cards_and_Vouchers"></a>
 
+#### [Stored-Value Cards and Vouchers](#Stored-Value_Cards_and_Vouchers)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Stored-Value_Cards_and_Vouchers`
 
 **Label:** Stored-Value Cards and Vouchers
@@ -2907,8 +3050,9 @@ Prepaid and stored-value cards such as retailer gift cards, prepaid debit cards,
 
 ### Class: [Perpetrator](#Perpetrator)
 
-#### [BEC Scammer](#BEC_Scammer) {#BEC_Scammer}
+<a id="BEC_Scammer"></a>
 
+#### [BEC Scammer](#BEC_Scammer)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#BEC_Scammer`
 
 **Label:** BEC Scammer
@@ -2929,8 +3073,9 @@ This role is central to the Business Email Compromise pattern because it connect
 
 **variant:** —
 
-#### [Carder](#Carder) {#Carder}
+<a id="Carder"></a>
 
+#### [Carder](#Carder)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Carder`
 
 **Label:** Carder
@@ -2947,8 +3092,9 @@ Within the payment card fraud domain, a carder functions as a key operative resp
 
 **variant:** —
 
-#### [Infostealer Operator](#InfostealerOperator) {#InfostealerOperator}
+<a id="InfostealerOperator"></a>
 
+#### [Infostealer Operator](#InfostealerOperator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#InfostealerOperator`
 
 **Label:** Infostealer Operator
@@ -2969,8 +3115,9 @@ This role is usually financially motivated and may operate alone, as part of a s
 
 **variant:** —
 
-#### [Initial Access Broker](#Initial_Access_Broker) {#Initial_Access_Broker}
+<a id="Initial_Access_Broker"></a>
 
+#### [Initial Access Broker](#Initial_Access_Broker)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Initial_Access_Broker`
 
 **Label:** Initial Access Broker
@@ -2987,8 +3134,9 @@ Initial Access Brokers (IABs) focus on acquiring unauthorized access victim orga
 
 **variant:** In many documented cases Initial Access Brokers also act as Intrusion Operators, performing the actual work of obtaining access to victim systems before reselling that access to other players for further exploitation.
 
-#### [Intrusion Operator](#Intrusion_Operator) {#Intrusion_Operator}
+<a id="Intrusion_Operator"></a>
 
+#### [Intrusion Operator](#Intrusion_Operator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Intrusion_Operator`
 
 **Label:** Intrusion Operator
@@ -3005,8 +3153,9 @@ A technically skilled role player who identifies and exploits flaws in hardware,
 
 **variant:** —
 
-#### [Malware Developer](#Malware_Developer) {#Malware_Developer}
+<a id="Malware_Developer"></a>
 
+#### [Malware Developer](#Malware_Developer)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Malware_Developer`
 
 **Label:** Malware Developer
@@ -3023,8 +3172,9 @@ A Malware Developer is a highly technical role player within the cybercrime ecos
 
 **variant:** —
 
-#### [Phisher](#Phisher) {#Phisher}
+<a id="Phisher"></a>
 
+#### [Phisher](#Phisher)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Phisher`
 
 **Label:** Phisher
@@ -3045,8 +3195,9 @@ The role of a phisher is critical to the success of many cybercriminal schemes, 
 
 **variant:** —
 
-#### [Ransomware Affiliate](#Ransomware_Affiliate) {#Ransomware_Affiliate}
+<a id="Ransomware_Affiliate"></a>
 
+#### [Ransomware Affiliate](#Ransomware_Affiliate)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Ransomware_Affiliate`
 
 **Label:** Ransomware Affiliate
@@ -3063,8 +3214,9 @@ Ransomware affiliates can help in the distribution of malware and take a cut of 
 
 **variant:** —
 
-#### [Ransomware Operator](#Ransomware_Operator) {#Ransomware_Operator}
+<a id="Ransomware_Operator"></a>
 
+#### [Ransomware Operator](#Ransomware_Operator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Ransomware_Operator`
 
 **Label:** Ransomware Operator
@@ -3081,8 +3233,9 @@ A Ransomware Operator is a threat actor (or group of actors) responsible for exe
 
 **variant:** —
 
-#### [Ransomware-as-a-Service Operator](#Ransomware-as-a-Service_Operator) {#Ransomware-as-a-Service_Operator}
+<a id="Ransomware-as-a-Service_Operator"></a>
 
+#### [Ransomware-as-a-Service Operator](#Ransomware-as-a-Service_Operator)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Ransomware-as-a-Service_Operator`
 
 **Label:** Ransomware-as-a-Service Operator
@@ -3099,8 +3252,9 @@ A Ransomware-as-a-Service (RaaS) Operator is a specialized organisational role p
 
 **variant:** —
 
-#### [Romance Scammer](#Romance_Scammer) {#Romance_Scammer}
+<a id="Romance_Scammer"></a>
 
+#### [Romance Scammer](#Romance_Scammer)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Romance_Scammer`
 
 **Label:** Romance Scammer
@@ -3121,8 +3275,9 @@ Their operations rely heavily on social engineering, utilizing psychological man
 
 **variant:** —
 
-#### [Skimmer](#Skimmer) {#Skimmer}
+<a id="Skimmer"></a>
 
+#### [Skimmer](#Skimmer)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Skimmer`
 
 **Label:** Skimmer
@@ -3141,8 +3296,9 @@ Data Thieves/Skimmers are role players within the carding ecosystem who focus on
 
 ### Class: [Platform](#Platform)
 
-#### [Direct](#Direct) {#Direct}
+<a id="Direct"></a>
 
+#### [Direct](#Direct)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Direct`
 
 **Label:** Direct
@@ -3161,8 +3317,9 @@ In some cases criminal groups and other actors may interact directly with each o
 
 ### Class: [Products and Services](#Products_and_Services)
 
-#### [Deceptive Content](#Deceptive_Content) {#Deceptive_Content}
+<a id="Deceptive_Content"></a>
 
+#### [Deceptive Content](#Deceptive_Content)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Deceptive_Content`
 
 **Label:** Deceptive Content
@@ -3183,8 +3340,9 @@ This type of content plays a central role in enabling various forms of cybercrim
 
 **variant:** —
 
-#### [Fake identity](#Fake_identity) {#Fake_identity}
+<a id="Fake_identity"></a>
 
+#### [Fake identity](#Fake_identity)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Fake_identity`
 
 **Label:** Fake identity
@@ -3207,8 +3365,9 @@ On a broader scale, fake identities are also used in cyber-enabled crimes like m
 
 ### Class: [Psychological Impact](#Psychological_Impact)
 
-#### [Behavioral Changes](#Behavioral_Changes) {#Behavioral_Changes}
+<a id="Behavioral_Changes"></a>
 
+#### [Behavioral Changes](#Behavioral_Changes)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Behavioral_Changes`
 
 **Label:** Behavioral Changes
@@ -3230,8 +3389,9 @@ The impact of this harm lies in how it alters engagement, participation, and usa
 
 **variant:** —
 
-#### [Erosion of Trust](#Erosion_of_Trust) {#Erosion_of_Trust}
+<a id="Erosion_of_Trust"></a>
 
+#### [Erosion of Trust](#Erosion_of_Trust)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Erosion_of_Trust`
 
 **Label:** Erosion of Trust
@@ -3252,8 +3412,9 @@ This harm operates at both individual and collective levels, potentially affecti
 
 **variant:** —
 
-#### [Psychological Distress](#Psychological_Distress) {#Psychological_Distress}
+<a id="Psychological_Distress"></a>
 
+#### [Psychological Distress](#Psychological_Distress)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Psychological_Distress`
 
 **Label:** Psychological Distress
@@ -3276,8 +3437,9 @@ Psychological distress may vary in severity and duration, and in some cases can 
 
 ### Class: [Reconnaissance and Open Source Intelligence](#ReconnaissanceAndOpenSourceIntelligence)
 
-#### [Dual-Use Intelligence on Businesses](#Dual-UseIntelligenceOnBusinesses) {#Dual-UseIntelligenceOnBusinesses}
+<a id="Dual-UseIntelligenceOnBusinesses"></a>
 
+#### [Dual-Use Intelligence on Businesses](#Dual-UseIntelligenceOnBusinesses)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Dual-UseIntelligenceOnBusinesses`
 
 **Label:** Dual-Use Intelligence on Businesses
@@ -3298,8 +3460,9 @@ For adversaries, the same information can support victim profiling and targeting
 
 **variant:** —
 
-#### [Dual-Use Intelligence on Individuals](#Dual-UseIntelligenceOnIndividuals) {#Dual-UseIntelligenceOnIndividuals}
+<a id="Dual-UseIntelligenceOnIndividuals"></a>
 
+#### [Dual-Use Intelligence on Individuals](#Dual-UseIntelligenceOnIndividuals)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Dual-UseIntelligenceOnIndividuals`
 
 **Label:** Dual-Use Intelligence on Individuals
@@ -3320,8 +3483,9 @@ In cybercrime contexts, the same kinds of information can be misused to identify
 
 **variant:** —
 
-#### [Dual-Use Internet Reconnaissance](#Dual-UseInternetReconnaissance) {#Dual-UseInternetReconnaissance}
+<a id="Dual-UseInternetReconnaissance"></a>
 
+#### [Dual-Use Internet Reconnaissance](#Dual-UseInternetReconnaissance)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Dual-UseInternetReconnaissance`
 
 **Label:** Dual-Use Internet Reconnaissance
@@ -3344,8 +3508,9 @@ Adversaries repurpose legitimate visibility tools to create target lists, priori
 
 ### Class: [Role Player](#Role_Player)
 
-#### [Bulletproof Hosting Provider](#BulletproofHostingProvider) {#BulletproofHostingProvider}
+<a id="BulletproofHostingProvider"></a>
 
+#### [Bulletproof Hosting Provider](#BulletproofHostingProvider)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#BulletproofHostingProvider`
 
 **Label:** Bulletproof Hosting Provider
@@ -3358,8 +3523,9 @@ Adversaries repurpose legitimate visibility tools to create target lists, priori
 
 **variant:** —
 
-#### [Legitimate Service Provider](#Legitimate_Service_Provider) {#Legitimate_Service_Provider}
+<a id="Legitimate_Service_Provider"></a>
 
+#### [Legitimate Service Provider](#Legitimate_Service_Provider)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Legitimate_Service_Provider`
 
 **Label:** Legitimate Service Provider
@@ -3374,8 +3540,9 @@ Third-party platforms (e.g., social media, online products and services, market 
 
 **variant:** —
 
-#### [Proxy Provider](#ProxyProvider) {#ProxyProvider}
+<a id="ProxyProvider"></a>
 
+#### [Proxy Provider](#ProxyProvider)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#ProxyProvider`
 
 **Label:** Proxy Provider
@@ -3388,8 +3555,9 @@ Third-party platforms (e.g., social media, online products and services, market 
 
 **variant:** Residential Proxy Provider
 
-#### [Spear Phisher](#Spear_Phisher) {#Spear_Phisher}
+<a id="Spear_Phisher"></a>
 
+#### [Spear Phisher](#Spear_Phisher)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Spear_Phisher`
 
 **Label:** Spear Phisher
@@ -3406,8 +3574,9 @@ The Spear Phisher is an individual who conducts personalized phishing campaigns 
 
 **variant:** —
 
-#### [VPN Service Provider](#VPNServiceProvider) {#VPNServiceProvider}
+<a id="VPNServiceProvider"></a>
 
+#### [VPN Service Provider](#VPNServiceProvider)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#VPNServiceProvider`
 
 **Label:** VPN Service Provider
@@ -3422,8 +3591,9 @@ The Spear Phisher is an individual who conducts personalized phishing campaigns 
 
 ### Class: [Scams and Fraud](#Scams_and_Fraud)
 
-#### [Business Email Compromise](#Business_Email_Compromise) {#Business_Email_Compromise}
+<a id="Business_Email_Compromise"></a>
 
+#### [Business Email Compromise](#Business_Email_Compromise)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Business_Email_Compromise`
 
 **Label:** Business Email Compromise
@@ -3444,8 +3614,9 @@ Victims include organisations of any size, as well as employees with authority t
 
 **variant:** —
 
-#### [Carding](#Carding) {#Carding}
+<a id="Carding"></a>
 
+#### [Carding](#Carding)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Carding`
 
 **Label:** Carding
@@ -3468,8 +3639,9 @@ Common monetisation strategies include loading cards into a digital wallets, pur
 
 **variant:** In a variant based on social engineering, the attacker swaps the victim’s physical card with a fake card at an ATM and captures the PIN via shoulder surfing, later using the stolen card.
 
-#### [Romance Baiting](#Romance_Baiting) {#Romance_Baiting}
+<a id="Romance_Baiting"></a>
 
+#### [Romance Baiting](#Romance_Baiting)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Romance_Baiting`
 
 **Label:** Romance Baiting
@@ -3492,8 +3664,9 @@ These scams target private individuals and can cause significant financial losse
 
 ### Class: [Specific Pattern Phase](#SpecificPatternPhase)
 
-#### [BEC Delivery](#Diamond_BEC_Delivery) {#Diamond_BEC_Delivery}
+<a id="Diamond_BEC_Delivery"></a>
 
+#### [BEC Delivery](#Diamond_BEC_Delivery)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_BEC_Delivery`
 
 **Label:** BEC Delivery
@@ -3510,8 +3683,9 @@ After creating and testing their BEC lures in the Weaponization phase, the adver
 
 **variant:** —
 
-#### [BEC Exploitation Account Takeover](#Diamond_BEC_Exploitation_AccountTakeover) {#Diamond_BEC_Exploitation_AccountTakeover}
+<a id="Diamond_BEC_Exploitation_AccountTakeover"></a>
 
+#### [BEC Exploitation Account Takeover](#Diamond_BEC_Exploitation_AccountTakeover)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_BEC_Exploitation_AccountTakeover`
 
 **Label:** BEC Exploitation Account Takeover
@@ -3530,8 +3704,9 @@ Having gained access, the attacker may set up mail-forwarding or auto-deletion r
 
 **variant:** —
 
-#### [BEC Fraud Transaction](#Diamond_BEC_Fraud_Transaction) {#Diamond_BEC_Fraud_Transaction}
+<a id="Diamond_BEC_Fraud_Transaction"></a>
 
+#### [BEC Fraud Transaction](#Diamond_BEC_Fraud_Transaction)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_BEC_Fraud_Transaction`
 
 **Label:** BEC Fraud Transaction
@@ -3548,8 +3723,9 @@ Having taken over a legitimate mailbox or established believable email dialogue,
 
 **variant:** —
 
-#### [BEC PostFraud Laundering](#Diamond_BEC_PostFraud_Laundering) {#Diamond_BEC_PostFraud_Laundering}
+<a id="Diamond_BEC_PostFraud_Laundering"></a>
 
+#### [BEC PostFraud Laundering](#Diamond_BEC_PostFraud_Laundering)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_BEC_PostFraud_Laundering`
 
 **Label:** BEC PostFraud Laundering
@@ -3566,8 +3742,9 @@ This Pattern Phase represents the post-fraud phase of a BEC scheme, where the ad
 
 **variant:** —
 
-#### [BEC Recon](#Diamond_BEC_Recon) {#Diamond_BEC_Recon}
+<a id="Diamond_BEC_Recon"></a>
 
+#### [BEC Recon](#Diamond_BEC_Recon)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_BEC_Recon`
 
 **Label:** BEC Recon
@@ -3588,8 +3765,9 @@ The recon process is critical to the success of a BEC attack, as it enables atta
 
 **variant:** —
 
-#### [BEC Weaponisation](#Diamond_BEC_Weaponisation) {#Diamond_BEC_Weaponisation}
+<a id="Diamond_BEC_Weaponisation"></a>
 
+#### [BEC Weaponisation](#Diamond_BEC_Weaponisation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_BEC_Weaponisation`
 
 **Label:** BEC Weaponisation
@@ -3610,8 +3788,9 @@ This phase is critical to the success of a BEC attack, as the quality of the cra
 
 **variant:** —
 
-#### [Carding Card Data Acquisition](#Diamond_Carding_Card_Data_Acquisition) {#Diamond_Carding_Card_Data_Acquisition}
+<a id="Diamond_Carding_Card_Data_Acquisition"></a>
 
+#### [Carding Card Data Acquisition](#Diamond_Carding_Card_Data_Acquisition)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Carding_Card_Data_Acquisition`
 
 **Label:** Carding Card Data Acquisition
@@ -3628,8 +3807,9 @@ The Card Data Acquisition phase is the initial stage of a carding scheme, in whi
 
 **variant:** —
 
-#### [Carding Monetization](#Diamond_Carding_Monetization) {#Diamond_Carding_Monetization}
+<a id="Diamond_Carding_Monetization"></a>
 
+#### [Carding Monetization](#Diamond_Carding_Monetization)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Carding_Monetization`
 
 **Label:** Carding Monetization
@@ -3646,8 +3826,9 @@ The Monetization phase is the stage in which adversaries convert stolen and vali
 
 **variant:** —
 
-#### [Carding Validation](#Diamond_Carding_Validation) {#Diamond_Carding_Validation}
+<a id="Diamond_Carding_Validation"></a>
 
+#### [Carding Validation](#Diamond_Carding_Validation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Carding_Validation`
 
 **Label:** Carding Validation
@@ -3664,8 +3845,9 @@ The Validation phase is the stage in which attackers confirm that stolen payment
 
 **variant:** —
 
-#### [CyX Encryption](#Diamond_Cy-X_Encryption) {#Diamond_Cy-X_Encryption}
+<a id="Diamond_Cy-X_Encryption"></a>
 
+#### [CyX Encryption](#Diamond_Cy-X_Encryption)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_Encryption`
 
 **Label:** CyX Encryption
@@ -3683,8 +3865,9 @@ By specifically targeting backups or high-priority data and systems first, attac
 
 **variant:** —
 
-#### [CyX Exfiltration](#Diamond_Cy-X_Exfiltration) {#Diamond_Cy-X_Exfiltration}
+<a id="Diamond_Cy-X_Exfiltration"></a>
 
+#### [CyX Exfiltration](#Diamond_Cy-X_Exfiltration)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_Exfiltration`
 
 **Label:** CyX Exfiltration
@@ -3703,8 +3886,9 @@ This step underpins the ‘double extortion’ model, where adversaries threaten
 
 **variant:** —
 
-#### [CyX Extortion](#Diamond_Cy-X_Extortion) {#Diamond_Cy-X_Extortion}
+<a id="Diamond_Cy-X_Extortion"></a>
 
+#### [CyX Extortion](#Diamond_Cy-X_Extortion)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_Extortion`
 
 **Label:** CyX Extortion
@@ -3722,8 +3906,9 @@ They often threaten to leak sensitive data if the ransom is not paid, intensifyi
 
 **variant:** —
 
-#### [CyX LateralMovement](#Diamond_Cy-X_LateralMovement) {#Diamond_Cy-X_LateralMovement}
+<a id="Diamond_Cy-X_LateralMovement"></a>
 
+#### [CyX LateralMovement](#Diamond_Cy-X_LateralMovement)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_LateralMovement`
 
 **Label:** CyX LateralMovement
@@ -3740,8 +3925,9 @@ In the CyX LateralMovement event, attackers leverage compromised accounts, explo
 
 **variant:** —
 
-#### [CyX Monetization](#Diamond_Cy-X_Monetization) {#Diamond_Cy-X_Monetization}
+<a id="Diamond_Cy-X_Monetization"></a>
 
+#### [CyX Monetization](#Diamond_Cy-X_Monetization)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_Monetization`
 
 **Label:** CyX Monetization
@@ -3759,8 +3945,9 @@ Given that ransomware attackers are profit orientated, when ransom payment is re
 
 **variant:** —
 
-#### [CyX Preparation](#Diamond_Cy-X_Preparation) {#Diamond_Cy-X_Preparation}
+<a id="Diamond_Cy-X_Preparation"></a>
 
+#### [CyX Preparation](#Diamond_Cy-X_Preparation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_Preparation`
 
 **Label:** CyX Preparation
@@ -3777,8 +3964,9 @@ In the CyX Preparation phase, adversaries capitalize on their expanded access to
 
 **variant:** —
 
-#### [CyX Recon](#Diamond_Cy-X_Recon) {#Diamond_Cy-X_Recon}
+<a id="Diamond_Cy-X_Recon"></a>
 
+#### [CyX Recon](#Diamond_Cy-X_Recon)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Cy-X_Recon`
 
 **Label:** CyX Recon
@@ -3799,8 +3987,9 @@ By mapping network assets, software versions, user account details, system and d
 
 **variant:** —
 
-#### [IAB Operation Packaging Valuation and Sale](#DiamondIABOperationPackagingValuationAndSale) {#DiamondIABOperationPackagingValuationAndSale}
+<a id="DiamondIABOperationPackagingValuationAndSale"></a>
 
+#### [IAB Operation Packaging Valuation and Sale](#DiamondIABOperationPackagingValuationAndSale)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#DiamondIABOperationPackagingValuationAndSale`
 
 **Label:** IAB Operation Packaging Valuation and Sale
@@ -3825,8 +4014,9 @@ This Phase is a critical link between intrusion and exploitation phases, connect
 
 **variant:** —
 
-#### [IAB Operation Stabilization and Expansion](#DiamondIABOperationStabilizationAndExpansion) {#DiamondIABOperationStabilizationAndExpansion}
+<a id="DiamondIABOperationStabilizationAndExpansion"></a>
 
+#### [IAB Operation Stabilization and Expansion](#DiamondIABOperationStabilizationAndExpansion)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#DiamondIABOperationStabilizationAndExpansion`
 
 **Label:** IAB Operation Stabilization and Expansion
@@ -3851,8 +4041,9 @@ This Phase follows initial compromise and precedes access packaging and marketpl
 
 **variant:** —
 
-#### [Initial Access Broker Operation Target Discovery](#DiamondIABOperationTargetDiscovery) {#DiamondIABOperationTargetDiscovery}
+<a id="DiamondIABOperationTargetDiscovery"></a>
 
+#### [Initial Access Broker Operation Target Discovery](#DiamondIABOperationTargetDiscovery)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#DiamondIABOperationTargetDiscovery`
 
 **Label:** Initial Access Broker Operation Target Discovery
@@ -3875,8 +4066,9 @@ The victims are typically organizations or individuals with publicly exposed sys
 
 **variant:** —
 
-#### [Romance Baiting Grooming](#Diamond_Romance_Baiting_Grooming) {#Diamond_Romance_Baiting_Grooming}
+<a id="Diamond_Romance_Baiting_Grooming"></a>
 
+#### [Romance Baiting Grooming](#Diamond_Romance_Baiting_Grooming)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Romance_Baiting_Grooming`
 
 **Label:** Romance Baiting Grooming
@@ -3897,8 +4089,9 @@ Consistent communication, via daily messages, calls, or video chats, reinforces 
 
 **variant:** —
 
-#### [Romance Baiting Targeting](#Diamond_Romance_Baiting_Targeting) {#Diamond_Romance_Baiting_Targeting}
+<a id="Diamond_Romance_Baiting_Targeting"></a>
 
+#### [Romance Baiting Targeting](#Diamond_Romance_Baiting_Targeting)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Romance_Baiting_Targeting`
 
 **Label:** Romance Baiting Targeting
@@ -3918,8 +4111,9 @@ Scammers can work individually or form part of wider groups. When they form part
 
 **variant:** —
 
-#### [Romance Victim Exploitation](#Diamond_Romance_Baiting_Monetization) {#Diamond_Romance_Baiting_Monetization}
+<a id="Diamond_Romance_Baiting_Monetization"></a>
 
+#### [Romance Victim Exploitation](#Diamond_Romance_Baiting_Monetization)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Diamond_Romance_Baiting_Monetization`
 
 **Label:** Romance Victim Exploitation
@@ -3939,8 +4133,9 @@ This phase marks the culmination of the scam, resulting in significant financial
 
 ### Class: [Specific Victim](#Specific_Victim_Groups)
 
-#### [ATM Operators](#ATM_Operators) {#ATM_Operators}
+<a id="ATM_Operators"></a>
 
+#### [ATM Operators](#ATM_Operators)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#ATM_Operators`
 
 **Label:** ATM Operators
@@ -3957,8 +4152,9 @@ ATM operators and financial institutions that deploy and service automated telle
 
 **variant:** —
 
-#### [Card Holder](#Card_Holder) {#Card_Holder}
+<a id="Card_Holder"></a>
 
+#### [Card Holder](#Card_Holder)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Card_Holder`
 
 **Label:** Card Holder
@@ -3975,8 +4171,9 @@ A Cardholder is a consumer who uses credit and debit cards for everyday transact
 
 **variant:** —
 
-#### [Financial Institutions Serving Victims](#Financial_Institutions_Serving_Victims) {#Financial_Institutions_Serving_Victims}
+<a id="Financial_Institutions_Serving_Victims"></a>
 
+#### [Financial Institutions Serving Victims](#Financial_Institutions_Serving_Victims)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Financial_Institutions_Serving_Victims`
 
 **Label:** Financial Institutions Serving Victims
@@ -3997,8 +4194,9 @@ These entities also act as intermediaries in the financial system, meaning they 
 
 **variant:** —
 
-#### [Retail Businesses and Merchants](#Retail_Businesses_and_Merchants) {#Retail_Businesses_and_Merchants}
+<a id="Retail_Businesses_and_Merchants"></a>
 
+#### [Retail Businesses and Merchants](#Retail_Businesses_and_Merchants)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Retail_Businesses_and_Merchants`
 
 **Label:** Retail Businesses and Merchants
@@ -4017,8 +4215,9 @@ Retail businesses, ranging from small merchants to large supermarket chains, are
 
 ### Class: [Tactic](#Tactic)
 
-#### [Collection](#Collection) {#Collection}
+<a id="Collection"></a>
 
+#### [Collection](#Collection)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Collection`
 
 **Label:** Collection
@@ -4035,8 +4234,9 @@ Collection consists of techniques adversaries may use to gather information and 
 
 **variant:** —
 
-#### [Command and Control](#Command_and_Control) {#Command_and_Control}
+<a id="Command_and_Control"></a>
 
+#### [Command and Control](#Command_and_Control)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Command_and_Control`
 
 **Label:** Command and Control
@@ -4054,8 +4254,9 @@ For example, the compromised system might connect to a command-and-control serve
 
 **variant:** —
 
-#### [Credential Access](#Credential_Access) {#Credential_Access}
+<a id="Credential_Access"></a>
 
+#### [Credential Access](#Credential_Access)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Credential_Access`
 
 **Label:** Credential Access
@@ -4072,8 +4273,9 @@ Credential Access consists of techniques for stealing credentials like account n
 
 **variant:** —
 
-#### [Defense Evasion](#Defense_Evasion) {#Defense_Evasion}
+<a id="Defense_Evasion"></a>
 
+#### [Defense Evasion](#Defense_Evasion)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Defense_Evasion`
 
 **Label:** Defense Evasion
@@ -4090,8 +4292,9 @@ Defense Evasion consists of techniques that adversaries use to avoid detection t
 
 **variant:** —
 
-#### [Discovery](#Discovery) {#Discovery}
+<a id="Discovery"></a>
 
+#### [Discovery](#Discovery)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Discovery`
 
 **Label:** Discovery
@@ -4108,8 +4311,9 @@ Discovery consists of techniques an adversary may use to gain knowledge about th
 
 **variant:** —
 
-#### [Execution](#Execution) {#Execution}
+<a id="Execution"></a>
 
+#### [Execution](#Execution)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Execution`
 
 **Label:** Execution
@@ -4126,8 +4330,9 @@ Execution consists of techniques that result in adversary-controlled code runnin
 
 **variant:** —
 
-#### [Exfiltration](#Exfiltration) {#Exfiltration}
+<a id="Exfiltration"></a>
 
+#### [Exfiltration](#Exfiltration)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Exfiltration`
 
 **Label:** Exfiltration
@@ -4144,8 +4349,9 @@ Exfiltration consists of techniques that adversaries may use to steal data from 
 
 **variant:** —
 
-#### [Impact](#Impact) {#Impact}
+<a id="Impact"></a>
 
+#### [Impact](#Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Impact`
 
 **Label:** Impact
@@ -4162,8 +4368,9 @@ Impact consists of techniques that adversaries use to disrupt availability or co
 
 **variant:** —
 
-#### [Impair Defenses](#Impair_Defenses) {#Impair_Defenses}
+<a id="Impair_Defenses"></a>
 
+#### [Impair Defenses](#Impair_Defenses)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Impair_Defenses`
 
 **Label:** Impair Defenses
@@ -4182,8 +4389,9 @@ Adversaries may also impair routine operations that contribute to defensive hygi
 
 **variant:** —
 
-#### [Initial Access](#Initial_Access) {#Initial_Access}
+<a id="Initial_Access"></a>
 
+#### [Initial Access](#Initial_Access)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Initial_Access`
 
 **Label:** Initial Access
@@ -4200,8 +4408,9 @@ Initial Access consists of techniques that use various entry vectors to gain the
 
 **variant:** —
 
-#### [Lateral Movement](#Lateral_Movement) {#Lateral_Movement}
+<a id="Lateral_Movement"></a>
 
+#### [Lateral Movement](#Lateral_Movement)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Lateral_Movement`
 
 **Label:** Lateral Movement
@@ -4218,8 +4427,9 @@ Lateral Movement consists of techniques that adversaries use to enter and contro
 
 **variant:** —
 
-#### [Persistence](#Persistence) {#Persistence}
+<a id="Persistence"></a>
 
+#### [Persistence](#Persistence)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Persistence`
 
 **Label:** Persistence
@@ -4236,8 +4446,9 @@ Persistence consists of techniques that adversaries use to keep access to system
 
 **variant:** —
 
-#### [Privilege Escalation](#Privilege_Escalation) {#Privilege_Escalation}
+<a id="Privilege_Escalation"></a>
 
+#### [Privilege Escalation](#Privilege_Escalation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Privilege_Escalation`
 
 **Label:** Privilege Escalation
@@ -4254,8 +4465,9 @@ Privilege Escalation consists of techniques that adversaries use to gain higher-
 
 **variant:** —
 
-#### [Reconnaissance](#Reconnaissance) {#Reconnaissance}
+<a id="Reconnaissance"></a>
 
+#### [Reconnaissance](#Reconnaissance)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Reconnaissance`
 
 **Label:** Reconnaissance
@@ -4273,8 +4485,9 @@ For example, an attacker might use tools to scan for open ports on a company's n
 
 **variant:** —
 
-#### [Resource Development](#Resource_Development) {#Resource_Development}
+<a id="Resource_Development"></a>
 
+#### [Resource Development](#Resource_Development)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Resource_Development`
 
 **Label:** Resource Development
@@ -4293,8 +4506,9 @@ Resource Development consists of techniques that involve adversaries creating, p
 
 ### Class: [Technique](#Technique)
 
-#### [Account Discovery](#Account_Discovery) {#Account_Discovery}
+<a id="Account_Discovery"></a>
 
+#### [Account Discovery](#Account_Discovery)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Account_Discovery`
 
 **Label:** Account Discovery
@@ -4315,8 +4529,9 @@ For examples, cloud environments typically provide easily accessible interfaces 
 
 **variant:** —
 
-#### [Active Scanning](#Active_Scanning) {#Active_Scanning}
+<a id="Active_Scanning"></a>
 
+#### [Active Scanning](#Active_Scanning)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Active_Scanning`
 
 **Label:** Active Scanning
@@ -4335,8 +4550,9 @@ Adversaries may perform different forms of active scanning depending on what inf
 
 **variant:** —
 
-#### [AI-Assisted Carding](#AI-Assisted_Carding) {#AI-Assisted_Carding}
+<a id="AI-Assisted_Carding"></a>
 
+#### [AI-Assisted Carding](#AI-Assisted_Carding)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#AI-Assisted_Carding`
 
 **Label:** AI-Assisted Carding
@@ -4353,8 +4569,9 @@ AI-Assisted Carding leverages advanced automation and machine learning to improv
 
 **variant:** —
 
-#### [Browser Information Discovery](#BrowserInformationDiscovery) {#BrowserInformationDiscovery}
+<a id="BrowserInformationDiscovery"></a>
 
+#### [Browser Information Discovery](#BrowserInformationDiscovery)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#BrowserInformationDiscovery`
 
 **Label:** Browser Information Discovery
@@ -4375,8 +4592,9 @@ Specific storage locations vary based on platform and/or application, but browse
 
 **variant:** —
 
-#### [Brute Force](#Brute_Force) {#Brute_Force}
+<a id="Brute_Force"></a>
 
+#### [Brute Force](#Brute_Force)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Brute_Force`
 
 **Label:** Brute Force
@@ -4395,8 +4613,9 @@ Brute forcing credentials may take place at various points during a breach. For 
 
 **variant:** —
 
-#### [Command and Scripting Interpreter](#Command_and_Scripting_Interpreter) {#Command_and_Scripting_Interpreter}
+<a id="Command_and_Scripting_Interpreter"></a>
 
+#### [Command and Scripting Interpreter](#Command_and_Scripting_Interpreter)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Command_and_Scripting_Interpreter`
 
 **Label:** Command and Scripting Interpreter
@@ -4417,8 +4636,9 @@ Adversaries may abuse these technologies in various ways as a means of executing
 
 **variant:** —
 
-#### [Compromise Accounts](#Compromise_Accounts) {#Compromise_Accounts}
+<a id="Compromise_Accounts"></a>
 
+#### [Compromise Accounts](#Compromise_Accounts)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Compromise_Accounts`
 
 **Label:** Compromise Accounts
@@ -4441,8 +4661,9 @@ Adversaries may directly leverage compromised email accounts for Phishing for In
 
 **variant:** —
 
-#### [Credentials from Password Stores](#CredentialsFromPasswordStores) {#CredentialsFromPasswordStores}
+<a id="CredentialsFromPasswordStores"></a>
 
+#### [Credentials from Password Stores](#CredentialsFromPasswordStores)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#CredentialsFromPasswordStores`
 
 **Label:** Credentials from Password Stores
@@ -4459,8 +4680,9 @@ Adversaries may search for common password storage locations to obtain user cred
 
 **variant:** —
 
-#### [Data Encrypted for Impact](#Data_Encrypted_for_Impact) {#Data_Encrypted_for_Impact}
+<a id="Data_Encrypted_for_Impact"></a>
 
+#### [Data Encrypted for Impact](#Data_Encrypted_for_Impact)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Data_Encrypted_for_Impact`
 
 **Label:** Data Encrypted for Impact
@@ -4483,8 +4705,9 @@ In cloud environments, storage objects within compromised accounts may also be e
 
 **variant:** —
 
-#### [Data from Local System](#DataFromLocalSystem) {#DataFromLocalSystem}
+<a id="DataFromLocalSystem"></a>
 
+#### [Data from Local System](#DataFromLocalSystem)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#DataFromLocalSystem`
 
 **Label:** Data from Local System
@@ -4503,8 +4726,9 @@ Adversaries may do this using a Command and Scripting Interpreter, such as cmd a
 
 **variant:** —
 
-#### [Develop Capabilities](#Develop_Capabilities) {#Develop_Capabilities}
+<a id="Develop_Capabilities"></a>
 
+#### [Develop Capabilities](#Develop_Capabilities)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Develop_Capabilities`
 
 **Label:** Develop Capabilities
@@ -4523,8 +4747,9 @@ As with legitimate development efforts, different skill sets may be required for
 
 **variant:** —
 
-#### [Exfiltration Over C2 Channel](#Exfiltration_Over_C2_Channel) {#Exfiltration_Over_C2_Channel}
+<a id="Exfiltration_Over_C2_Channel"></a>
 
+#### [Exfiltration Over C2 Channel](#Exfiltration_Over_C2_Channel)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Exfiltration_Over_C2_Channel`
 
 **Label:** Exfiltration Over C2 Channel
@@ -4541,8 +4766,9 @@ In this technique, adversaries blend outbound data theft into the same encrypted
 
 **variant:** —
 
-#### [Exploit Public-Facing Application](#Exploit_Public-Facing_Application) {#Exploit_Public-Facing_Application}
+<a id="Exploit_Public-Facing_Application"></a>
 
+#### [Exploit Public-Facing Application](#Exploit_Public-Facing_Application)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Exploit_Public-Facing_Application`
 
 **Label:** Exploit Public-Facing Application
@@ -4567,8 +4793,9 @@ For websites and databases, the OWASP top 10 and CWE top 25 highlight the most c
 
 **variant:** —
 
-#### [Exploitation of Remote Services](#Exploitation_of_Remote_Services) {#Exploitation_of_Remote_Services}
+<a id="Exploitation_of_Remote_Services"></a>
 
+#### [Exploitation of Remote Services](#Exploitation_of_Remote_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Exploitation_of_Remote_Services`
 
 **Label:** Exploitation of Remote Services
@@ -4591,8 +4818,9 @@ Depending on the permissions level of the vulnerable remote service an adversary
 
 **variant:** —
 
-#### [External Remote Services](#External_Remote_Services) {#External_Remote_Services}
+<a id="External_Remote_Services"></a>
 
+#### [External Remote Services](#External_Remote_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#External_Remote_Services`
 
 **Label:** External Remote Services
@@ -4609,8 +4837,9 @@ External Remote Services describes adversary abuse of legitimately deployed remo
 
 **variant:** —
 
-#### [Financial Theft](#Financial_Theft) {#Financial_Theft}
+<a id="Financial_Theft"></a>
 
+#### [Financial Theft](#Financial_Theft)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Financial_Theft`
 
 **Label:** Financial Theft
@@ -4633,8 +4862,9 @@ Due to the potentially immense business impact of financial theft, an adversary 
 
 **variant:** —
 
-#### [Funds Laundering](#Funds_Laundering) {#Funds_Laundering}
+<a id="Funds_Laundering"></a>
 
+#### [Funds Laundering](#Funds_Laundering)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Funds_Laundering`
 
 **Label:** Funds Laundering
@@ -4651,8 +4881,9 @@ Funds Laundering is a series of steps taken by adversaries to obscure the origin
 
 **variant:** —
 
-#### [Gather Victim Identity Information](#Gather_Victim_Identity_Information) {#Gather_Victim_Identity_Information}
+<a id="Gather_Victim_Identity_Information"></a>
 
+#### [Gather Victim Identity Information](#Gather_Victim_Identity_Information)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Gather_Victim_Identity_Information`
 
 **Label:** Gather Victim Identity Information
@@ -4673,8 +4904,9 @@ Gathering this information may reveal opportunities for other forms of reconnais
 
 **variant:** —
 
-#### [Gather Victim Information (Behavioral)](#Gather_Victim_Information_%28Behavioral%29) {#Gather_Victim_Information_%28Behavioral%29}
+<a id="Gather_Victim_Information_%28Behavioral%29"></a>
 
+#### [Gather Victim Information (Behavioral)](#Gather_Victim_Information_%28Behavioral%29)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Gather_Victim_Information_%28Behavioral%29`
 
 **Label:** Gather Victim Information (Behavioral)
@@ -4691,8 +4923,9 @@ Adversaries may gather behavioral and organizational information about a target 
 
 **variant:** —
 
-#### [Gather Victim Network Information](#GatherVictimNetworkInformation) {#GatherVictimNetworkInformation}
+<a id="GatherVictimNetworkInformation"></a>
 
+#### [Gather Victim Network Information](#GatherVictimNetworkInformation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#GatherVictimNetworkInformation`
 
 **Label:** Gather Victim Network Information
@@ -4709,8 +4942,9 @@ Adversaries may gather this information in various ways, such as direct collecti
 
 **variant:** —
 
-#### [Gather Victim Org Information](#GatherVictimOrgInformation) {#GatherVictimOrgInformation}
+<a id="GatherVictimOrgInformation"></a>
 
+#### [Gather Victim Org Information](#GatherVictimOrgInformation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#GatherVictimOrgInformation`
 
 **Label:** Gather Victim Org Information
@@ -4727,8 +4961,9 @@ Adversaries may gather this information in various ways, such as direct elicitat
 
 **variant:** —
 
-#### [Inhibit System Recovery](#Inhibit_System_Recovery) {#Inhibit_System_Recovery}
+<a id="Inhibit_System_Recovery"></a>
 
+#### [Inhibit System Recovery](#Inhibit_System_Recovery)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Inhibit_System_Recovery`
 
 **Label:** Inhibit System Recovery
@@ -4747,8 +4982,9 @@ Operating systems may contain features that can help fix corrupted systems, such
 
 **variant:** —
 
-#### [Lateral Tool Transfer](#Lateral_Tool_Transfer) {#Lateral_Tool_Transfer}
+<a id="Lateral_Tool_Transfer"></a>
 
+#### [Lateral Tool Transfer](#Lateral_Tool_Transfer)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Lateral_Tool_Transfer`
 
 **Label:** Lateral Tool Transfer
@@ -4769,8 +5005,9 @@ Files can also be transferred using native or otherwise present tools on the vic
 
 **variant:** —
 
-#### [Multi-factor Authentication Fatigue](#Multi-factor_Authentication_Fatigue) {#Multi-factor_Authentication_Fatigue}
+<a id="Multi-factor_Authentication_Fatigue"></a>
 
+#### [Multi-factor Authentication Fatigue](#Multi-factor_Authentication_Fatigue)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Multi-factor_Authentication_Fatigue`
 
 **Label:** Multi-factor Authentication Fatigue
@@ -4787,8 +5024,9 @@ Files can also be transferred using native or otherwise present tools on the vic
 
 **variant:** —
 
-#### [Native API](#Native_API) {#Native_API}
+<a id="Native_API"></a>
 
+#### [Native API](#Native_API)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Native_API`
 
 **Label:** Native API
@@ -4813,8 +5051,9 @@ Adversaries may use assembly to directly or in-directly invoke syscalls in an at
 
 **variant:** —
 
-#### [Obfuscated Files or Information](#Obfuscated_Files_or_Information) {#Obfuscated_Files_or_Information}
+<a id="Obfuscated_Files_or_Information"></a>
 
+#### [Obfuscated Files or Information](#Obfuscated_Files_or_Information)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Obfuscated_Files_or_Information`
 
 **Label:** Obfuscated Files or Information
@@ -4837,8 +5076,9 @@ Adversaries may also abuse Command Obfuscation to obscure commands executed from
 
 **variant:** —
 
-#### [Obtain Capabilities](#Obtain_Capabilities) {#Obtain_Capabilities}
+<a id="Obtain_Capabilities"></a>
 
+#### [Obtain Capabilities](#Obtain_Capabilities)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Obtain_Capabilities`
 
 **Label:** Obtain Capabilities
@@ -4859,8 +5099,9 @@ In addition to purchasing capabilities, adversaries may steal capabilities from 
 
 **variant:** —
 
-#### [Phishing](#Phishing) {#Phishing}
+<a id="Phishing"></a>
 
+#### [Phishing](#Phishing)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Phishing`
 
 **Label:** Phishing
@@ -4881,8 +5122,9 @@ Victims may also receive phishing messages that instruct them to call a phone nu
 
 **variant:** —
 
-#### [Phishing for Information](#Phishing_for_Information) {#Phishing_for_Information}
+<a id="Phishing_for_Information"></a>
 
+#### [Phishing for Information](#Phishing_for_Information)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Phishing_for_Information`
 
 **Label:** Phishing for Information
@@ -4907,8 +5149,9 @@ Phishing for information may also involve evasive techniques, such as removing o
 
 **variant:** —
 
-#### [Process Injection](#Process_Injection) {#Process_Injection}
+<a id="Process_Injection"></a>
 
+#### [Process Injection](#Process_Injection)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Process_Injection`
 
 **Label:** Process Injection
@@ -4929,8 +5172,9 @@ More sophisticated samples may perform multiple process injections to segment mo
 
 **variant:** —
 
-#### [Remote Services](#Remote_Services) {#Remote_Services}
+<a id="Remote_Services"></a>
 
+#### [Remote Services](#Remote_Services)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Remote_Services`
 
 **Label:** Remote Services
@@ -4951,8 +5195,9 @@ Legitimate applications (such as Software Deployment Tools and other administrat
 
 **variant:** —
 
-#### [Search Open Websites/Domains](#Search_Open_Websites%2FDomains) {#Search_Open_Websites%2FDomains}
+<a id="Search_Open_Websites%2FDomains"></a>
 
+#### [Search Open Websites/Domains](#Search_Open_Websites%2FDomains)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Search_Open_Websites%2FDomains`
 
 **Label:** Search Open Websites/Domains
@@ -4971,8 +5216,9 @@ Adversaries may search in different online sites depending on what information t
 
 **variant:** —
 
-#### [Search Victim-Owned Websites](#SearchVictim-OwnedWebsites) {#SearchVictim-OwnedWebsites}
+<a id="SearchVictim-OwnedWebsites"></a>
 
+#### [Search Victim-Owned Websites](#SearchVictim-OwnedWebsites)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#SearchVictim-OwnedWebsites`
 
 **Label:** Search Victim-Owned Websites
@@ -4991,8 +5237,9 @@ In addition to manually browsing the website, adversaries may attempt to identif
 
 **variant:** —
 
-#### [Server Software Component](#Server_Software_Component) {#Server_Software_Component}
+<a id="Server_Software_Component"></a>
 
+#### [Server Software Component](#Server_Software_Component)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Server_Software_Component`
 
 **Label:** Server Software Component
@@ -5009,8 +5256,9 @@ Adversaries may abuse legitimate extensible development features of servers to e
 
 **variant:** —
 
-#### [Service Stop](#Service_Stop) {#Service_Stop}
+<a id="Service_Stop"></a>
 
+#### [Service Stop](#Service_Stop)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Service_Stop`
 
 **Label:** Service Stop
@@ -5029,8 +5277,9 @@ Adversaries may accomplish this by disabling individual services of high importa
 
 **variant:** —
 
-#### [Social Engineering](#Social_Engineering) {#Social_Engineering}
+<a id="Social_Engineering"></a>
 
+#### [Social Engineering](#Social_Engineering)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Social_Engineering`
 
 **Label:** Social Engineering
@@ -5047,8 +5296,9 @@ Social Engineering exploits human vulnerabilities rather than technical flaws. A
 
 **variant:** —
 
-#### [Stage Capabilities](#Stage_Capabilities) {#Stage_Capabilities}
+<a id="Stage_Capabilities"></a>
 
+#### [Stage Capabilities](#Stage_Capabilities)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Stage_Capabilities`
 
 **Label:** Stage Capabilities
@@ -5065,8 +5315,9 @@ Adversaries may upload, install, or otherwise set up capabilities that can be us
 
 **variant:** —
 
-#### [Steal Web Session Cookie](#StealWebSessionCookie) {#StealWebSessionCookie}
+<a id="StealWebSessionCookie"></a>
 
+#### [Steal Web Session Cookie](#StealWebSessionCookie)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#StealWebSessionCookie`
 
 **Label:** Steal Web Session Cookie
@@ -5091,8 +5342,9 @@ After an adversary acquires a valid cookie, they can then perform a Web Session 
 
 **variant:** —
 
-#### [System Information Discovery](#System_Information_Discovery) {#System_Information_Discovery}
+<a id="System_Information_Discovery"></a>
 
+#### [System Information Discovery](#System_Information_Discovery)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#System_Information_Discovery`
 
 **Label:** System Information Discovery
@@ -5113,8 +5365,9 @@ Infrastructure as a Service (IaaS) cloud providers such as AWS, GCP, and Azure a
 
 **variant:** —
 
-#### [Use Alternate Authentication Material](#Use_Alternate_Authentication_Material) {#Use_Alternate_Authentication_Material}
+<a id="Use_Alternate_Authentication_Material"></a>
 
+#### [Use Alternate Authentication Material](#Use_Alternate_Authentication_Material)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Use_Alternate_Authentication_Material`
 
 **Label:** Use Alternate Authentication Material
@@ -5135,8 +5388,9 @@ Caching alternate authentication material allows the system to verify an identit
 
 **variant:** —
 
-#### [User Execution](#User_Execution) {#User_Execution}
+<a id="User_Execution"></a>
 
+#### [User Execution](#User_Execution)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#User_Execution`
 
 **Label:** User Execution
@@ -5163,8 +5417,9 @@ For example, tech support scams can be facilitated through Phishing, vishing, or
 
 **variant:** —
 
-#### [Valid Accounts](#Valid_Accounts) {#Valid_Accounts}
+<a id="Valid_Accounts"></a>
 
+#### [Valid Accounts](#Valid_Accounts)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Valid_Accounts`
 
 **Label:** Valid Accounts
@@ -5185,8 +5440,9 @@ The overlap of permissions for local, domain, and cloud accounts across a networ
 
 **variant:** —
 
-#### [Windows Management Instrumentation](#Windows_Management_Instrumentation) {#Windows_Management_Instrumentation}
+<a id="Windows_Management_Instrumentation"></a>
 
+#### [Windows Management Instrumentation](#Windows_Management_Instrumentation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Windows_Management_Instrumentation`
 
 **Label:** Windows Management Instrumentation
@@ -5211,8 +5467,9 @@ Note: wmic.exe is deprecated as of January of 2024, with the WMIC feature being 
 
 ### Class: [Theft](#Theft)
 
-#### [Initial Access Broker Operation](#Initial_Access_Broker_Operation) {#Initial_Access_Broker_Operation}
+<a id="Initial_Access_Broker_Operation"></a>
 
+#### [Initial Access Broker Operation](#Initial_Access_Broker_Operation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Initial_Access_Broker_Operation`
 
 **Label:** Initial Access Broker Operation
@@ -5235,8 +5492,9 @@ Victim organizations may remain unaware of the breach until the purchased access
 
 ### Class: [Underground Managed Service](#Underground_Managed_Service)
 
-#### [Ransomware-as-a-Service Operation](#Ransomware-as-a-Service_Operation) {#Ransomware-as-a-Service_Operation}
+<a id="Ransomware-as-a-Service_Operation"></a>
 
+#### [Ransomware-as-a-Service Operation](#Ransomware-as-a-Service_Operation)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Ransomware-as-a-Service_Operation`
 
 **Label:** Ransomware-as-a-Service Operation
@@ -5255,8 +5513,9 @@ A Ransomware-as-a-Service Operation represents a structured, often collaborative
 
 ### Class: [Vulnerabilities and Exploits](#Vulnerabilities_and_Exploits)
 
-#### [Exploit Kits](#Exploit_Kits) {#Exploit_Kits}
+<a id="Exploit_Kits"></a>
 
+#### [Exploit Kits](#Exploit_Kits)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Exploit_Kits`
 
 **Label:** Exploit Kits
@@ -5273,8 +5532,9 @@ Exploit Kits are structured bundles of exploits and payloads that allow cybercri
 
 **variant:** —
 
-#### [N-Days](#N-Days) {#N-Days}
+<a id="N-Days"></a>
 
+#### [N-Days](#N-Days)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#N-Days`
 
 **Label:** N-Days
@@ -5291,8 +5551,9 @@ N-Day Exploits refer to exploits for vulnerabilities that are already disclosed 
 
 **variant:** —
 
-#### [Offensive Security Frameworks](#Offensive_Security_Frameworks) {#Offensive_Security_Frameworks}
+<a id="Offensive_Security_Frameworks"></a>
 
+#### [Offensive Security Frameworks](#Offensive_Security_Frameworks)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Offensive_Security_Frameworks`
 
 **Label:** Offensive Security Frameworks
@@ -5309,8 +5570,9 @@ Offensive Security Frameworks refers to comprehensive tool suites (e.g., Metaspl
 
 **variant:** —
 
-#### [Pirated Vulnerability Scanners](#Pirated_Vulnerability_Scanners) {#Pirated_Vulnerability_Scanners}
+<a id="Pirated_Vulnerability_Scanners"></a>
 
+#### [Pirated Vulnerability Scanners](#Pirated_Vulnerability_Scanners)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Pirated_Vulnerability_Scanners`
 
 **Label:** Pirated Vulnerability Scanners
@@ -5327,8 +5589,9 @@ Encompass legitimate security-assessment applications that have been pirated, cr
 
 **variant:** —
 
-#### [Vulnerability Intelligence](#Vulnerability_Intelligence) {#Vulnerability_Intelligence}
+<a id="Vulnerability_Intelligence"></a>
 
+#### [Vulnerability Intelligence](#Vulnerability_Intelligence)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Vulnerability_Intelligence`
 
 **Label:** Vulnerability Intelligence
@@ -5345,8 +5608,9 @@ Vulnerability Intelligence (Reports & Databases) revolves around the systematic 
 
 **variant:** —
 
-#### [Zero Days](#Zero_Days) {#Zero_Days}
+<a id="Zero_Days"></a>
 
+#### [Zero Days](#Zero_Days)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#Zero_Days`
 
 **Label:** Zero Days
@@ -5363,10 +5627,12 @@ Zero-Day Exploits—often called “0-Day”—target unknown or undisclosed sof
 
 **variant:** —
 
-## Properties {#properties}
+<a id="properties"></a>
 
-### [acceptsPaymentInstrument](#acceptsPaymentInstrument) {#acceptsPaymentInstrument}
+## Properties
+<a id="acceptsPaymentInstrument"></a>
 
+### [acceptsPaymentInstrument](#acceptsPaymentInstrument)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#acceptsPaymentInstrument`
 
 **Label:** acceptsPaymentInstrument
@@ -5379,8 +5645,9 @@ Specifies which payment instruments a marketplace or service provider accepts or
 
 **appEdgeDescriptionReversed:** —
 
-### [directlyCausesHarmToVictim](#directlyCausesHarmToVictim) {#directlyCausesHarmToVictim}
+<a id="directlyCausesHarmToVictim"></a>
 
+### [directlyCausesHarmToVictim](#directlyCausesHarmToVictim)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#directlyCausesHarmToVictim`
 
 **Label:** directlyCausesHarmToVictim
@@ -5393,8 +5660,9 @@ Links a pattern phase to a harm that it directly causes to the victim. Use this 
 
 **appEdgeDescriptionReversed:** is directly caused by
 
-### [indirectlyCausesHarmToVictim](#indirectlyCausesHarmToVictim) {#indirectlyCausesHarmToVictim}
+<a id="indirectlyCausesHarmToVictim"></a>
 
+### [indirectlyCausesHarmToVictim](#indirectlyCausesHarmToVictim)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#indirectlyCausesHarmToVictim`
 
 **Label:** indirectlyCausesHarmToVictim
@@ -5407,8 +5675,9 @@ Links a pattern phase to a harm that occurs indirectly as a result of the event.
 
 **appEdgeDescriptionReversed:** is indirectly caused by
 
-### [involvesPatternPhase](#involvesPatternPhase) {#involvesPatternPhase}
+<a id="involvesPatternPhase"></a>
 
+### [involvesPatternPhase](#involvesPatternPhase)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#involvesPatternPhase`
 
 **Label:** involvesPatternPhase
@@ -5421,8 +5690,9 @@ Links a Pattern or Market to the Diamond Model events that are used to execute t
 
 **appEdgeDescriptionReversed:** is a component of
 
-### [isBoughtByRole](#isBoughtByRole) {#isBoughtByRole}
+<a id="isBoughtByRole"></a>
 
+### [isBoughtByRole](#isBoughtByRole)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#isBoughtByRole`
 
 **Label:** isBoughtByRole
@@ -5435,8 +5705,9 @@ Indicates that the commodities in a Market are procured by the specified Role Pl
 
 **appEdgeDescriptionReversed:** buys through
 
-### [isSoldByRole](#isSoldByRole) {#isSoldByRole}
+<a id="isSoldByRole"></a>
 
+### [isSoldByRole](#isSoldByRole)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#isSoldByRole`
 
 **Label:** isSoldByRole
@@ -5447,8 +5718,9 @@ Indicates that the commodities in a Market are procured by the specified Role Pl
 
 **appEdgeDescriptionReversed:** sells through
 
-### [linksToMarket](#linksToMarket) {#linksToMarket}
+<a id="linksToMarket"></a>
 
+### [linksToMarket](#linksToMarket)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#linksToMarket`
 
 **Label:** linksToMarket
@@ -5461,8 +5733,9 @@ Used to indicate that one Market may employ products or services from another Ma
 
 **appEdgeDescriptionReversed:** —
 
-### [mitreKillChain](#mitreKillChain) {#mitreKillChain}
+<a id="mitreKillChain"></a>
 
+### [mitreKillChain](#mitreKillChain)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#mitreKillChain`
 
 **Label:** mitreKillChain
@@ -5475,8 +5748,9 @@ Links to the Mitre Tactic (kill chain) for a Technique
 
 **appEdgeDescriptionReversed:** includes technique
 
-### [patternPhaseCouldInvolveCommodity](#patternPhaseCouldInvolveCommodity) {#patternPhaseCouldInvolveCommodity}
+<a id="patternPhaseCouldInvolveCommodity"></a>
 
+### [patternPhaseCouldInvolveCommodity](#patternPhaseCouldInvolveCommodity)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseCouldInvolveCommodity`
 
 **Label:** patternPhaseCouldInvolveCommodity
@@ -5489,8 +5763,9 @@ Used to link a Pattern Phase to an ecosystem product or service that is used in 
 
 **appEdgeDescriptionReversed:** could be leveraged as commodity in
 
-### [patternPhaseCouldInvolveRole](#patternPhaseCouldInvolveRole) {#patternPhaseCouldInvolveRole}
+<a id="patternPhaseCouldInvolveRole"></a>
 
+### [patternPhaseCouldInvolveRole](#patternPhaseCouldInvolveRole)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseCouldInvolveRole`
 
 **Label:** patternPhaseCouldInvolveRole
@@ -5501,8 +5776,9 @@ Used to link a Pattern Phase to an ecosystem product or service that is used in 
 
 **appEdgeDescriptionReversed:** could carry out
 
-### [patternPhaseCouldInvolveThreat](#patternPhaseCouldInvolveThreat) {#patternPhaseCouldInvolveThreat}
+<a id="patternPhaseCouldInvolveThreat"></a>
 
+### [patternPhaseCouldInvolveThreat](#patternPhaseCouldInvolveThreat)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseCouldInvolveThreat`
 
 **Label:** patternPhaseCouldInvolveThreat
@@ -5515,8 +5791,9 @@ Identifies the Threat Action could be a component in a Pattern Phase
 
 **appEdgeDescriptionReversed:** could include action
 
-### [patternPhaseInvolvesCommodity](#patternPhaseInvolvesCommodity) {#patternPhaseInvolvesCommodity}
+<a id="patternPhaseInvolvesCommodity"></a>
 
+### [patternPhaseInvolvesCommodity](#patternPhaseInvolvesCommodity)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseInvolvesCommodity`
 
 **Label:** patternPhaseInvolvesCommodity
@@ -5529,8 +5806,9 @@ Used to link a Pattern Phase to an ecosystem product or service that is used in 
 
 **appEdgeDescriptionReversed:** is leveraged in
 
-### [patternPhaseInvolvesEvent](#patternPhaseInvolvesEvent) {#patternPhaseInvolvesEvent}
+<a id="patternPhaseInvolvesEvent"></a>
 
+### [patternPhaseInvolvesEvent](#patternPhaseInvolvesEvent)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseInvolvesEvent`
 
 **Label:** patternPhaseInvolvesEvent
@@ -5543,8 +5821,9 @@ This property is used to chain Pattern Phases to each other. In cases where one 
 
 **appEdgeDescriptionReversed:** is encompassed in
 
-### [patternPhaseInvolvesPlatform](#patternPhaseInvolvesPlatform) {#patternPhaseInvolvesPlatform}
+<a id="patternPhaseInvolvesPlatform"></a>
 
+### [patternPhaseInvolvesPlatform](#patternPhaseInvolvesPlatform)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseInvolvesPlatform`
 
 **Label:** patternPhaseInvolvesPlatform
@@ -5557,8 +5836,9 @@ Identifies the Platform as the "Infrastructure" component in a Pattern Phase
 
 **appEdgeDescriptionReversed:** is used to execute
 
-### [patternPhaseInvolvesRole](#patternPhaseInvolvesRole) {#patternPhaseInvolvesRole}
+<a id="patternPhaseInvolvesRole"></a>
 
+### [patternPhaseInvolvesRole](#patternPhaseInvolvesRole)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseInvolvesRole`
 
 **Label:** patternPhaseInvolvesRole
@@ -5571,8 +5851,9 @@ Identifies the Role Player as the "Adversary" component in the Diamond Model
 
 **appEdgeDescriptionReversed:** carries out
 
-### [patternPhaseInvolvesSecondaryVictim](#patternPhaseInvolvesSecondaryVictim) {#patternPhaseInvolvesSecondaryVictim}
+<a id="patternPhaseInvolvesSecondaryVictim"></a>
 
+### [patternPhaseInvolvesSecondaryVictim](#patternPhaseInvolvesSecondaryVictim)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseInvolvesSecondaryVictim`
 
 **Label:** patternPhaseInvolvesSecondaryVictim
@@ -5585,8 +5866,9 @@ Links a pattern phase to a secondary victim (an entity indirectly affected by th
 
 **appEdgeDescriptionReversed:** is directly impacted by
 
-### [patternPhaseInvolvesThreat](#patternPhaseInvolvesThreat) {#patternPhaseInvolvesThreat}
+<a id="patternPhaseInvolvesThreat"></a>
 
+### [patternPhaseInvolvesThreat](#patternPhaseInvolvesThreat)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseInvolvesThreat`
 
 **Label:** patternPhaseInvolvesThreat
@@ -5599,8 +5881,9 @@ Identifies the Threat Action component in a Pattern Phase
 
 **appEdgeDescriptionReversed:** is an action within
 
-### [patternPhaseInvolvesVictim](#patternPhaseInvolvesVictim) {#patternPhaseInvolvesVictim}
+<a id="patternPhaseInvolvesVictim"></a>
 
+### [patternPhaseInvolvesVictim](#patternPhaseInvolvesVictim)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseInvolvesVictim`
 
 **Label:** patternPhaseInvolvesVictim
@@ -5613,8 +5896,9 @@ Identifies the PRIMARY Victim component in the Diamond Model; Links a pattern ph
 
 **appEdgeDescriptionReversed:** is directly impacted by
 
-### [patternPhaseProducesCommodity](#patternPhaseProducesCommodity) {#patternPhaseProducesCommodity}
+<a id="patternPhaseProducesCommodity"></a>
 
+### [patternPhaseProducesCommodity](#patternPhaseProducesCommodity)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#patternPhaseProducesCommodity`
 
 **Label:** patternPhaseProducesCommodity
@@ -5627,8 +5911,9 @@ Used to link a Pattern Phase that produces a commodity to an ecosystem product o
 
 **appEdgeDescriptionReversed:** is produced by the phase
 
-### [tradedOnPlatform](#tradedOnPlatform) {#tradedOnPlatform}
+<a id="tradedOnPlatform"></a>
 
+### [tradedOnPlatform](#tradedOnPlatform)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#tradedOnPlatform`
 
 **Label:** tradedOnPlatform
@@ -5641,8 +5926,9 @@ Property used to reflect where a given commodity is exchanged.
 
 **appEdgeDescriptionReversed:** is used to host
 
-### [tradesCommodity](#tradesCommodity) {#tradesCommodity}
+<a id="tradesCommodity"></a>
 
+### [tradesCommodity](#tradesCommodity)
 **IRI:** `http://cosmos.cybercrime-atlas.org/project-cosmos#tradesCommodity`
 
 **Label:** tradesCommodity
