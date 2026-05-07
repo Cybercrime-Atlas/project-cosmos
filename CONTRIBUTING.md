@@ -4,7 +4,7 @@ Thank you for your interest in contributing. Project Cosmos is an open ontology,
 
 ## Code of Conduct
 
-All participants are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Report concerns to `github@cybercrime-atlas.org`.
+All participants are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Report concerns to [github@cybercrime-atlas.org](mailto:github@cybercrime-atlas.org).
 
 ## What you can contribute
 
