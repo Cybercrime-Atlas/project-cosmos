@@ -1,6 +1,6 @@
-# Atlas Ontology
+# Project Cosmos
 
-Atlas Ontology is a public ontology for representing cybercrime entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
+Project Cosmos is a public ontology for representing cybercrime entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
 
 ## Namespace
 
