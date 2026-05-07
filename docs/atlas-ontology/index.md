@@ -14,8 +14,6 @@ Project Cosmos models cybercrime-relevant concepts including role players, threa
 
 ## Current version
 
-Replace this with your current release identifier, for example:
-
 `v1.0.0`
 
 ## Downloads
@@ -30,9 +28,17 @@ Latest files:
 
 Use the namespace URI for ontology terms and the download URLs for direct retrieval of ontology serializations.
 
+## Documentation
+
+- [Ontology namespace page](https://cosmos.cybercrime-atlas.org/atlas-ontology/)
+- [Entity Reference](reference.md)
+- [Ontolgy Writing Guide](writing_guide.md)
+- [Ontolgy Overview Infographic](infographic.png)
+
+
 ## Releases
 
-Release snapshots should be published under:
+Release snapshots are published under:
 
 `https://cosmos.cybercrime-atlas.org/releases/`
 
