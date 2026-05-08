@@ -14,8 +14,6 @@ Project Cosmos models cybercrime-relevant concepts including role players, threa
 
 ## Current version
 
-Replace this with your current release identifier, for example:
-
 `v1.0.0`
 
 ## Downloads
