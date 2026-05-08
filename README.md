@@ -82,4 +82,4 @@ To report a security issue or vulnerability, please email [github@cybercrime-atl
 
 The Cybercrime Atlas is a global initiative hosted by the World Economic Forum that brings together cybersecurity investigators from the private sector and law-enforcement agencies to map, investigate, and disrupt cybercriminal ecosystems.
 
-Learn more at [cybercrime-atlas.org](https://cybercrime-atlas.org).
+Learn more at [cybercrime-atlas](https://initiatives.weforum.org/cybercrime-atlas/home).
