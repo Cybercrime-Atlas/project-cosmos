@@ -23,10 +23,12 @@ This page, sources, images, documentation and  more available via [Github](https
 
 ## Documentation
 
-- [Ontology namespace page](https://cosmos.cybercrime-atlas.org/project-cosmos/)
+cosmos_whitepaper.md
+- [Whitepaper](project-cosmos/cosmos_whitepaper.md)
 - [Entity Reference](/project-cosmos/reference.md)
 - [Ontolgy Writing Guide](/project-cosmos/writing_guide.md)
 - [Ontolgy Overview Infographic](/project-cosmos/infographic.png)
+- [Ontology namespace page](https://cosmos.cybercrime-atlas.org/project-cosmos/)
 
 ## Contributing
 
