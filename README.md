@@ -57,6 +57,14 @@ The following organisations have volunteered time and resources to help develop 
   <a href="https://www.udg.edu">
     <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/Universitat%20de%20Girona.png" alt="Universitat de Girona" height="60">
   </a>
+   &nbsp;&nbsp;&nbsp;
+  <a href="https://www.trendmicro.com">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/Trend%20Micro.avif" alt="Trend Micro" height="60">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://initiatives.weforum.org/cybercrime-atlas/home">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Monogram_Colour.png" alt="Cybercrime Atlas - hosted by the World Economic Forum" height="60">
+  </a>
 </p>
 
 ## Licensing
