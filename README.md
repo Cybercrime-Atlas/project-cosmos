@@ -63,7 +63,7 @@ The following organisations have volunteered time and resources to help develop 
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://initiatives.weforum.org/cybercrime-atlas/home">
-    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Monogram_Colour.png" alt="Cybercrime Atlas - hosted by the World Economic Forum" height="60">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png" alt="Cybercrime Atlas - hosted by the World Economic Forum" height="60">
   </a>
 </p>
 
