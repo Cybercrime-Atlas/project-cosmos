@@ -14,21 +14,20 @@ Primary namespace:
 `http://cosmos.cybercrime-atlas.org/project-cosmos#`
 
 ## Latest downloads
-
-- [OWL / RDF-XML](https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/ontology/source/atlas-ontology.owl)
-- [Turtle](https://cosmos.cybercrime-atlas.org/atlas-ontology.ttl)
-- [RDF/XML](https://cosmos.cybercrime-atlas.org/atlas-ontology.rdf)
+- [OWL/RDF-XML](https://cosmos.cybercrime-atlas.org/project-cosmos.owl)
+- [Turtle](https://cosmos.cybercrime-atlas.org/project-cosmos.ttl)
+- [OWX/XML](https://cosmos.cybercrime-atlas.org/project-cosmos.owx)
 
 ## Documentation
 
-- [Ontology namespace page](https://cosmos.cybercrime-atlas.org/atlas-ontology/)
-- [Entity Reference](https://cosmos.cybercrime-atlas.org/atlas-ontology/reference.md)
-- [Ontolgy Writing Guide](/atlas-ontology/writing_guide.md)
+- [Ontology namespace page](https://cosmos.cybercrime-atlas.org/project-cosmos/)
+- [Entity Reference](/project-cosmos/reference.md)
+- [Ontolgy Writing Guide](/project-cosmos/writing_guide.md)
 - [Ontolgy Overview Infographic](/project-cosmos/infographic.png)
 
 ## Contributing
 
-Community suggestions and pull requests are welcome.
+Community suggestions are welcome. We are not yet ready to accept pull requests directly from contributors, but we do enthusiastically invite participation. To talk with us about corrections, suggestions, improvements or general participation please [Email us](mailto:ontology@cybercrime-atlas.org)
 
 See:
 
