@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png" alt="Atlas logo" width="400" height="165">
+    <img src="[https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png](https://assets.weforum.org/sites/a0e68000005ohzoAAA/d1eba07a-bf95-4881-8906-4c94a7a9242b.png)" alt="Atlas logo" width="400" height="165">
   </a>
 </p>
 
@@ -28,7 +28,7 @@ Primary namespace:
 
 ## Contributing
 
-Community suggestions and pull requests are welcome.
+Community suggestions are welcome.
 
 See:
 
