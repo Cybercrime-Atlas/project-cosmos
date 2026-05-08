@@ -107,7 +107,7 @@ The **Harm** class captures all types of negative consequences that victims can 
 
 ## 3. Methodology
 
-The ontology has been developed by a multidisciplinary team with members from the public and private sectors and academia. It is hosted by the Cybercrime Atlas at the World Economic Forum, and the development process has been coordinated by Orange Cyberdefense Security Intelligence & Research. Other collaborators on the ontology are affiliated with Santander, Scitum TELMEX, Trend Micro, and the Universitat de Girona.
+The ontology has been developed by a multidisciplinary team with members from the public and private sectors and academia. It is hosted by the Cybercrime Atlas at the World Economic Forum, and the development process has been coordinated by Orange Cyberdefense Security Intelligence & Research. Other collaborators on the ontology are affiliated with Santander, Scitum \| TELMEX, Trend Micro, and the Universitat de Girona.
 
 The process began with extensive literature review and an examination of existing ontologies, frameworks, and taxonomies within the domain. Having identified the requirement for a public-domain data structure, taxonomy, and dictionary that allows individual cybercrime processes to be understood within the broader cybercrime ecosystem, a diverse set of stakeholders was identified, including law enforcement agencies, legislators, academia, researchers, students, journalists, and cybersecurity professionals.
 
