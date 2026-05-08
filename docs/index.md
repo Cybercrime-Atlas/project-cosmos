@@ -22,8 +22,6 @@ This page, sources, images, documentation and  more available via [Github](https
 - [OWX/XML](https://cosmos.cybercrime-atlas.org/project-cosmos.owx)
 
 ## Documentation
-
-cosmos_whitepaper.md
 - [Whitepaper](project-cosmos/cosmos_whitepaper.md)
 - [Entity Reference](/project-cosmos/reference.md)
 - [Ontolgy Writing Guide](/project-cosmos/writing_guide.md)
