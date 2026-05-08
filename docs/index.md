@@ -14,10 +14,9 @@ Primary namespace:
 `http://cosmos.cybercrime-atlas.org/project-cosmos#`
 
 ## Latest downloads
-
-- [OWL / RDF-XML](https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/ontology/releases/v1.0.0/project-cosmos.owl)
-- [Turtle](https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/ontology/releases/v1.0.0/project-cosmos.ttl)
-- [RDF/XML](https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/ontology/releases/v1.0.0/project-cosmos.owx)
+- [OWL/RDF-XML](https://cosmos.cybercrime-atlas.org/project-cosmos.owl)
+- [Turtle](https://cosmos.cybercrime-atlas.org/project-cosmos.ttl)
+- [OWX/XML](https://cosmos.cybercrime-atlas.org/project-cosmos.rdf)
 
 ## Documentation
 
