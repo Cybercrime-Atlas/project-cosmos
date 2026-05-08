@@ -16,7 +16,7 @@ Primary namespace:
 ## Latest downloads
 - [OWL/RDF-XML](https://cosmos.cybercrime-atlas.org/project-cosmos.owl)
 - [Turtle](https://cosmos.cybercrime-atlas.org/project-cosmos.ttl)
-- [OWX/XML](https://cosmos.cybercrime-atlas.org/project-cosmos.rdf)
+- [OWX/XML](https://cosmos.cybercrime-atlas.org/project-cosmos.owx)
 
 ## Documentation
 
