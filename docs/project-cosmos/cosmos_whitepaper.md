@@ -53,7 +53,7 @@ Patterns encompass multiple, diverse Pattern Phases that collectively express a 
 
 For example, as can be observed in Figure 1, the Cyber Extortion Pattern consists of 8 Pattern Phases in the following order: Recon, Initial Access, Lateral Movement, Preparation, Exfiltration, Encryption, Extortion, and Monetization.
 
-![Figure 1: Cyber Extortion Pattern — 8 sequential Pattern Phases (involvesPatternPhase relationship)](cyber_extortion_pattern_phases.png)
+![Figure 1: Cyber Extortion Pattern — 8 sequential Pattern Phases (involvesPatternPhase relationship)](/images/cyber_extortion_pattern_phases.png)
 
 *Figure 1. Cyber Extortion Pattern — 8 sequential Pattern Phases (involvesPatternPhase relationship)*
 
@@ -69,7 +69,7 @@ This class describes specific MITRE ATT&CK or CAPEC threat action techniques use
 
 As can be observed in Figure 2, the Monetization phase of Cyber Extortion involves Financial Theft, which is a Technique that can also be found in phases of other Patterns — such as Romance Victim Exploitation or BEC Fraud Transaction. Figure 2 also shows that these relationships are expressed as `patternPhaseInvolveThreat` or `patternPhaseCouldInvolvesThreat` in the ontology.
 
-![Figure 2: The Pattern Phase CyX Monetization as displayed in the ecosystem map](cyx_monetization_hub_updated.png)
+![Figure 2: The Pattern Phase CyX Monetization as displayed in the ecosystem map](/images/cyx_monetization_hub_updated.png)
 
 *Figure 2. The Pattern Phase CyX Monetization as displayed in the ecosystem map.*
 
@@ -91,7 +91,7 @@ Platforms and Products and Services can be linked to both Markets and Pattern Ph
 
 The Infrastructure Market provides a good example of how ontology properties capture commercial dynamics within the cybercrime ecosystem. As shown in Figure 3, the `IsBoughtByRole` property connects the Infrastructure Market with Ransomware Operators, Ransomware Affiliates, RaaS Operators, and Payment Platform Exploiters, while the `IsSoldByRole` property relates it to Proxy Providers, Bulletproof Hosting Providers, VPN Service Providers, and Botnet Operators.
 
-![Figure 3: Infrastructure Market and related buyers, sellers, and platforms](infrastructure_market_hub.png)
+![Figure 3: Infrastructure Market and related buyers, sellers, and platforms](/images/infrastructure_market_hub.png)
 
 *Figure 3. Infrastructure Market and related buyers, sellers, and platforms.*
 
@@ -144,7 +144,7 @@ The main objective of the ontology is to provide a comprehensive but understanda
 
 The ontology and visual application enable law enforcement agencies, judicial institutions, and other stakeholders to build a structured understanding of cybercrime processes. Police academies and specialist units can train officers on the full operational lifecycle and context of cybercrimes — tracing, for example, how a ransomware attack progresses sequentially from Recon through to Monetization — without requiring deep prior technical knowledge. Figure 4 displays a screenshot of the Cyber Extortion Pattern within the visual app.
 
-![Figure 4: Screenshot of the Cyber Extortion Pattern and its related phases in the application](Screenshot_2026-05-06_115506.png)
+![Figure 4: Screenshot of the Cyber Extortion Pattern and its related phases in the application](/images/cosmos_screenshot.png)
 
 *Figure 4. Screenshot of the Cyber Extortion Pattern and its related phases in the application.* The shared vocabulary also supports communication between general investigators and specialist cybercrime units collaborating across borders. Equally, judges and prosecutors can use the graph to understand the functional distinctions between Role Players, such as the difference between a Ransomware Affiliate and a RaaS Operator, or the relative position of a Money Mule within an operation, with direct implications for assessments of culpability and sentencing.
 
