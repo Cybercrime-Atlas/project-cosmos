@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="/images//wef_cybercrime_atlas_logo.png" alt="Atlas logo" width="380" height="165">
+    <img src="/images//wef_cybercrime_atlas_logo.png" alt="Atlas logo">
   </a>
 </p>
 
