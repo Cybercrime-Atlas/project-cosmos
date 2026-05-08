@@ -22,7 +22,7 @@ Primary namespace:
 
 - [Ontology namespace page](https://cosmos.cybercrime-atlas.org/project-cosmos/)
 - [Entity Reference](/project-cosmos/reference.md)
-- [Ontolgy Writing Guide](/atlas-ontology/writing_guide.md)
+- [Ontolgy Writing Guide](/project-cosmos/writing_guide.md)
 - [Ontolgy Overview Infographic](/project-cosmos/infographic.png)
 
 ## Contributing
