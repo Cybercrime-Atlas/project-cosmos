@@ -53,21 +53,21 @@ Patterns encompass multiple, diverse Pattern Phases that collectively express a 
 
 For example, as can be observed in Figure 1, the Cyber Extortion Pattern consists of 8 Pattern Phases in the following order: Recon, Initial Access, Lateral Movement, Preparation, Exfiltration, Encryption, Extortion, and Monetization.
 
-![Figure 1: Cyber Extortion Pattern — 8 sequential Pattern Phases (involvesPatternPhase relationship)](/images/cyber_extortion_pattern_phases.png)
+![Figure 1: Cyber Extortion Pattern - 8 sequential Pattern Phases (involvesPatternPhase relationship)](/images/cyber_extortion_pattern_phases.png)
 
-*Figure 1. Cyber Extortion Pattern — 8 sequential Pattern Phases (involvesPatternPhase relationship)*
+*Figure 1. Cyber Extortion Pattern - 8 sequential Pattern Phases (involvesPatternPhase relationship)*
 
-Each of these Pattern Phases is made up of four interconnected core elements: Role Player, Technique, Platform or Product and Service, and Victim. This structure is conceptually based on the Diamond Model of Intrusion Analysis [7], which conceives malicious events as containing four core interrelated features arranged in a diamond — that is, they are not ordered hierarchically but as interconnected elements.
+Each of these Pattern Phases is made up of four interconnected core elements: Role Player, Technique, Platform or Product and Service, and Victim. This structure is conceptually based on the Diamond Model of Intrusion Analysis [7], which conceives malicious events as containing four core interrelated features arranged in a diamond - that is, they are not ordered hierarchically but as interconnected elements.
 
 ### Role Player
 
-Roles performed within the cybercrime ecosystem are referred to as **Role Players**. As the ontology is a conceptual model, a Role Player is understood as a function that someone or something can perform, rather than a specific actor who might perform one or more roles. In the Cyber Extortion example, some Role Players are present across all phases of that Pattern (e.g., Ransomware Affiliates), while others are only relevant to specific phases (e.g., Data Broker Services or Money Mules). These latter examples also demonstrate the horizontal, interconnected nature of the ecosystem, as Data Broker Services and Money Mules can be Role Players in phases of multiple cybercrime Patterns — such as CyX Monetization, BEC Post-Fraud Laundering, or Carding Monetization.
+Roles performed within the cybercrime ecosystem are referred to as **Role Players**. As the ontology is a conceptual model, a Role Player is understood as a function that someone or something can perform, rather than a specific actor who might perform one or more roles. In the Cyber Extortion example, some Role Players are present across all phases of that Pattern (e.g., Ransomware Affiliates), while others are only relevant to specific phases (e.g., Data Broker Services or Money Mules). These latter examples also demonstrate the horizontal, interconnected nature of the ecosystem, as Data Broker Services and Money Mules can be Role Players in phases of multiple cybercrime Patterns - such as CyX Monetization, BEC Post-Fraud Laundering, or Carding Monetization.
 
 ### Technique
 
 This class describes specific MITRE ATT&CK or CAPEC threat action techniques used during an illicit cyber-dependent or cyber-enabled activity. It is more granular than a Pattern Phase and refers to a specific illicit action a Role Player would or could perform during that phase. Similarly to Role Players, Techniques can be linked to one or more phases present in multiple Patterns.
 
-As can be observed in Figure 2, the Monetization phase of Cyber Extortion involves Financial Theft, which is a Technique that can also be found in phases of other Patterns — such as Romance Victim Exploitation or BEC Fraud Transaction. Figure 2 also shows that these relationships are expressed as `patternPhaseInvolveThreat` or `patternPhaseCouldInvolvesThreat` in the ontology.
+As can be observed in Figure 2, the Monetization phase of Cyber Extortion involves Financial Theft, which is a Technique that can also be found in phases of other Patterns - such as Romance Victim Exploitation or BEC Fraud Transaction. Figure 2 also shows that these relationships are expressed as `patternPhaseInvolveThreat` or `patternPhaseCouldInvolvesThreat` in the ontology.
 
 ![Figure 2: The Pattern Phase CyX Monetization as displayed in the ecosystem map](/images/cyx_monetization_hub_updated.png)
 
@@ -77,7 +77,7 @@ Techniques are directly based on MITRE ATT&CK techniques or the Common Attack Pa
 
 ### Platform
 
-**Platforms** are generally-described technology services, applications, or platforms used to facilitate a Pattern Phase, transaction, exchange of value, or communication between Role Players — in other words, the technical venue (website, forum, app, hosting) where activity or trade takes place. Cryptocurrency exchanges are an example of a Platform type connected to many forms of cybercrime activity.
+**Platforms** are generally-described technology services, applications, or platforms used to facilitate a Pattern Phase, transaction, exchange of value, or communication between Role Players - in other words, the technical venue (website, forum, app, hosting) where activity or trade takes place. Cryptocurrency exchanges are an example of a Platform type connected to many forms of cybercrime activity.
 
 ### Product and Service
 
@@ -107,7 +107,7 @@ The **Harm** class captures all types of negative consequences that victims can 
 
 ## 3. Methodology
 
-The ontology has been developed by a multidisciplinary team with members from the public and private sectors and academia. It is hosted by the Cybercrime Atlas at the World Economic Forum, and the development process has been coordinated by Orange Cyberdefense Security Intelligence & Research. Other collaborators on the ontology are affiliated with Santander, Scitum | TELMEX, Trend Micro, and the Universitat de Girona.
+The ontology has been developed by a multidisciplinary team with members from the public and private sectors and academia. It is hosted by the Cybercrime Atlas at the World Economic Forum, and the development process has been coordinated by Orange Cyberdefense Security Intelligence & Research. Other collaborators on the ontology are affiliated with Santander, Scitum TELMEX, Trend Micro, and the Universitat de Girona.
 
 The process began with extensive literature review and an examination of existing ontologies, frameworks, and taxonomies within the domain. Having identified the requirement for a public-domain data structure, taxonomy, and dictionary that allows individual cybercrime processes to be understood within the broader cybercrime ecosystem, a diverse set of stakeholders was identified, including law enforcement agencies, legislators, academia, researchers, students, journalists, and cybersecurity professionals.
 
@@ -121,7 +121,7 @@ A dedicated work stream was created within the Atlas community, staffed and led 
 
 A **victim-centric approach** was adopted to define the scope of the taxonomy, beginning with the experiences of individuals or businesses directly affected by illicit cyber activities, then identifying the primary perpetrators and mapping outward to related actors, services, and networks. This approach also bypassed difficult questions regarding definitions of legality and law, and potentially weighted terminology such as "criminal".
 
-An ontology-based modelling approach was followed to define the relevant domain concepts and the relationships between them. Content was represented as a graph in which object instances formed nodes and explicitly defined relationships formed edges. Data properties were used to add richer information where appropriate. Vocabularies of standard objects, attributes, and relationship types were developed iteratively to guide consistent adoption while allowing new values to be added when needed. Later in the process, detailed writing and style guides were developed — also iteratively — to improve efficiency while providing consistency.
+An ontology-based modelling approach was followed to define the relevant domain concepts and the relationships between them. Content was represented as a graph in which object instances formed nodes and explicitly defined relationships formed edges. Data properties were used to add richer information where appropriate. Vocabularies of standard objects, attributes, and relationship types were developed iteratively to guide consistent adoption while allowing new values to be added when needed. Later in the process, detailed writing and style guides were developed - also iteratively - to improve efficiency while providing consistency.
 
 The resulting structures and knowledge graph were occasionally tested with other experts, but no systematic review has been conducted outside of the core development team as yet.
 
@@ -142,7 +142,7 @@ The main objective of the ontology is to provide a comprehensive but understanda
 
 ### Training, Education, and Capacity Building
 
-The ontology and visual application enable law enforcement agencies, judicial institutions, and other stakeholders to build a structured understanding of cybercrime processes. Police academies and specialist units can train officers on the full operational lifecycle and context of cybercrimes — tracing, for example, how a ransomware attack progresses sequentially from Recon through to Monetization — without requiring deep prior technical knowledge. Figure 4 displays a screenshot of the Cyber Extortion Pattern within the visual app.
+The ontology and visual application enable law enforcement agencies, judicial institutions, and other stakeholders to build a structured understanding of cybercrime processes. Police academies and specialist units can train officers on the full operational lifecycle and context of cybercrimes - tracing, for example, how a ransomware attack progresses sequentially from Recon through to Monetization - without requiring deep prior technical knowledge. Figure 4 displays a screenshot of the Cyber Extortion Pattern within the visual app.
 
 ![Figure 4: Screenshot of the Cyber Extortion Pattern and its related phases in the application](/images/cosmos_screenshot.png)
 
@@ -154,7 +154,7 @@ Researchers and policymakers can use the ontology as a structured framework for 
 
 ### Operational Analysis, Threat Intelligence, and Disruption Planning
 
-Investigators and cybersecurity professionals can use the ontology as a unified framework to integrate, structure, and act upon threat intelligence. By mapping actors, infrastructure, and techniques — including those aligned with MITRE ATT&CK or CAPEC — analysts can link related cases, identify shared Role Players, Platforms, and Products and Services, and detect patterns across incidents. This enables the identification of upstream suppliers, intermediary services, and downstream monetization channels. Elements that recur across multiple Patterns, such as cryptocurrency mixers or infrastructure providers, can be prioritized as high-leverage targets for coordinated disruption, supporting a shift from incident-level response to ecosystem-level intervention.
+Investigators and cybersecurity professionals can use the ontology as a unified framework to integrate, structure, and act upon threat intelligence. By mapping actors, infrastructure, and techniques - including those aligned with MITRE ATT&CK or CAPEC - analysts can link related cases, identify shared Role Players, Platforms, and Products and Services, and detect patterns across incidents. This enables the identification of upstream suppliers, intermediary services, and downstream monetization channels. Elements that recur across multiple Patterns, such as cryptocurrency mixers or infrastructure providers, can be prioritized as high-leverage targets for coordinated disruption, supporting a shift from incident-level response to ecosystem-level intervention.
 
 ### Cross-Sector and Transnational Collaboration
 
@@ -162,7 +162,7 @@ The ontology establishes a shared operational language for joint investigations 
 
 ### Journalism and Public Communication
 
-The visual application makes the cybercrime cosmos more accessible to non-specialist audiences. Journalists and other communicators can use the ontology to contextualize individual incidents within broader operational structures, improving both the accuracy and explanatory depth of reporting. By showing how actors, services, and markets interconnect across multiple crime types — illustrating, for example, how a single enabling service such as a cryptocurrency mixer connects to ransomware, business email compromise, and romance scamming simultaneously — the tool supports more informed public discourse and helps move coverage beyond isolated events toward a clearer understanding of systemic cybercriminal activity.
+The visual application makes the cybercrime cosmos more accessible to non-specialist audiences. Journalists and other communicators can use the ontology to contextualize individual incidents within broader operational structures, improving both the accuracy and explanatory depth of reporting. By showing how actors, services, and markets interconnect across multiple crime types - illustrating, for example, how a single enabling service such as a cryptocurrency mixer connects to ransomware, business email compromise, and romance scamming simultaneously - the tool supports more informed public discourse and helps move coverage beyond isolated events toward a clearer understanding of systemic cybercriminal activity.
 
 ---
 
@@ -170,7 +170,7 @@ The visual application makes the cybercrime cosmos more accessible to non-specia
 
 The current version of the ontology covers a limited sample set of Patterns, but as highlighted above, the cybercrime ecosystem is vast and in constant evolution. Several future initiatives are planned, including:
 
-- **Ongoing expansion** — supported by the broader cybersecurity community — to identify new entities and curate relationships as new knowledge regarding the cybercrime ecosystem emerges.
+- **Ongoing expansion** - supported by the broader cybersecurity community - to identify new entities and curate relationships as new knowledge regarding the cybercrime ecosystem emerges.
 
 - **A full academic treatment** of the ontology and the graph. This will further contextualize and expand on the descriptions provided herein. It will also help disseminate the ontology within the academic community and allow for peer-reviewed feedback.
 
@@ -178,7 +178,7 @@ The current version of the ontology covers a limited sample set of Patterns, but
 
 - **A more sophisticated treatment of Victims and Harms.** As noted above, these classes have not been fully developed in the present version of the ontology. The current treatment links naive descriptions of Harms and Victims directly and independently to Pattern Phases. This approach fails to fully capture the victim's perspective or to illustrate the complex chain of cause and effect. Future releases aim to model this area more completely.
 
-- **A complementary ontology** that allows for the mapping of concrete threat intelligence to the theoretical graph. The ontology as it stands aims to model the cybercrime ecosystem at a theoretical level — using, for example, the concept of a "Role Player" rather than the more concrete "Threat Actor" deployed for intelligence and investigations. By creating mappings from real-world intelligence artefacts (such as a Threat Actor's *nom de guerre*) to a theoretical Role Player as a concept in the ontology, the graph can be used to enrich intelligence outputs and construct a "shadow graph" predicting how two real-world entities might be connected in theory.
+- **A complementary ontology** that allows for the mapping of concrete threat intelligence to the theoretical graph. The ontology as it stands aims to model the cybercrime ecosystem at a theoretical level - using, for example, the concept of a "Role Player" rather than the more concrete "Threat Actor" deployed for intelligence and investigations. By creating mappings from real-world intelligence artefacts (such as a Threat Actor's *nom de guerre*) to a theoretical Role Player as a concept in the ontology, the graph can be used to enrich intelligence outputs and construct a "shadow graph" predicting how two real-world entities might be connected in theory.
 
 - **AI-enabled platforms** that make the knowledge graph easier to query, enrich, and maintain. Because the knowledge graph is a formal, structured, and partly self-describing representation of entities and relationships, it can be combined with a graph database and large language model–based interfaces to support more intuitive analysis. Such a platform would allow users to ask questions about the graph using natural-language prompts, while the system translates those prompts into appropriate graph queries and returns explainable, source-linked results. This would provide a powerful capability for law enforcement and other stakeholders who may not be specialists in cybersecurity, especially where real-world threat intelligence is integrated as described above. When connected to the web and other trusted data sources, carefully governed LLM-based tools could also help accelerate the proposal of new entities and the identification of potential new relationships, subject to careful human review and validation.
 
