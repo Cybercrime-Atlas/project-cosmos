@@ -81,4 +81,4 @@ For security issues, see [SECURITY.md](SECURITY.md).
 
 ## Questions
 
-For general questions, open a [Discussion](../../discussions). For private or sensitive questions, email `info@cybercrime-atlas.org`.
+For general questions, open a [Discussion](../../discussions). For private or sensitive questions, email `github@cybercrime-atlas.org`.
