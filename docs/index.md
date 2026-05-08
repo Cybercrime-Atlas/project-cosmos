@@ -1,5 +1,10 @@
-# DOCS2 Project Cosmos
+<p align="center">
+  <a href="">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png" alt="Atlas logo" width="400" height="165">
+  </a>
+</p>
 
+# Project Cosmos
 Project Cosmos is a public ontology for representing cybercrime entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
 
 ## Namespace
