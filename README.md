@@ -41,6 +41,24 @@ We welcome contributions from the community. Researchers, analysts, vendors, aca
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get involved, and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for the standards we expect of all participants.
 
+## Project Cosmos Contributors
+
+The following organisations have volunteered time and resources to help develop Project Cosmos:
+
+<p align="center">
+  <a href="https://www.orangecyberdefense.com/">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/OCD.avif" alt="Orange Cyberdefense" height="60">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.scitum.com.mx/">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/Scitum.avif" alt="Scitum" height="60">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.udg.edu">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/Universitat%20de%20Girona.png" alt="Universitat de Girona" height="60">
+  </a>
+</p>
+
 ## Licensing
 
 This repository uses dual licensing:
