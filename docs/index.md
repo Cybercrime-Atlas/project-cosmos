@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png" alt="Atlas logo" width="400" height="165">
+    <img src="/images//wef_cybercrime_atlas_logo.png" alt="Atlas logo" width="380" height="165">
   </a>
 </p>
 
@@ -36,7 +36,7 @@ See:
 
 ## Applications
 
-- The Cybercrime Atlas Cosmos Web App:
+- [The Cybercrime Atlas Cosmos Web Appplication](https://initiatives.weforum.org/cybercrime-atlas/home)
 
 [![Cybercrime Atlas Cosmos Application](/images/wef_atlas_cosmos_screenshot.png)](https://initiatives.weforum.org/cybercrime-atlas/home)
 
