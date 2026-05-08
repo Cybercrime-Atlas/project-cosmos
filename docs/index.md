@@ -5,7 +5,7 @@
 </p>
 
 # Project Cosmos
-Project Cosmos is a public ontology for representing cybercrime entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
+Project Cosmos is a public ontology for representing the dense ecosystems that support cybercrime: it connects together entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
 
 ## Namespace
 
