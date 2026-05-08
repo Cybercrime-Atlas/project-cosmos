@@ -1,4 +1,4 @@
-# DOCS Project Cosmos
+# DOCS2 Project Cosmos
 
 Project Cosmos is a public ontology for representing cybercrime entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
 
@@ -17,7 +17,7 @@ Primary namespace:
 ## Documentation
 
 - [Ontology namespace page](https://cosmos.cybercrime-atlas.org/atlas-ontology/)
-- [Entity Reference](/atlas-ontology/reference.md)
+- [Entity Reference](https://cosmos.cybercrime-atlas.org/atlas-ontology/reference.md)
 - [Ontolgy Writing Guide](/atlas-ontology/writing_guide.md)
 - [Ontolgy Overview Infographic](/atlas-ontology/infographic.png)
 
