@@ -10,7 +10,7 @@ Primary namespace:
 
 ## Latest downloads
 
-- [OWL / RDF-XML](https://cosmos.cybercrime-atlas.org/atlas-ontology.owl)
+- [OWL / RDF-XML](https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/ontology/source/atlas-ontology.owl)
 - [Turtle](https://cosmos.cybercrime-atlas.org/atlas-ontology.ttl)
 - [RDF/XML](https://cosmos.cybercrime-atlas.org/atlas-ontology.rdf)
 
