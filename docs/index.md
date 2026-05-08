@@ -56,7 +56,7 @@ The following organisations have volunteered time and resources to help develop 
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://www.scitum.com.mx/">
-    <img src="himages/Scitum.avif" alt="Scitum" height="60">
+    <img src="/images/Scitum.avif" alt="Scitum" height="60">
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://www.udg.edu">
