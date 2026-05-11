@@ -62,13 +62,13 @@ The following organisations have volunteered time and resources to help develop 
     <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/Trend%20Micro.avif" alt="Trend Micro" height="60">
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://initiatives.weforum.org/cybercrime-atlas/home">
-    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png" alt="Cybercrime Atlas - hosted by the World Economic Forum" height="60">
-  </a>
-  &nbsp;&nbsp;&nbsp;
   <a href="https://https://www.santander.com">
     <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/Santander.png" alt="Santander" height="60">
   </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://initiatives.weforum.org/cybercrime-atlas/home">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/CA_Colour.png" alt="Cybercrime Atlas - hosted by the World Economic Forum" height="60">
+  </a>  
 </p>
 
 ## Licensing
