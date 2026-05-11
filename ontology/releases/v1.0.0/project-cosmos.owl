@@ -502,7 +502,7 @@ The availability of crimeware in underground marketplaces has significantly lowe
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crimeware refers to malicious software and tools sold in the cybercrime underground to facilitate illegal activities like data theft, fraud, and system compromise.</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide tmalicious tools and software designed to enable or automate various forms of cybercrime..</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class encompassing products and services that encompass a range of commodities and offerings in the cybercrime underground that provide malicious tools and software designed to enable or automate various forms of cybercrime.</rdfs:comment>
         <rdfs:label xml:lang="en">Crimeware</rdfs:label>
     </owl:Class>
     
