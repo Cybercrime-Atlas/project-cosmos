@@ -66,12 +66,12 @@ The following organisations have volunteered time and resources to help develop 
   <a href="https://www.trendmicro.com">
     <img src="/images/Trend%20Micro.avif" alt="Trend Micro" height="60">
   </a>
+   &nbsp;&nbsp;&nbsp;
+  <a href="https://www.santander.com/">
+    <img src="/images/SAN.png" alt="Santander" height="60">
+  </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://initiatives.weforum.org/cybercrime-atlas/home">
     <img src="/images/CA_Colour.png" alt="Cybercrime Atlas - hosted by the World Economic Forum" height="60">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.santander.com/">
-    <img src="/images/Santander.png" alt="Santander" height="60">
-  </a>
+  </a> 
 </p>
