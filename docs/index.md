@@ -23,7 +23,7 @@ This page, sources, images, documentation and  more available via [Github](https
 
 ## Documentation
 - [Whitepaper](project-cosmos/cosmos_whitepaper.md)
-- [Entity Reference](/project-cosmos/reference.md)
+- [Entity Reference](/project-cosmos/index.md)
 - [Ontolgy Writing Guide](/project-cosmos/writing_guide.md)
 - [Ontolgy Overview Infographic](/project-cosmos/infographic.png)
 - [Ontology namespace page](https://cosmos.cybercrime-atlas.org/project-cosmos/)
