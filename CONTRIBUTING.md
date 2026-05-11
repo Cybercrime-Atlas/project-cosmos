@@ -25,7 +25,7 @@ You may propose:
 
 ## Repository rules
 
-- The canonical ontology source is `ontology/source/atlas-ontology.owl`.
+- The canonical ontology source is `ontology/source/project-cosmos.owl`.
 - Do not edit generated files manually unless the change specifically concerns publication output.
 - Do not change public IRIs casually. Treat them as stable identifiers.
 
