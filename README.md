@@ -63,7 +63,7 @@ The following organisations have volunteered time and resources to help develop 
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://https://www.santander.com">
-    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/SAN.png" alt="Santander" height="60">
+    <img src="https://github.com/Cybercrime-Atlas/project-cosmos/blob/main/.github/images/SAN_BIG.png" alt="Santander" height="60">
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://initiatives.weforum.org/cybercrime-atlas/home">
