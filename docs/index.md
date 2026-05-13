@@ -43,7 +43,7 @@ See:
 
 [![Cybercrime Atlas Cosmos Application](/images/wef_atlas_cosmos_screenshot.png)](https://initiatives.weforum.org/cybercrime-atlas/home)
 
-Hosted by the World Economic Forum and and powered by [Orange Cyberdefense](https://www.orangecyberdefense.com/global/) - The Cybercrime Atlas hosts an interactive visualization of the ontology on their website. The application allows for search, interrogation, customization and export to show how criminal actors, platforms, technologies, and markets connect to enable harmful activity.
+Hosted by the World Economic Forum and powered by [Orange Cyberdefense](https://www.orangecyberdefense.com/global/) - The Cybercrime Atlas hosts an interactive visualization of the ontology on their website. The application allows for search, interrogation, customization and export to show how criminal actors, platforms, technologies, and markets connect to enable harmful activity.
 
 
 ## Project Cosmos Contributors
