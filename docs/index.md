@@ -5,7 +5,7 @@
 </p>
 
 # Project Cosmos
-Project Cosmos is a public ontology for representing the dense ecosystems that support cybercrime: it connects together entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
+Project Cosmos is an open, community-owned and collaboratively developed, knowledge graph for representing the dense ecosystems that support cybercrime: built on top of a formal ontology, it connects together entities, relationships, patterns, role players, platforms, commodities, impacts, and related structures.
 
 ## Namespace
 
@@ -47,6 +47,8 @@ Hosted by the World Economic Forum and powered by [Orange Cyberdefense](https://
 
 
 ## Project Cosmos Contributors
+
+Community suggestions are welcome. We are not yet ready to accept pull requests directly from contributors, but we do enthusiastically invite participation. To talk with us about corrections, suggestions, improvements or general participation please [Email us](mailto:ontology@cybercrime-atlas.org).
 
 The following organisations have volunteered time and resources to help develop Project Cosmos:
 
